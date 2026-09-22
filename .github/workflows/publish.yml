@@ -8,7 +8,13 @@ on:
     # roughly one run per 90 minutes when asking for four per hour - so we ask
     # often and let the queue decide what is actually due. Public repo, so
     # Actions minutes are free and the extra attempts cost nothing.
-    - cron: "*/5 * * * *"
+    # Measured here: a */5 cron gave ZERO runs in 27 minutes, */15 about one
+    # per 90 minutes. GitHub's scheduler cannot hold a 30-minute cadence, so a
+    # run does not do one pass and exit - it stays resident for ~5h45m and does
+    # its own timing. The cron only has to land occasionally to keep the chain
+    # alive; the concurrency group keeps one successor queued, which starts the
+    # moment the current run ends. Public repo, so the long job is free.
+    - cron: "*/10 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -29,7 +35,7 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
 
@@ -49,6 +55,7 @@ jobs:
         run: |
           python -m publisher.worker \
             ${{ (inputs.dry_run && '--dry-run') || '' }} \
+            --loop-minutes ${{ inputs.dry_run && 0 || 345 }} \
             --platforms "${{ inputs.platforms || 'instagram,youtube' }}"
 
       - name: Commit state

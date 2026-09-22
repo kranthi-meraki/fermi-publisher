@@ -51,7 +51,14 @@ def upload_from_url(cx: Composio, url, fname, title, description, tags,
 
 
 def recent_titles(cx: Composio, limit=25):
-    """No idempotency key exists on videos.insert, so compare titles first."""
+    """No idempotency key exists on videos.insert, so compare titles first.
+
+    NOT race-proof: the uploads listing lags a fresh upload by seconds, so two
+    workers starting inside that window both see "not present" and both upload.
+    This happened once - a local run and a cloud run three seconds apart made
+    two copies of one short. The real guard is never running a second worker
+    against this account while the workflow is live.
+    """
     d = cx.execute("YOUTUBE_LIST_CHANNEL_VIDEOS",
                    {"mine": True, "maxResults": limit, "part": "snippet"},
                    ACCOUNT, thought="check for a duplicate upload", step="YT_DEDUPE")

@@ -4,7 +4,7 @@ Runs late-tolerant on purpose: GitHub's scheduled runners routinely fire
 5-20 minutes behind and sometimes skip a run entirely, so the queue - not
 cron - decides what goes out. A missed run is caught by the next one.
 """
-import argparse, json, os, sys, traceback
+import argparse, json, os, subprocess, sys, time, traceback
 from datetime import timedelta
 from .composio_client import Composio, ComposioError
 from . import assets, instagram, youtube
@@ -177,12 +177,60 @@ def run(dry_run=False, platforms=("instagram", "youtube")):
     return 1 if failures and failures == len(todo) else 0
 
 
+def commit_state():
+    """Push state back mid-loop so a killed runner loses no record."""
+    for cmd in (["git", "add", "state/state.json"],
+                ["git", "-c", "user.name=fermi-publisher",
+                 "-c", "user.email=bot@users.noreply.github.com",
+                 "commit", "-m", f"state: {now_ist().isoformat()}"],
+                ["git", "pull", "--rebase", "--autostash", "-q",
+                 "-X", "ours", "origin", "master"],
+                ["git", "push", "-q", "origin", "HEAD:master"]):
+        subprocess.run(cmd, cwd=ROOT, capture_output=True)
+
+
+def loop(minutes, platforms, tick=60):
+    """Stay resident and do our own timing.
+
+    GitHub's scheduler is the weak link: measured on this repo, a */5 cron
+    delivered ZERO runs in 27 minutes and a */15 cron about one run per 90
+    minutes. Rather than depend on it firing punctually, one run stays alive
+    for hours. The workflow's concurrency group keeps exactly one successor
+    queued, so the moment this run ends the next begins - coverage is
+    continuous as long as the cron lands occasionally.
+    """
+    deadline = now_ist() + timedelta(minutes=minutes)
+    log(f"loop mode: working until {deadline.strftime('%H:%M')} IST")
+    posted = 0
+    while now_ist() < deadline:
+        n_before = sum(1 for v in load_state().values()
+                       if v.get("instagram", {}).get("status") == "DONE")
+        try:
+            run(False, platforms)
+        except Exception:
+            traceback.print_exc()
+        n_after = sum(1 for v in load_state().values()
+                      if v.get("instagram", {}).get("status") == "DONE")
+        if n_after != n_before:
+            posted += n_after - n_before
+            commit_state()
+        time.sleep(tick)
+    log(f"loop finished; {posted} posted this run")
+    commit_state()
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--platforms", default="instagram,youtube")
+    ap.add_argument("--loop-minutes", type=int, default=0,
+                    help="stay resident this many minutes, posting on time")
     a = ap.parse_args()
-    sys.exit(run(a.dry_run, tuple(p.strip() for p in a.platforms.split(","))))
+    plats = tuple(p.strip() for p in a.platforms.split(","))
+    if a.loop_minutes and not a.dry_run:
+        sys.exit(loop(a.loop_minutes, plats))
+    sys.exit(run(a.dry_run, plats))
 
 
 if __name__ == "__main__":
