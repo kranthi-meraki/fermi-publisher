@@ -202,13 +202,21 @@
   }
  },
  "b3plank": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-22T23:32:01.585983+05:30",
+   "caption_verified": true,
+   "media_id": "18626047123017970",
+   "permalink": "https://www.instagram.com/reel/DdmVJ8Jlhl2/",
+   "shortcode": "DdmVJ8Jlhl2",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-22T23:32:33.469998+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=w0OlWg2eJXk",
+   "video_id": "w0OlWg2eJXk"
   }
  },
  "b3pulse": {
