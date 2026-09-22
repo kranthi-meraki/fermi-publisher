@@ -4,10 +4,8 @@ Runs late-tolerant on purpose: GitHub's scheduled runners routinely fire
 5-20 minutes behind and sometimes skip a run entirely, so the queue - not
 cron - decides what goes out. A missed run is caught by the next one.
 """
-import argparse, json, os, sys, tempfile, traceback
+import argparse, json, os, sys, traceback
 from datetime import timedelta
-import requests
-
 from .composio_client import Composio, ComposioError
 from . import assets, instagram, youtube
 from .schedule import now_ist, IST
@@ -84,16 +82,6 @@ def due_items(items, st, now, platforms):
     return out[:MAX_PER_RUN]
 
 
-def fetch_to_tmp(url, name):
-    path = os.path.join(tempfile.gettempdir(), name)
-    if os.path.exists(path) and os.path.getsize(path) > 1_000_000:
-        return path
-    with requests.get(url, stream=True, timeout=600) as r:
-        r.raise_for_status()
-        with open(path, "wb") as fh:
-            for chunk in r.iter_content(1 << 20):
-                fh.write(chunk)
-    return path
 
 
 def run(dry_run=False, platforms=("instagram", "youtube")):
@@ -142,9 +130,9 @@ def run(dry_run=False, platforms=("instagram", "youtube")):
                                     "note": "already on channel", "at": now_ist().isoformat()}
                     log("youtube: title already on channel, skipping upload")
                 else:
-                    local = fetch_to_tmp(url, it["file"])
-                    yid = youtube.upload(cx, local, it["yt_title"],
-                                         it["yt_description"], it["yt_tags"])
+                    yid = youtube.upload_from_url(
+                        cx, url, it["file"], it["yt_title"],
+                        it["yt_description"], it["yt_tags"])
                     e["youtube"] = {"status": "DONE", "video_id": yid,
                                     "url": f"https://www.youtube.com/watch?v={yid}",
                                     "at": now_ist().isoformat()}
