@@ -20,13 +20,21 @@
   }
  },
  "b2alias": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-22T18:32:16.248527+05:30",
+   "caption_verified": true,
+   "media_id": "17923539177200246",
+   "permalink": "https://www.instagram.com/reel/Ddly3uIEwqW/",
+   "shortcode": "Ddly3uIEwqW",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-22T18:32:28.220410+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=_JBWNvULXh8",
+   "video_id": "_JBWNvULXh8"
   }
  },
  "b2chirp": {
