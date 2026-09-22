@@ -60,6 +60,8 @@ def posted_slugs():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("-n", "--count", type=int, default=45)
+    ap.add_argument("--all", action="store_true", help="every unposted video")
+    ap.add_argument("--per-release", type=int, default=100)
     ap.add_argument("--start", default=None, help="YYYY-MM-DD, default tomorrow")
     ap.add_argument("--out", default=None)
     ap.add_argument("--seed", type=int, default=7)
@@ -87,9 +89,18 @@ def main():
     # is not three variations on one theme
     random.shuffle(pool)
     pool.sort(key=accessibility)
-    pool = pool[:a.count * 3]
-    random.shuffle(pool)
-    pool = pool[:a.count]
+    if a.all:
+        # keep the accessible-first ordering but shuffle within each day so a
+        # single day is not three variations on one theme
+        day = len(SLOTS)
+        chunks = [pool[i:i + day] for i in range(0, len(pool), day)]
+        for c in chunks:
+            random.shuffle(c)
+        pool = [x for c in chunks for x in c]
+    else:
+        pool = pool[:a.count * 3]
+        random.shuffle(pool)
+        pool = pool[:a.count]
 
     start = (datetime.strptime(a.start, "%Y-%m-%d").date() if a.start
              else date.fromordinal(date.today().toordinal() + 1))
@@ -102,9 +113,13 @@ def main():
         for i, ((slug, fname, d), when) in enumerate(zip(pool, times)):
             cap, tags, confident = draft(d['cues'], i)
             hook = clean(d["cues"][0]["vo"])
+            tag = f"lib-{i // a.per_release + 1:03d}"
             rec = {
                 "id": slug,
                 "file": fname,
+                "release_tag": tag,
+                "video_url": f"https://github.com/kranthi-meraki/fermi-reel-assets"
+                             f"/releases/download/{tag}/{fname}",
                 "scheduled_at": when,
                 "caption": cap,
                 "yt_title": yt_title(hook, slug),
@@ -115,6 +130,7 @@ def main():
             }
             fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
     print(f"wrote {len(pool)} items to {out}")
+    print(f"releases needed: {(len(pool) - 1) // a.per_release + 1}")
     print(f"first slot {times[0]}  last slot {times[-1]}")
     print(f"excluded {len(done)} already-posted slugs")
 
