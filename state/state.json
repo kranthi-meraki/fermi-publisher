@@ -10,13 +10,21 @@
   }
  },
  "airbag": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-22T20:24:46.311185+05:30",
+   "caption_verified": true,
+   "media_id": "18117863215989547",
+   "permalink": "https://www.instagram.com/reel/Ddl_t7rFCod/",
+   "shortcode": "Ddl_t7rFCod",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-22T20:25:24.641676+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=cs-N3zodeKs",
+   "video_id": "cs-N3zodeKs"
   }
  },
  "b2alias": {
