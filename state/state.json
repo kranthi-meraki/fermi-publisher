@@ -392,13 +392,21 @@
   }
  },
  "b4debroglie": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-23T04:01:07.631517+05:30",
+   "caption_verified": true,
+   "media_id": "18215075296345953",
+   "permalink": "https://www.instagram.com/reel/Ddmz8soCWS3/",
+   "shortcode": "Ddmz8soCWS3",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-23T04:01:40.751586+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=YkUnXVM4rYI",
+   "video_id": "YkUnXVM4rYI"
   }
  },
  "b4drag": {
