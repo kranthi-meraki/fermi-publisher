@@ -14,9 +14,19 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 QUEUE = os.path.join(ROOT, "queue", "queue.jsonl")
 STATE = os.path.join(ROOT, "state", "state.json")
 
-MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "2"))
+MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "4"))
 MAX_ATTEMPTS = 4
-GRACE_MINUTES = 90          # don't post a slot more than this late; skip it
+# YouTube enforces a per-channel daily upload limit. This channel was cut off
+# at 29 in one day with "user has exceeded the number of videos they may
+# upload". At 48 posts/day that ceiling is reached every afternoon, so the
+# worker stops uploading rather than burning attempts on guaranteed failures;
+# Instagram continues unaffected.
+YT_DAILY_CAP = int(os.environ.get("YT_DAILY_CAP", "25"))
+GRACE_MINUTES = int(os.environ.get("GRACE_MINUTES", "240"))
+# Measured on this repo: a */15 cron actually fired once in 70 minutes.
+# GitHub throttles frequent schedules, so the grace window has to be wide
+# enough that a sparse run still catches its slots, and a single run has
+# to be allowed to clear a small backlog.
 
 
 def log(msg):
@@ -44,6 +54,15 @@ def save_state(st):
     os.makedirs(os.path.dirname(STATE), exist_ok=True)
     with open(STATE, "w") as fh:
         json.dump(st, fh, indent=1, sort_keys=True)
+
+
+def yt_today(st=None):
+    """How many YouTube uploads already succeeded today (IST)."""
+    st = st if st is not None else load_state()
+    today = now_ist().date().isoformat()
+    return sum(1 for v in st.values()
+               if v.get("youtube", {}).get("status") == "DONE"
+               and (v["youtube"].get("at") or "").startswith(today))
 
 
 def entry(st, vid):
@@ -121,6 +140,11 @@ def run(dry_run=False, platforms=("instagram", "youtube")):
                 log(f"instagram {permalink} caption_ok={cap_ok}")
                 if not cap_ok:
                     log("WARNING: caption came back null and cannot be fixed via API")
+
+            if "youtube" in wants and yt_today(st) >= YT_DAILY_CAP:
+                log(f"youtube daily cap reached ({YT_DAILY_CAP}); deferring")
+                e["attempts"] -= 1          # not this item's fault
+                wants = [w for w in wants if w != "youtube"]
 
             if "youtube" in wants:
                 seen = youtube.recent_titles(cx)

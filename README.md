@@ -46,10 +46,18 @@ Then it runs itself.
 
 ## Schedule
 
-15 slots a day, irregular gaps, 07:10-22:50 IST (`publisher/schedule.py`).
-Irregular matters: the Instagram action block on 18 Sep came from burst pacing
-(53 posts in 8 minutes), not from daily volume, and the quota endpoint showed
-headroom the whole time. Evenly spaced posting also reads as automated.
+48 slots a day, every 30 minutes, round the clock IST (`publisher/schedule.py`).
+1,017 videos = 22 days, 23 Sep to 14 Oct.
+
+Two things this cadence runs into:
+
+- **YouTube caps uploads per channel per day.** This channel was cut off at 29
+  with "user has exceeded the number of videos they may upload". `YT_DAILY_CAP`
+  (default 25) stops the worker uploading past it; Instagram keeps going, and
+  the skipped videos stay PENDING for YouTube rather than burning attempts.
+- **GitHub's scheduler is not punctual.** Measured on this repo: a `*/15` cron
+  fired once in 70 minutes. `MAX_PER_RUN=4` and `GRACE_MINUTES=240` let a sparse
+  run clear its backlog instead of silently skipping slots.
 
 ## Guards, and why each exists
 

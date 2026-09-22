@@ -41,7 +41,7 @@ jobs:
           GH_TOKEN: ${{ secrets.ASSET_REPO_TOKEN || github.token }}
           ASSET_REPO: ${{ vars.ASSET_REPO || 'kranthi-meraki/fermi-reel-assets' }}
           ASSET_TAG: ${{ vars.ASSET_TAG || 'reels-auto' }}
-          MAX_PER_RUN: "2"
+          MAX_PER_RUN: "4"
         run: |
           python -m publisher.worker \
             ${{ (inputs.dry_run && '--dry-run') || '' }} \

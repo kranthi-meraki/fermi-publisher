@@ -1,16 +1,13 @@
 """Slot planning.
 
-15 posts a day at irregular gaps. Irregular matters: the action block on
-18 Sep came from burst pacing, not daily volume, and evenly spaced posting
-also reads as automated. Times are IST and weighted towards the evening.
+48 posts a day, every 30 minutes, round the clock (IST).
 """
 from datetime import datetime, timedelta, timezone
 
 IST = timezone(timedelta(hours=5, minutes=30))
 
-SLOTS = ["07:10", "08:25", "09:40", "11:05", "12:20",
-         "13:35", "14:55", "16:10", "17:25", "18:40",
-         "19:50", "20:35", "21:20", "22:05", "22:50"]
+# every 30 minutes, round the clock: 48 posts a day
+SLOTS = [f"{h:02d}:{m:02d}" for h in range(24) for m in (0, 30)]
 
 
 def plan(start_date, n_items, slots=None):
