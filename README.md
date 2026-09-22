@@ -56,8 +56,16 @@ Two things this cadence runs into:
   (default 25) stops the worker uploading past it; Instagram keeps going, and
   the skipped videos stay PENDING for YouTube rather than burning attempts.
 - **GitHub's scheduler is not punctual.** Measured on this repo: a `*/15` cron
-  fired once in 70 minutes. `MAX_PER_RUN=4` and `GRACE_MINUTES=240` let a sparse
-  run clear its backlog instead of silently skipping slots.
+  fired roughly once every 90 minutes. The cron now asks every 5 minutes (the
+  shortest GitHub accepts) and `MAX_PER_RUN=5` with `GRACE_MINUTES=240` lets a
+  sparse run clear its backlog instead of silently skipping slots.
+- **The repo is public on purpose.** Private repos get 2,000 free Actions
+  minutes a month; this schedule needs 4,300-7,200, so a private repo would stop
+  posting within a fortnight, quota-exhausted. Public repos get unlimited free
+  minutes. No secret is in the tree - the Composio key lives in Actions secrets.
+- **Scheduled workflows are disabled after 60 days of repository inactivity.**
+  Not a risk here: the worker commits `state/state.json` on every run, which
+  counts as activity and keeps the schedule alive indefinitely.
 
 ## Guards, and why each exists
 

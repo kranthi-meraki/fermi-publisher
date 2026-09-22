@@ -14,7 +14,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 QUEUE = os.path.join(ROOT, "queue", "queue.jsonl")
 STATE = os.path.join(ROOT, "state", "state.json")
 
-MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "4"))
+MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "5"))
 MAX_ATTEMPTS = 4
 # YouTube enforces a per-channel daily upload limit. This channel was cut off
 # at 29 in one day with "user has exceeded the number of videos they may

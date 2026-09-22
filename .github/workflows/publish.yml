@@ -2,9 +2,13 @@ name: Fermi publisher
 
 on:
   schedule:
-    # GitHub cron is UTC ONLY - there is no timezone key. Every 15 minutes;
-    # the queue decides what is actually due in IST.
-    - cron: "*/15 * * * *"
+    # GitHub cron is UTC ONLY - there is no timezone key.
+    # Every 5 minutes (the shortest interval GitHub accepts). GitHub drops a
+    # large fraction of scheduled runs under load - measured on this repo at
+    # roughly one run per 90 minutes when asking for four per hour - so we ask
+    # often and let the queue decide what is actually due. Public repo, so
+    # Actions minutes are free and the extra attempts cost nothing.
+    - cron: "*/5 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -41,7 +45,7 @@ jobs:
           GH_TOKEN: ${{ secrets.ASSET_REPO_TOKEN || github.token }}
           ASSET_REPO: ${{ vars.ASSET_REPO || 'kranthi-meraki/fermi-reel-assets' }}
           ASSET_TAG: ${{ vars.ASSET_TAG || 'reels-auto' }}
-          MAX_PER_RUN: "4"
+          MAX_PER_RUN: "5"
         run: |
           python -m publisher.worker \
             ${{ (inputs.dry_run && '--dry-run') || '' }} \
