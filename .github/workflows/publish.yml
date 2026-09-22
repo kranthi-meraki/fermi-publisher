@@ -1,0 +1,74 @@
+name: Fermi publisher
+
+on:
+  schedule:
+    # GitHub cron is UTC ONLY - there is no timezone key. Every 15 minutes;
+    # the queue decides what is actually due in IST.
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Plan only, publish nothing"
+        type: boolean
+        default: false
+      platforms:
+        description: "instagram,youtube"
+        default: "instagram,youtube"
+
+concurrency:
+  group: fermi-publisher      # never let two runs publish at once
+  cancel-in-progress: false
+
+permissions:
+  contents: write             # to commit state.json back
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Publish what is due
+        env:
+          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+          GH_TOKEN: ${{ secrets.ASSET_REPO_TOKEN || github.token }}
+          ASSET_REPO: ${{ vars.ASSET_REPO || 'kranthi-meraki/fermi-reel-assets' }}
+          ASSET_TAG: ${{ vars.ASSET_TAG || 'reels-auto' }}
+          MAX_PER_RUN: "2"
+        run: |
+          python -m publisher.worker \
+            ${{ (inputs.dry_run && '--dry-run') || '' }} \
+            --platforms "${{ inputs.platforms || 'instagram,youtube' }}"
+
+      - name: Commit state
+        if: always()
+        run: |
+          git config user.name  "fermi-publisher"
+          git config user.email "bot@users.noreply.github.com"
+          git add state/state.json
+          git diff --staged --quiet || git commit -m "state: $(date -u +%FT%TZ)"
+          git pull --rebase --autostash || true
+          git push || true
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Publisher run" >> $GITHUB_STEP_SUMMARY
+          python - <<'EOF' >> $GITHUB_STEP_SUMMARY
+          import json,os
+          p="state/state.json"
+          s=json.load(open(p)) if os.path.exists(p) else {}
+          done=sum(1 for v in s.values() if v["instagram"]["status"]=="DONE" and v["youtube"]["status"]=="DONE")
+          err=[k for k,v in s.items() if v.get("last_error")]
+          nocap=[k for k,v in s.items() if v["instagram"].get("caption_verified") is False]
+          print(f"- fully published: {done}")
+          print(f"- items with errors: {len(err)} {err[:5]}")
+          if nocap: print(f"- **caption came back null**: {nocap}")
+          EOF
