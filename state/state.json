@@ -98,13 +98,21 @@
   }
  },
  "b2photon": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-22T19:48:43.827834+05:30",
+   "caption_verified": true,
+   "media_id": "18022761497870041",
+   "permalink": "https://www.instagram.com/reel/Ddl7mgSDNdT/",
+   "shortcode": "Ddl7mgSDNdT",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-22T19:49:24.136214+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=PbKLIxvPsVw",
+   "video_id": "PbKLIxvPsVw"
   }
  },
  "b2tenmetre": {
@@ -148,13 +156,21 @@
   }
  },
  "b3pulse": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-22T19:46:27.982846+05:30",
+   "caption_verified": true,
+   "media_id": "18343538440269011",
+   "permalink": "https://www.instagram.com/reel/Ddl7WG3Fbw2/",
+   "shortcode": "Ddl7WG3Fbw2",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-22T19:47:25.457821+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=jl-TzlXe1V0",
+   "video_id": "jl-TzlXe1V0"
   }
  },
  "b3qubit": {
