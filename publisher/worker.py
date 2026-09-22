@@ -117,8 +117,11 @@ def run(dry_run=False, platforms=("instagram", "youtube")):
             if dry_run:
                 log(f"DRY RUN: would post {vid} to {wants} using {url}")
                 continue
-            if not assets.url_ok(url):
-                raise RuntimeError(f"asset not fetchable: {url} - stage it first")
+            # a recently staged asset can take minutes to become fetchable on
+            # GitHub's CDN; be patient before declaring it missing, and let the
+            # backoff retry rather than burning an attempt
+            if not assets.url_ok(url, tries=5, delay=20):
+                raise RuntimeError(f"asset not fetchable yet: {url}")
 
             if "instagram" in wants:
                 mid, shortcode, permalink, cap_ok = instagram.post_reel(
