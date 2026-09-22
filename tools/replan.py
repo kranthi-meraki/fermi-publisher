@@ -8,10 +8,14 @@ from publisher.schedule import plan
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Q = os.path.join(ROOT, "queue", "queue.jsonl")
-start = datetime.strptime(sys.argv[1], "%Y-%m-%d").date() if len(sys.argv) > 1 \
-    else date.today()
+from publisher.schedule import now_ist
+if len(sys.argv) > 1 and sys.argv[1] != "now":
+    start, after = datetime.strptime(sys.argv[1], "%Y-%m-%d").date(), None
+else:
+    n = now_ist()
+    start, after = n.date(), n            # begin at the next free slot
 rows = [json.loads(l) for l in open(Q) if l.strip()]
-for r, when in zip(rows, plan(start, len(rows))):
+for r, when in zip(rows, plan(start, len(rows), after=after)):
     r["scheduled_at"] = when
 with open(Q, "w") as fh:
     for r in rows:

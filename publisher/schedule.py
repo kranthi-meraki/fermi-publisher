@@ -10,16 +10,24 @@ IST = timezone(timedelta(hours=5, minutes=30))
 SLOTS = [f"{h:02d}:{m:02d}" for h in range(24) for m in (0, 30)]
 
 
-def plan(start_date, n_items, slots=None):
-    """Yield ISO timestamps for n_items spread over consecutive days."""
+def plan(start, n_items, slots=None, after=None):
+    """ISO timestamps for n_items over consecutive days.
+
+    `start` is a date. `after` (a datetime) drops any slot at or before it, so
+    a mid-day replan begins at the next free slot rather than back-dating
+    everything to midnight.
+    """
     slots = slots or SLOTS
-    out, day = [], start_date
+    out, day = [], start
     while len(out) < n_items:
         for hhmm in slots:
             if len(out) >= n_items:
                 break
             h, m = map(int, hhmm.split(":"))
-            out.append(datetime(day.year, day.month, day.day, h, m, tzinfo=IST).isoformat())
+            t = datetime(day.year, day.month, day.day, h, m, tzinfo=IST)
+            if after and t <= after:
+                continue
+            out.append(t.isoformat())
         day += timedelta(days=1)
     return out
 
