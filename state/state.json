@@ -848,7 +848,7 @@
   }
  },
  "b6normal": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-23T22:01:23.238127+05:30",
    "caption_verified": true,
@@ -858,23 +858,29 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6normal.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-requ",
-  "next_attempt_at": "2026-09-23T23:13:17.707950+05:30",
+  "next_attempt_at": "2026-09-24T00:34:02.285382+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "b6prism": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-23T23:31:21.237110+05:30",
+   "caption_verified": true,
+   "media_id": "18132701257710248",
+   "permalink": "https://www.instagram.com/reel/Ddo53i0AWRe/",
+   "shortcode": "Ddo53i0AWRe",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6prism.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reque",
+  "next_attempt_at": "2026-09-23T23:41:40.819018+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "bottle": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-23T23:01:46.586820+05:30",
    "caption_verified": true,
@@ -884,7 +890,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-bottle.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reques",
-  "next_attempt_at": "2026-09-23T23:12:02.993102+05:30",
+  "next_attempt_at": "2026-09-23T23:32:43.103036+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -938,7 +944,7 @@
   }
  },
  "doorknob": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-23T22:31:39.379183+05:30",
    "caption_verified": true,
@@ -948,7 +954,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-doorknob.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-requ",
-  "next_attempt_at": "2026-09-23T23:02:35.738833+05:30",
+  "next_attempt_at": "2026-09-23T23:43:23.590085+05:30",
   "youtube": {
    "status": "PENDING"
   }
