@@ -390,7 +390,7 @@
   }
  },
  "b4bub": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-23T05:31:33.714707+05:30",
    "caption_verified": true,
@@ -399,10 +399,13 @@
    "shortcode": "Ddm-TV4CYHo",
    "status": "DONE"
   },
-  "last_error": "ComposioError: workbench: [Errno 2] No such file or directory",
+  "last_error": null,
   "next_attempt_at": "2026-09-23T05:41:53.076073+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-23T05:42:06.782046+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=Itf9UtoItmY",
+   "video_id": "Itf9UtoItmY"
   }
  },
  "b4debroglie": {
@@ -472,11 +475,17 @@
   }
  },
  "b4slit": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-23T06:01:54.134254+05:30",
+   "caption_verified": true,
+   "media_id": "17880686484626444",
+   "permalink": "https://www.instagram.com/reel/DdnBxa3ABy6/",
+   "shortcode": "DdnBxa3ABy6",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: workbench: [Errno 28] No space left on device",
+  "next_attempt_at": "2026-09-23T06:11:59.801372+05:30",
   "youtube": {
    "status": "PENDING"
   }
