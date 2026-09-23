@@ -806,7 +806,7 @@
   }
  },
  "b6lift": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-24T00:02:13.254589+05:30",
    "caption_verified": true,
@@ -816,7 +816,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6lift.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reques",
-  "next_attempt_at": "2026-09-24T00:33:05.271349+05:30",
+  "next_attempt_at": "2026-09-24T01:14:07.949109+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -870,7 +870,7 @@
   }
  },
  "b6prism": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-23T23:31:21.237110+05:30",
    "caption_verified": true,
@@ -880,7 +880,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6prism.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reque",
-  "next_attempt_at": "2026-09-24T00:43:47.486918+05:30",
+  "next_attempt_at": "2026-09-24T02:04:41.431643+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1044,7 +1044,7 @@
   }
  },
  "hivolt": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-24T00:31:30.034677+05:30",
    "caption_verified": true,
@@ -1054,17 +1054,23 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-hivolt.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reques",
-  "next_attempt_at": "2026-09-24T00:41:49.424099+05:30",
+  "next_attempt_at": "2026-09-24T01:02:25.671307+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "holeheat": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-24T01:01:46.807216+05:30",
+   "caption_verified": true,
+   "media_id": "18105748130211521",
+   "permalink": "https://www.instagram.com/reel/DdpEOIKj_FS/",
+   "shortcode": "DdpEOIKj_FS",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-holeheat.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-requ",
+  "next_attempt_at": "2026-09-24T01:12:03.928213+05:30",
   "youtube": {
    "status": "PENDING"
   }
