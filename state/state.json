@@ -380,7 +380,7 @@
   }
  },
  "b4amdahl": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-23T07:01:45.078063+05:30",
    "caption_verified": true,
@@ -390,7 +390,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: workbench: [Errno 28] No space left on device",
-  "next_attempt_at": "2026-09-23T07:11:52.292590+05:30",
+  "next_attempt_at": "2026-09-23T07:32:05.185599+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -451,7 +451,7 @@
   }
  },
  "b4pancake": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-23T06:31:17.247793+05:30",
    "caption_verified": true,
@@ -461,7 +461,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: workbench: [Errno 28] No space left on device",
-  "next_attempt_at": "2026-09-23T07:01:40.839249+05:30",
+  "next_attempt_at": "2026-09-23T07:42:58.885987+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -477,17 +477,23 @@
   }
  },
  "b4rootn": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-23T07:31:50.066870+05:30",
+   "caption_verified": true,
+   "media_id": "18167837272461511",
+   "permalink": "https://www.instagram.com/reel/DdnMFFOEZe6/",
+   "shortcode": "DdnMFFOEZe6",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: workbench: [Errno 28] No space left on device",
+  "next_attempt_at": "2026-09-23T07:41:56.898838+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "b4slit": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-23T06:01:54.134254+05:30",
    "caption_verified": true,
@@ -497,7 +503,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: workbench: [Errno 28] No space left on device",
-  "next_attempt_at": "2026-09-23T07:12:33.463976+05:30",
+  "next_attempt_at": "2026-09-23T08:33:12.912501+05:30",
   "youtube": {
    "status": "PENDING"
   }
