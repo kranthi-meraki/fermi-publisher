@@ -1116,7 +1116,7 @@
   }
  },
  "s01carousel": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-24T02:01:16.825069+05:30",
    "caption_verified": true,
@@ -1126,7 +1126,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01carousel.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-r",
-  "next_attempt_at": "2026-09-24T02:32:14.507081+05:30",
+  "next_attempt_at": "2026-09-24T03:13:08.211292+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -10552,7 +10552,7 @@
   }
  },
  "ship": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-24T02:31:32.067812+05:30",
    "caption_verified": true,
@@ -10562,13 +10562,13 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-ship.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-request-",
-  "next_attempt_at": "2026-09-24T02:41:49.062333+05:30",
+  "next_attempt_at": "2026-09-24T03:02:25.579461+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "soup": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T01:32:01.598221+05:30",
    "caption_verified": true,
@@ -10578,7 +10578,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-soup.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-request-",
-  "next_attempt_at": "2026-09-24T02:43:56.793542+05:30",
+  "next_attempt_at": "2026-09-24T04:04:41.841854+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -10604,11 +10604,17 @@
   }
  },
  "wheelrest": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-24T03:01:43.620146+05:30",
+   "caption_verified": true,
+   "media_id": "17935779018368531",
+   "permalink": "https://www.instagram.com/reel/DdpR8yalA9p/",
+   "shortcode": "DdpR8yalA9p",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-wheelrest.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-req",
+  "next_attempt_at": "2026-09-24T03:12:04.220276+05:30",
   "youtube": {
    "status": "PENDING"
   }
