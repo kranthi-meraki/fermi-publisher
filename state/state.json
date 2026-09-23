@@ -556,11 +556,17 @@
   }
  },
  "b5beam": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-23T14:31:54.829615+05:30",
+   "caption_verified": true,
+   "media_id": "18111397795851735",
+   "permalink": "https://www.instagram.com/reel/Ddn8JwVDGeT/",
+   "shortcode": "Ddn8JwVDGeT",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b5beam.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reques",
+  "next_attempt_at": "2026-09-23T14:42:14.573273+05:30",
   "youtube": {
    "status": "PENDING"
   }
