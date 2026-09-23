@@ -527,11 +527,12 @@
   }
  },
  "b4strider": {
-  "attempts": 0,
+  "attempts": 4,
   "instagram": {
    "status": "PENDING"
   },
-  "last_error": null,
+  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
+  "next_attempt_at": "2026-09-23T18:06:37.093706+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -556,7 +557,7 @@
   }
  },
  "b5beam": {
-  "attempts": 1,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-23T14:31:54.829615+05:30",
    "caption_verified": true,
@@ -566,7 +567,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b5beam.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reques",
-  "next_attempt_at": "2026-09-23T14:42:14.573273+05:30",
+  "next_attempt_at": "2026-09-23T17:04:42.280803+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -625,11 +626,12 @@
   }
  },
  "b5evan": {
-  "attempts": 0,
+  "attempts": 4,
   "instagram": {
    "status": "PENDING"
   },
-  "last_error": null,
+  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
+  "next_attempt_at": "2026-09-23T19:06:48.920264+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -672,21 +674,23 @@
   }
  },
  "b5hub": {
-  "attempts": 0,
+  "attempts": 4,
   "instagram": {
    "status": "PENDING"
   },
-  "last_error": null,
+  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
+  "next_attempt_at": "2026-09-23T17:36:22.491785+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "b5qcold": {
-  "attempts": 0,
+  "attempts": 4,
   "instagram": {
    "status": "PENDING"
   },
-  "last_error": null,
+  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
+  "next_attempt_at": "2026-09-23T18:36:47.388586+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -760,11 +764,17 @@
   }
  },
  "b6geo": {
-  "attempts": 0,
+  "attempts": 3,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-23T18:34:33.446845+05:30",
+   "caption_verified": true,
+   "media_id": "18019369958941020",
+   "permalink": "https://www.instagram.com/reel/DdoX6bajpWS/",
+   "shortcode": "DdoX6bajpWS",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6geo.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-request",
+  "next_attempt_at": "2026-09-23T19:14:50.689339+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -790,21 +800,23 @@
   }
  },
  "b6match": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
    "status": "PENDING"
   },
-  "last_error": null,
+  "last_error": "ComposioError: container ERROR - recreate with a fresh container",
+  "next_attempt_at": "2026-09-23T18:40:36.886900+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "b6mirror": {
-  "attempts": 0,
+  "attempts": 3,
   "instagram": {
    "status": "PENDING"
   },
-  "last_error": null,
+  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
+  "next_attempt_at": "2026-09-23T18:45:35.264261+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -890,11 +902,12 @@
   }
  },
  "fridge": {
-  "attempts": 0,
+  "attempts": 4,
   "instagram": {
    "status": "PENDING"
   },
-  "last_error": null,
+  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
+  "next_attempt_at": "2026-09-23T19:35:23.522811+05:30",
   "youtube": {
    "status": "PENDING"
   }
