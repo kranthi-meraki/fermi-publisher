@@ -324,11 +324,17 @@
   }
  },
  "b3smell": {
-  "attempts": 0,
+  "attempts": 2,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-23T08:02:10.693027+05:30",
+   "caption_verified": true,
+   "media_id": "17958899787195811",
+   "permalink": "https://www.instagram.com/reel/DdnPiFmDNwD/",
+   "shortcode": "DdnPiFmDNwD",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
+  "next_attempt_at": "2026-09-23T08:33:45.015003+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -380,7 +386,7 @@
   }
  },
  "b4amdahl": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-23T07:01:45.078063+05:30",
    "caption_verified": true,
@@ -390,7 +396,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: workbench: [Errno 28] No space left on device",
-  "next_attempt_at": "2026-09-23T08:13:04.488985+05:30",
+  "next_attempt_at": "2026-09-23T09:34:54.451153+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -467,17 +473,23 @@
   }
  },
  "b4polar": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-23T08:31:55.213835+05:30",
+   "caption_verified": true,
+   "media_id": "18137442616545848",
+   "permalink": "https://www.instagram.com/reel/DdnS8Z_jmWU/",
+   "shortcode": "DdnS8Z_jmWU",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
+  "next_attempt_at": "2026-09-23T08:42:39.970796+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "b4rootn": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-23T07:31:50.066870+05:30",
    "caption_verified": true,
@@ -487,7 +499,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: workbench: [Errno 28] No space left on device",
-  "next_attempt_at": "2026-09-23T08:02:11.992175+05:30",
+  "next_attempt_at": "2026-09-23T08:44:00.209171+05:30",
   "youtube": {
    "status": "PENDING"
   }
