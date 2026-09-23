@@ -816,12 +816,17 @@
   }
  },
  "b6mirror": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-23T18:46:41.670131+05:30",
+   "caption_verified": true,
+   "media_id": "18144905014566830",
+   "permalink": "https://www.instagram.com/reel/DdoZThYDN8I/",
+   "shortcode": "DdoZThYDN8I",
+   "status": "DONE"
   },
-  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
-  "next_attempt_at": "2026-09-23T18:45:35.264261+05:30",
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6mirror.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-requ",
+  "next_attempt_at": "2026-09-23T20:06:58.243475+05:30",
   "youtube": {
    "status": "PENDING"
   }
