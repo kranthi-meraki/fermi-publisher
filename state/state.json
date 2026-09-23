@@ -537,7 +537,7 @@
   }
  },
  "b4valley": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-23T11:31:09.757751+05:30",
    "caption_verified": true,
@@ -546,10 +546,13 @@
    "shortcode": "DdnneghDZwS",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Failed to resolve channel for authenticated user 'me': 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=id&mine=true",
+  "last_error": null,
   "next_attempt_at": "2026-09-23T12:42:27.338666+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-23T12:43:11.202503+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=6XyXwT6tl4U",
+   "video_id": "6XyXwT6tl4U"
   }
  },
  "b5beam": {
@@ -563,17 +566,25 @@
   }
  },
  "b5bigg": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-23T13:01:43.624038+05:30",
+   "caption_verified": true,
+   "media_id": "17908598019309467",
+   "permalink": "https://www.instagram.com/reel/Ddnx0bNgsPM/",
+   "shortcode": "Ddnx0bNgsPM",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-23T13:01:52.177952+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=jnwyIsjer5Y",
+   "video_id": "jnwyIsjer5Y"
   }
  },
  "b5brew": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-23T12:01:22.738305+05:30",
    "caption_verified": true,
@@ -582,10 +593,13 @@
    "shortcode": "Ddnq6pMliYu",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "last_error": null,
   "next_attempt_at": "2026-09-23T12:31:30.526885+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-23T12:33:01.195169+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=C4tuHC-pD6M",
+   "video_id": "C4tuHC-pD6M"
   }
  },
  "b5cher": {
