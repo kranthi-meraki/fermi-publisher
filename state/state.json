@@ -537,11 +537,17 @@
   }
  },
  "b4valley": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-23T11:31:09.757751+05:30",
+   "caption_verified": true,
+   "media_id": "18115648292319239",
+   "permalink": "https://www.instagram.com/reel/DdnneghDZwS/",
+   "shortcode": "DdnneghDZwS",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching videos from playlist 'UUIyltXGR0KAioMy0WuvIk4w'. Please ensure you have the necessary permissions.",
+  "next_attempt_at": "2026-09-23T11:41:12.658855+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -603,7 +609,7 @@
   }
  },
  "b5fluct": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-23T11:02:09.007004+05:30",
    "caption_verified": true,
@@ -612,8 +618,8 @@
    "shortcode": "DdnkIEbEaIl",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Failed to resolve channel for authenticated user 'me': 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=id&mine=true",
-  "next_attempt_at": "2026-09-23T11:12:10.523260+05:30",
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "next_attempt_at": "2026-09-23T11:32:17.250003+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -649,7 +655,7 @@
   }
  },
  "b5shelf": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-23T10:31:26.631341+05:30",
    "caption_verified": true,
@@ -658,8 +664,8 @@
    "shortcode": "DdngoFHFMal",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
-  "next_attempt_at": "2026-09-23T11:03:43.502426+05:30",
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "next_attempt_at": "2026-09-23T11:44:14.648037+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -675,7 +681,7 @@
   }
  },
  "b6cpcv": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-23T10:01:28.697745+05:30",
    "caption_verified": true,
@@ -684,8 +690,8 @@
    "shortcode": "DdndL0uATBr",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
-  "next_attempt_at": "2026-09-23T11:15:00.374915+05:30",
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "next_attempt_at": "2026-09-23T12:35:19.487356+05:30",
   "youtube": {
    "status": "PENDING"
   }
