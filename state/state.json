@@ -324,7 +324,7 @@
   }
  },
  "b3smell": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-23T08:02:10.693027+05:30",
    "caption_verified": true,
@@ -334,13 +334,13 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
-  "next_attempt_at": "2026-09-23T09:15:25.563693+05:30",
+  "next_attempt_at": "2026-09-23T10:36:14.118956+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "b3starstable": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-23T09:01:20.657779+05:30",
    "caption_verified": true,
@@ -350,7 +350,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
-  "next_attempt_at": "2026-09-23T09:12:03.788587+05:30",
+  "next_attempt_at": "2026-09-23T09:33:31.513050+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -479,7 +479,7 @@
   }
  },
  "b4polar": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-23T08:31:55.213835+05:30",
    "caption_verified": true,
@@ -489,7 +489,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
-  "next_attempt_at": "2026-09-23T09:04:12.081068+05:30",
+  "next_attempt_at": "2026-09-23T09:45:48.678748+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -577,11 +577,17 @@
   }
  },
  "b5cher": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-23T09:31:28.439178+05:30",
+   "caption_verified": true,
+   "media_id": "18148314817555787",
+   "permalink": "https://www.instagram.com/reel/DdnZvItADPg/",
+   "shortcode": "DdnZvItADPg",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
+  "next_attempt_at": "2026-09-23T09:42:12.749855+05:30",
   "youtube": {
    "status": "PENDING"
   }
