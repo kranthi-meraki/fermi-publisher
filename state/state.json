@@ -641,7 +641,10 @@
   "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
   "next_attempt_at": "2026-09-23T13:34:15.054751+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-23T13:46:36.044886+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=bmzgZBGl-vQ",
+   "video_id": "bmzgZBGl-vQ"
   }
  },
  "b5fsurf": {
@@ -733,13 +736,21 @@
   }
  },
  "b6drift": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-23T14:01:07.987825+05:30",
+   "caption_verified": true,
+   "media_id": "18029102675903868",
+   "permalink": "https://www.instagram.com/reel/Ddn4od2ExVG/",
+   "shortcode": "Ddn4od2ExVG",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-23T14:01:17.117510+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=24lDrKutee4",
+   "video_id": "24lDrKutee4"
   }
  },
  "b6geo": {
