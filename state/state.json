@@ -764,7 +764,7 @@
   }
  },
  "b6geo": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-23T18:34:33.446845+05:30",
    "caption_verified": true,
@@ -774,7 +774,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6geo.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-request",
-  "next_attempt_at": "2026-09-23T19:14:50.689339+05:30",
+  "next_attempt_at": "2026-09-23T20:35:32.133323+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -800,7 +800,7 @@
   }
  },
  "b6match": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-23T18:42:27.707338+05:30",
    "caption_verified": true,
@@ -810,7 +810,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6match.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reque",
-  "next_attempt_at": "2026-09-23T19:02:43.757334+05:30",
+  "next_attempt_at": "2026-09-23T19:43:53.981438+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -862,11 +862,17 @@
   }
  },
  "coilspark": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-23T19:31:53.436402+05:30",
+   "caption_verified": true,
+   "media_id": "18114625802470645",
+   "permalink": "https://www.instagram.com/reel/Ddoec2gitzp/",
+   "shortcode": "Ddoec2gitzp",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-coilspark.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-req",
+  "next_attempt_at": "2026-09-23T19:42:14.437995+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -882,7 +888,7 @@
   }
  },
  "cue": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-23T19:01:18.255731+05:30",
    "caption_verified": true,
@@ -892,7 +898,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-cue.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-request-i",
-  "next_attempt_at": "2026-09-23T19:11:34.849479+05:30",
+  "next_attempt_at": "2026-09-23T19:32:12.706310+05:30",
   "youtube": {
    "status": "PENDING"
   }
