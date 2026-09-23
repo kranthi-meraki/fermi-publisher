@@ -806,7 +806,7 @@
   }
  },
  "b6lift": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-24T00:02:13.254589+05:30",
    "caption_verified": true,
@@ -816,7 +816,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6lift.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reques",
-  "next_attempt_at": "2026-09-24T00:12:29.531760+05:30",
+  "next_attempt_at": "2026-09-24T00:33:05.271349+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -870,7 +870,7 @@
   }
  },
  "b6prism": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-23T23:31:21.237110+05:30",
    "caption_verified": true,
@@ -880,13 +880,13 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6prism.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reque",
-  "next_attempt_at": "2026-09-24T00:02:21.485460+05:30",
+  "next_attempt_at": "2026-09-24T00:43:47.486918+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "bottle": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-23T23:01:46.586820+05:30",
    "caption_verified": true,
@@ -896,7 +896,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-bottle.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reques",
-  "next_attempt_at": "2026-09-24T00:14:00.703278+05:30",
+  "next_attempt_at": "2026-09-24T01:34:23.407216+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1044,11 +1044,17 @@
   }
  },
  "hivolt": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-24T00:31:30.034677+05:30",
+   "caption_verified": true,
+   "media_id": "18021575192715879",
+   "permalink": "https://www.instagram.com/reel/DdpAv_UFc4F/",
+   "shortcode": "DdpAv_UFc4F",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-hivolt.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reques",
+  "next_attempt_at": "2026-09-24T00:41:49.424099+05:30",
   "youtube": {
    "status": "PENDING"
   }
