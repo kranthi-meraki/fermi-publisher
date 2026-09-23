@@ -380,11 +380,17 @@
   }
  },
  "b4amdahl": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-23T07:01:45.078063+05:30",
+   "caption_verified": true,
+   "media_id": "18055630319642775",
+   "permalink": "https://www.instagram.com/reel/DdnInvDlaiT/",
+   "shortcode": "DdnInvDlaiT",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: workbench: [Errno 28] No space left on device",
+  "next_attempt_at": "2026-09-23T07:11:52.292590+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -445,7 +451,7 @@
   }
  },
  "b4pancake": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-23T06:31:17.247793+05:30",
    "caption_verified": true,
@@ -455,7 +461,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: workbench: [Errno 28] No space left on device",
-  "next_attempt_at": "2026-09-23T06:41:24.798197+05:30",
+  "next_attempt_at": "2026-09-23T07:01:40.839249+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -481,7 +487,7 @@
   }
  },
  "b4slit": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-23T06:01:54.134254+05:30",
    "caption_verified": true,
@@ -491,7 +497,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: workbench: [Errno 28] No space left on device",
-  "next_attempt_at": "2026-09-23T06:32:07.848803+05:30",
+  "next_attempt_at": "2026-09-23T07:12:33.463976+05:30",
   "youtube": {
    "status": "PENDING"
   }
