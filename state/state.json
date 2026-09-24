@@ -1414,7 +1414,7 @@
   }
  },
  "s02-gimbal-lock": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-24T20:01:34.153850+05:30",
    "caption_verified": true,
@@ -1423,10 +1423,13 @@
    "shortcode": "DdrGpiSlWCi",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-gimbal-lock.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. ",
+  "last_error": null,
   "next_attempt_at": "2026-09-24T20:11:52.702267+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:32:01.211018+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=HGUdToaLNvE",
+   "video_id": "HGUdToaLNvE"
   }
  },
  "s02-ground-loop": {
@@ -1464,11 +1467,11 @@
  "s02-mug-scale": {
   "attempts": 0,
   "instagram": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   }
  },
  "s02-oven-mesh": {
@@ -1490,15 +1493,15 @@
  "s02-parallel-park": {
   "attempts": 0,
   "instagram": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   }
  },
  "s02-parametric-pump": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-24T19:32:04.947051+05:30",
    "caption_verified": true,
@@ -1507,20 +1510,23 @@
    "shortcode": "DdrDR5mFfdK",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-parametric-pump.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expir",
+  "last_error": null,
   "next_attempt_at": "2026-09-24T20:03:07.383745+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:31:18.422286+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=S0ioYKFCbGw",
+   "video_id": "S0ioYKFCbGw"
   }
  },
  "s02-phobos-west": {
   "attempts": 0,
   "instagram": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   }
  },
  "s02-random-walk": {
@@ -1574,11 +1580,11 @@
  "s02-sideways-cannonball": {
   "attempts": 0,
   "instagram": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   }
  },
  "s02-slow-sampling": {
@@ -1595,15 +1601,15 @@
  "s02-spin-echo": {
   "attempts": 0,
   "instagram": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   }
  },
  "s02-strobe-dot": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T19:02:04.975362+05:30",
    "caption_verified": true,
@@ -1612,10 +1618,13 @@
    "shortcode": "Ddq_2nYj_go",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-strobe-dot.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [",
+  "last_error": null,
   "next_attempt_at": "2026-09-24T20:13:46.393063+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:29:32.186024+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=8Cw3yZV0eDw",
+   "video_id": "8Cw3yZV0eDw"
   }
  },
  "s02-tennis-racket": {
@@ -1699,33 +1708,49 @@
   }
  },
  "s03-depletion": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:34:46.760950+05:30",
+   "caption_verified": true,
+   "media_id": "18093434717653896",
+   "permalink": "https://www.instagram.com/reel/Ddr6iusjeCx/",
+   "shortcode": "Ddr6iusjeCx",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:35:20.791843+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=AWEsGPo21sc",
+   "video_id": "AWEsGPo21sc"
   }
  },
  "s03-deuteron-decay": {
   "attempts": 0,
   "instagram": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   }
  },
  "s03-fermi-pressure": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:33:15.702021+05:30",
+   "caption_verified": true,
+   "media_id": "17878413246628651",
+   "permalink": "https://www.instagram.com/reel/Ddr6WJYjj_M/",
+   "shortcode": "Ddr6WJYjj_M",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:33:42.559390+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=WQ3l-pbng3w",
+   "video_id": "WQ3l-pbng3w"
   }
  },
  "s03-fixed-target": {
@@ -10814,6 +10839,66 @@
   },
   "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
   "next_attempt_at": "2026-09-24T05:33:56.800904+05:30",
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "x-04-gps-needs-einstein": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "x-05-cat-lands-on-feet": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "x-Your-Recorded-Voice-Sounds-Like-a-Stranger-FINAL": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "x-exp3-van-de-graaff": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "x-exp4-superconductor-levitation-FIXED": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "x-exp5-chladni-plates": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
