@@ -1670,7 +1670,7 @@
   "instagram": {
    "status": "PENDING"
   },
-  "last_error": null,
+  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
   "youtube": {
    "status": "PENDING"
   }
@@ -1806,13 +1806,21 @@
   }
  },
  "s03-frustration": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:47:53.172558+05:30",
+   "caption_verified": true,
+   "media_id": "18459904975187268",
+   "permalink": "https://www.instagram.com/reel/Ddr8BAuCYfI/",
+   "shortcode": "Ddr8BAuCYfI",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:48:38.394923+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=THdivP_PlWE",
+   "video_id": "THdivP_PlWE"
   }
  },
  "s03-gibbs": {
