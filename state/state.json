@@ -1492,11 +1492,17 @@
   }
  },
  "s02-parametric-pump": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-24T19:32:04.947051+05:30",
+   "caption_verified": true,
+   "media_id": "18124584089509176",
+   "permalink": "https://www.instagram.com/reel/DdrDR5mFfdK/",
+   "shortcode": "DdrDR5mFfdK",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-parametric-pump.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expir",
+  "next_attempt_at": "2026-09-24T19:42:25.861872+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1512,7 +1518,7 @@
   }
  },
  "s02-random-walk": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-24T18:43:29.828120+05:30",
    "caption_verified": true,
@@ -1522,7 +1528,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-random-walk.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. ",
-  "next_attempt_at": "2026-09-24T19:03:47.763946+05:30",
+  "next_attempt_at": "2026-09-24T19:44:42.538539+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1570,12 +1576,12 @@
   }
  },
  "s02-slow-sampling": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "status": "PENDING"
   },
   "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
-  "next_attempt_at": "2026-09-24T19:13:37.738888+05:30",
+  "next_attempt_at": "2026-09-24T20:34:52.181991+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1591,7 +1597,7 @@
   }
  },
  "s02-strobe-dot": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-24T19:02:04.975362+05:30",
    "caption_verified": true,
@@ -1601,7 +1607,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-strobe-dot.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [",
-  "next_attempt_at": "2026-09-24T19:12:20.640283+05:30",
+  "next_attempt_at": "2026-09-24T19:33:00.882203+05:30",
   "youtube": {
    "status": "PENDING"
   }
