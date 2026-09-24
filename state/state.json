@@ -1216,17 +1216,23 @@
   }
  },
  "s01inductorspark": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-24T13:32:00.583014+05:30",
+   "caption_verified": true,
+   "media_id": "18115731227053106",
+   "permalink": "https://www.instagram.com/reel/DdqaDo4iSUc/",
+   "shortcode": "DdqaDo4iSUc",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01inductorspark.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired.",
+  "next_attempt_at": "2026-09-24T13:42:21.600023+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01lens": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T12:01:11.998723+05:30",
    "caption_verified": true,
@@ -1236,13 +1242,13 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01lens.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reque",
-  "next_attempt_at": "2026-09-24T13:13:30.380437+05:30",
+  "next_attempt_at": "2026-09-24T14:34:32.850272+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01magnetcut": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-24T12:31:50.913920+05:30",
    "caption_verified": true,
@@ -1252,13 +1258,13 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01magnetcut.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-",
-  "next_attempt_at": "2026-09-24T13:02:48.360070+05:30",
+  "next_attempt_at": "2026-09-24T13:43:57.993510+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01muon": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-24T13:01:23.140446+05:30",
    "caption_verified": true,
@@ -1268,7 +1274,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01muon.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reque",
-  "next_attempt_at": "2026-09-24T13:11:40.003889+05:30",
+  "next_attempt_at": "2026-09-24T13:32:16.500259+05:30",
   "youtube": {
    "status": "PENDING"
   }
