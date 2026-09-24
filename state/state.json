@@ -1094,7 +1094,7 @@
   }
  },
  "magnet": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-24T06:02:27.195970+05:30",
    "caption_verified": true,
@@ -1103,14 +1103,14 @@
    "shortcode": "Ddpmo-HjyGi",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T06:32:34.540136+05:30",
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-magnet.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reques",
+  "next_attempt_at": "2026-09-24T07:13:06.966011+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "nc": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-24T06:31:45.902818+05:30",
    "caption_verified": true,
@@ -1119,8 +1119,8 @@
    "shortcode": "Ddpp-dsDxLI",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T06:41:47.237200+05:30",
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Failed to resolve channel for authenticated user 'me': 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=id&mine=true",
+  "next_attempt_at": "2026-09-24T07:02:10.409743+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1142,7 +1142,7 @@
   }
  },
  "s01airspeed": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T05:32:36.572233+05:30",
    "caption_verified": true,
@@ -1152,7 +1152,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T06:43:32.248434+05:30",
+  "next_attempt_at": "2026-09-24T08:04:14.290945+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -10636,11 +10636,17 @@
   }
  },
  "traction": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-24T07:01:09.900068+05:30",
+   "caption_verified": true,
+   "media_id": "18132122665671137",
+   "permalink": "https://www.instagram.com/reel/DdptXFTACMn/",
+   "shortcode": "DdptXFTACMn",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching videos from playlist 'UUIyltXGR0KAioMy0WuvIk4w'. Please ensure you have the necessary permissions.",
+  "next_attempt_at": "2026-09-24T07:11:11.260337+05:30",
   "youtube": {
    "status": "PENDING"
   }
