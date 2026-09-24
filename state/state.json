@@ -1030,7 +1030,7 @@
   }
  },
  "halfspring": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T04:01:46.431255+05:30",
    "caption_verified": true,
@@ -1040,13 +1040,13 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T05:13:21.916724+05:30",
+  "next_attempt_at": "2026-09-24T06:33:58.514823+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "hangspring": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-24T04:32:17.119282+05:30",
    "caption_verified": true,
@@ -1055,8 +1055,8 @@
    "shortcode": "DdpcTegjNmb",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Failed to resolve channel for authenticated user 'me': 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=id&mine=true",
-  "next_attempt_at": "2026-09-24T05:02:24.113409+05:30",
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "next_attempt_at": "2026-09-24T05:42:53.124889+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1114,7 +1114,7 @@
   }
  },
  "oilwater": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-24T05:01:30.608601+05:30",
    "caption_verified": true,
@@ -1123,18 +1123,24 @@
    "shortcode": "Ddpfp1pATf1",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-oilwater.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-requ",
-  "next_attempt_at": "2026-09-24T05:11:49.831267+05:30",
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "next_attempt_at": "2026-09-24T05:31:56.640762+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01airspeed": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-24T05:32:36.572233+05:30",
+   "caption_verified": true,
+   "media_id": "18110893919609824",
+   "permalink": "https://www.instagram.com/reel/DdpjO8OjrLW/",
+   "shortcode": "DdpjO8OjrLW",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "next_attempt_at": "2026-09-24T05:42:37.747505+05:30",
   "youtube": {
    "status": "PENDING"
   }
