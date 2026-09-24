@@ -1544,12 +1544,17 @@
   }
  },
  "s02-sagnac": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-24T18:47:25.898242+05:30",
+   "caption_verified": true,
+   "media_id": "18634878760046744",
+   "permalink": "https://www.instagram.com/reel/Ddq-LphgU5b/",
+   "shortcode": "Ddq-LphgU5b",
+   "status": "DONE"
   },
-  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
-  "next_attempt_at": "2026-09-24T18:45:35.443471+05:30",
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-sagnac.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-re",
+  "next_attempt_at": "2026-09-24T20:07:41.686566+05:30",
   "youtube": {
    "status": "PENDING"
   }
