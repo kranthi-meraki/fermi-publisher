@@ -1194,11 +1194,17 @@
   }
  },
  "s01gridvolts": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-24T08:31:41.596309+05:30",
+   "caption_verified": true,
+   "media_id": "18105161741523063",
+   "permalink": "https://www.instagram.com/reel/Ddp3snJAGyL/",
+   "shortcode": "Ddp3snJAGyL",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "next_attempt_at": "2026-09-24T08:41:43.042774+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1264,7 +1270,7 @@
   }
  },
  "s01slinkywait": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-24T08:01:22.888612+05:30",
    "caption_verified": true,
@@ -1274,7 +1280,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T08:11:23.789045+05:30",
+  "next_attempt_at": "2026-09-24T08:31:30.029042+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -10632,7 +10638,7 @@
   }
  },
  "spin": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-24T07:31:52.212696+05:30",
    "caption_verified": true,
@@ -10641,14 +10647,14 @@
    "shortcode": "Ddpw2fBo9eJ",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T08:02:01.369913+05:30",
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Failed to resolve channel for authenticated user 'me': 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=id&mine=true",
+  "next_attempt_at": "2026-09-24T08:42:27.554766+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "traction": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T07:01:09.900068+05:30",
    "caption_verified": true,
@@ -10658,7 +10664,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T08:12:58.655933+05:30",
+  "next_attempt_at": "2026-09-24T09:33:32.468672+05:30",
   "youtube": {
    "status": "PENDING"
   }
