@@ -1424,7 +1424,7 @@
   }
  },
  "s02-ground-loop": {
-  "attempts": 1,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T16:32:09.298886+05:30",
    "caption_verified": true,
@@ -1434,13 +1434,13 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-ground-loop.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. ",
-  "next_attempt_at": "2026-09-24T16:42:31.809842+05:30",
+  "next_attempt_at": "2026-09-24T19:05:07.737588+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "s02-meter-loading": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T15:32:01.010448+05:30",
    "caption_verified": true,
@@ -1450,7 +1450,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-meter-loading.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired",
-  "next_attempt_at": "2026-09-24T16:43:46.361124+05:30",
+  "next_attempt_at": "2026-09-24T18:04:26.753440+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1466,7 +1466,7 @@
   }
  },
  "s02-oven-mesh": {
-  "attempts": 2,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T16:02:12.013819+05:30",
    "caption_verified": true,
@@ -1476,7 +1476,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-oven-mesh.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x",
-  "next_attempt_at": "2026-09-24T16:33:03.367544+05:30",
+  "next_attempt_at": "2026-09-24T18:34:52.533205+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1512,31 +1512,34 @@
   }
  },
  "s02-random-walk": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
    "status": "PENDING"
   },
-  "last_error": null,
+  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
+  "next_attempt_at": "2026-09-24T18:41:35.892526+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "s02-rolling-wheel": {
-  "attempts": 0,
+  "attempts": 4,
   "instagram": {
    "status": "PENDING"
   },
-  "last_error": null,
+  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
+  "next_attempt_at": "2026-09-24T19:36:27.232537+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "s02-sagnac": {
-  "attempts": 0,
+  "attempts": 3,
   "instagram": {
    "status": "PENDING"
   },
-  "last_error": null,
+  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
+  "next_attempt_at": "2026-09-24T18:45:35.443471+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1552,11 +1555,12 @@
   }
  },
  "s02-slow-sampling": {
-  "attempts": 0,
+  "attempts": 3,
   "instagram": {
    "status": "PENDING"
   },
-  "last_error": null,
+  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
+  "next_attempt_at": "2026-09-24T19:13:37.738888+05:30",
   "youtube": {
    "status": "PENDING"
   }
