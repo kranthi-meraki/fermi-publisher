@@ -1512,12 +1512,17 @@
   }
  },
  "s02-random-walk": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-24T18:43:29.828120+05:30",
+   "caption_verified": true,
+   "media_id": "18088282868472391",
+   "permalink": "https://www.instagram.com/reel/Ddq9uvADCVV/",
+   "shortcode": "Ddq9uvADCVV",
+   "status": "DONE"
   },
-  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
-  "next_attempt_at": "2026-09-24T18:41:35.892526+05:30",
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-random-walk.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. ",
+  "next_attempt_at": "2026-09-24T19:03:47.763946+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1525,7 +1530,12 @@
  "s02-rolling-wheel": {
   "attempts": 4,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-24T18:37:31.212648+05:30",
+   "caption_verified": true,
+   "media_id": "17947071750342753",
+   "permalink": "https://www.instagram.com/reel/Ddq9CoXEcHR/",
+   "shortcode": "Ddq9CoXEcHR",
+   "status": "DONE"
   },
   "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
   "next_attempt_at": "2026-09-24T19:36:27.232537+05:30",
