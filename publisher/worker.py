@@ -16,6 +16,35 @@ STATE = os.path.join(ROOT, "state", "state.json")
 
 MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "5"))
 MAX_ATTEMPTS = 4
+# Instagram error code 9, "User is performing too many actions", is a
+# BEHAVIOURAL block, separate from the documented 100-posts/24h quota - which
+# read 47/100 while every publish was being refused. Each refused publish is
+# itself an action, and a repeat offence escalates the block from hours to
+# 7-14 days. So on code 9 the worker stops publishing entirely for a cooling
+# period rather than working through the queue.
+BLOCK_COOLDOWN_HOURS = int(os.environ.get("BLOCK_COOLDOWN_HOURS", "6"))
+BLOCK_FILE = os.path.join(ROOT, "state", "blocked_until.json")
+
+
+def blocked_until():
+    if not os.path.exists(BLOCK_FILE):
+        return None
+    try:
+        return json.load(open(BLOCK_FILE)).get("until")
+    except Exception:
+        return None
+
+
+def set_blocked(reason):
+    until = (now_ist() + timedelta(hours=BLOCK_COOLDOWN_HOURS)).isoformat()
+    json.dump({"until": until, "reason": reason[:300],
+               "at": now_ist().isoformat()}, open(BLOCK_FILE, "w"), indent=1)
+    return until
+
+
+def is_action_block(err):
+    t = str(err).lower()
+    return "too many actions" in t or "(code: 9)" in t or '"code": 9' in t
 # YouTube enforces a per-channel daily upload limit. This channel was cut off
 # at 29 in one day with "user has exceeded the number of videos they may
 # upload". At 48 posts/day that ceiling is reached every afternoon, so the
@@ -109,6 +138,11 @@ def due_items(items, st, now, platforms):
 def run(dry_run=False, platforms=("instagram", "youtube")):
     items, st = load_queue(), load_state()
     now = now_ist()
+
+    bu = blocked_until()
+    if bu and now.isoformat() < bu:
+        log(f"action block in force until {bu[:16]} - publishing nothing")
+        return 0
     todo = due_items(items, st, now, platforms)
     if not todo:
         log("nothing due")
@@ -168,6 +202,12 @@ def run(dry_run=False, platforms=("instagram", "youtube")):
         except Exception as ex:
             failures += 1
             e["last_error"] = f"{type(ex).__name__}: {ex}"[:500]
+            if is_action_block(ex):
+                until = set_blocked(str(ex))
+                e["attempts"] -= 1        # the block is not this item's fault
+                log(f"ACTION BLOCK detected - pausing all publishing until {until[:16]}")
+                save_state(st)
+                return 0
             delay = 2 ** e["attempts"] * 5
             e["next_attempt_at"] = (now_ist() + timedelta(minutes=delay)).isoformat()
             log(f"FAILED {vid}: {e['last_error']}")
