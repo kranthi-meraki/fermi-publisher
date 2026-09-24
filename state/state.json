@@ -1648,13 +1648,21 @@
   }
  },
  "s02-two-twists": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:43:07.639131+05:30",
+   "caption_verified": true,
+   "media_id": "18129027271696074",
+   "permalink": "https://www.instagram.com/reel/Ddr7e1JCdzT/",
+   "shortcode": "Ddr7e1JCdzT",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:43:45.982247+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=HULigwQFhJA",
+   "video_id": "HULigwQFhJA"
   }
  },
  "s02-wheel-reverse": {
@@ -1678,23 +1686,39 @@
   }
  },
  "s03-car-friction": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:44:48.306181+05:30",
+   "caption_verified": true,
+   "media_id": "17883119730511211",
+   "permalink": "https://www.instagram.com/reel/Ddr7q7oj4TW/",
+   "shortcode": "Ddr7q7oj4TW",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:45:44.051978+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=TMTTBSx0kEs",
+   "video_id": "TMTTBSx0kEs"
   }
  },
  "s03-cherenkov": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:41:35.849005+05:30",
+   "caption_verified": true,
+   "media_id": "18095352062422542",
+   "permalink": "https://www.instagram.com/reel/Ddr7UXQiVyV/",
+   "shortcode": "Ddr7UXQiVyV",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:42:05.301526+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=ZuPQg7pIJvQ",
+   "video_id": "ZuPQg7pIJvQ"
   }
  },
  "s03-chirp": {
@@ -1754,13 +1778,21 @@
   }
  },
  "s03-fixed-target": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:37:36.806626+05:30",
+   "caption_verified": true,
+   "media_id": "17958417456297498",
+   "permalink": "https://www.instagram.com/reel/Ddr61CKgrgA/",
+   "shortcode": "Ddr61CKgrgA",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:38:31.386163+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=vW3SRj3AMBA",
+   "video_id": "vW3SRj3AMBA"
   }
  },
  "s03-free-fall": {
@@ -1784,13 +1816,21 @@
   }
  },
  "s03-gibbs": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:39:35.205246+05:30",
+   "caption_verified": true,
+   "media_id": "18102915314620057",
+   "permalink": "https://www.instagram.com/reel/Ddr7GTWAQTM/",
+   "shortcode": "Ddr7GTWAQTM",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-25T03:40:40.420361+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=fSXFuBQ4KDk",
+   "video_id": "fSXFuBQ4KDk"
   }
  },
  "s03-hard-spheres": {
