@@ -1046,7 +1046,7 @@
   }
  },
  "hangspring": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T04:32:17.119282+05:30",
    "caption_verified": true,
@@ -1055,8 +1055,8 @@
    "shortcode": "DdpcTegjNmb",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T05:42:53.124889+05:30",
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Failed to resolve channel for authenticated user 'me': 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=id&mine=true",
+  "next_attempt_at": "2026-09-24T07:03:48.052398+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1094,11 +1094,17 @@
   }
  },
  "magnet": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-24T06:02:27.195970+05:30",
+   "caption_verified": true,
+   "media_id": "18111221941845118",
+   "permalink": "https://www.instagram.com/reel/Ddpmo-HjyGi/",
+   "shortcode": "Ddpmo-HjyGi",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Failed to resolve channel for authenticated user 'me': 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=id&mine=true",
+  "next_attempt_at": "2026-09-24T06:12:28.139934+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1114,7 +1120,7 @@
   }
  },
  "oilwater": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-24T05:01:30.608601+05:30",
    "caption_verified": true,
@@ -1123,14 +1129,14 @@
    "shortcode": "Ddpfp1pATf1",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T05:31:56.640762+05:30",
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Failed to resolve channel for authenticated user 'me': 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=id&mine=true",
+  "next_attempt_at": "2026-09-24T06:13:42.263084+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01airspeed": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-24T05:32:36.572233+05:30",
    "caption_verified": true,
@@ -1139,8 +1145,8 @@
    "shortcode": "DdpjO8OjrLW",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T05:42:37.747505+05:30",
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching videos from playlist 'UUIyltXGR0KAioMy0WuvIk4w'. Please ensure you have the necessary permissions.",
+  "next_attempt_at": "2026-09-24T06:02:45.672995+05:30",
   "youtube": {
    "status": "PENDING"
   }
