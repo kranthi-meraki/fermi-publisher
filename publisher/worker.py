@@ -81,7 +81,10 @@ def due_items(items, st, now, platforms):
     out = []
     for it in items:
         e = entry(st, it["id"])
-        wants = [p for p in platforms if e[p]["status"] not in ("DONE", "SKIPPED")]
+        # a queue record may pin itself to one platform (e.g. Instagram only)
+        allowed = it.get("platforms") or platforms
+        wants = [p for p in platforms if p in allowed
+                 and e[p]["status"] not in ("DONE", "SKIPPED")]
         if not wants:
             continue
         if it["scheduled_at"] > now.isoformat():
