@@ -1174,7 +1174,7 @@
   }
  },
  "s01coppertube": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T11:01:18.489013+05:30",
    "caption_verified": true,
@@ -1184,7 +1184,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T12:14:00.699683+05:30",
+  "next_attempt_at": "2026-09-24T13:34:23.140438+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1226,7 +1226,7 @@
   }
  },
  "s01lens": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-24T12:01:11.998723+05:30",
    "caption_verified": true,
@@ -1236,17 +1236,23 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T12:11:14.077292+05:30",
+  "next_attempt_at": "2026-09-24T12:31:20.373714+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01magnetcut": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-24T12:31:50.913920+05:30",
+   "caption_verified": true,
+   "media_id": "18031450226675540",
+   "permalink": "https://www.instagram.com/reel/DdqTLeYgl0k/",
+   "shortcode": "DdqTLeYgl0k",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01magnetcut.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-",
+  "next_attempt_at": "2026-09-24T12:42:08.282556+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1304,7 +1310,7 @@
   }
  },
  "s01springcut": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-24T11:32:55.011119+05:30",
    "caption_verified": true,
@@ -1314,7 +1320,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T12:03:04.962996+05:30",
+  "next_attempt_at": "2026-09-24T12:43:18.246893+05:30",
   "youtube": {
    "status": "PENDING"
   }
