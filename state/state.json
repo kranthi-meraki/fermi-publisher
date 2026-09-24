@@ -1174,7 +1174,7 @@
   }
  },
  "s01coppertube": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-24T11:01:18.489013+05:30",
    "caption_verified": true,
@@ -1184,7 +1184,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T11:31:29.935541+05:30",
+  "next_attempt_at": "2026-09-24T12:14:00.699683+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1226,11 +1226,17 @@
   }
  },
  "s01lens": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-24T12:01:11.998723+05:30",
+   "caption_verified": true,
+   "media_id": "18106025693621532",
+   "permalink": "https://www.instagram.com/reel/DdqPrcQCo2J/",
+   "shortcode": "DdqPrcQCo2J",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "next_attempt_at": "2026-09-24T12:11:14.077292+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1256,7 +1262,7 @@
   }
  },
  "s01photoelectric": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T10:32:05.156891+05:30",
    "caption_verified": true,
@@ -1266,7 +1272,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T11:42:27.464099+05:30",
+  "next_attempt_at": "2026-09-24T13:03:03.551720+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1298,7 +1304,7 @@
   }
  },
  "s01springcut": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-24T11:32:55.011119+05:30",
    "caption_verified": true,
@@ -1308,7 +1314,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T11:42:56.740372+05:30",
+  "next_attempt_at": "2026-09-24T12:03:04.962996+05:30",
   "youtube": {
    "status": "PENDING"
   }
