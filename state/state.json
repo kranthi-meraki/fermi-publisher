@@ -1190,7 +1190,7 @@
   }
  },
  "s01fridge": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T14:31:41.820352+05:30",
    "caption_verified": true,
@@ -1200,7 +1200,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01fridge.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-req",
-  "next_attempt_at": "2026-09-24T15:43:06.821447+05:30",
+  "next_attempt_at": "2026-09-24T17:04:13.670220+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1398,7 +1398,7 @@
   }
  },
  "s02-blocked-laser": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-24T15:01:30.266728+05:30",
    "caption_verified": true,
@@ -1408,7 +1408,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-blocked-laser.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired",
-  "next_attempt_at": "2026-09-24T15:32:24.816385+05:30",
+  "next_attempt_at": "2026-09-24T16:13:37.246725+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1434,7 +1434,7 @@
   }
  },
  "s02-meter-loading": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-24T15:32:01.010448+05:30",
    "caption_verified": true,
@@ -1443,8 +1443,8 @@
    "shortcode": "DdqnyUdjmyO",
    "status": "DONE"
   },
-  "last_error": "ComposioError: COMPOSIO_MULTI_EXECUTE_TOOL unreachable: MCP tools/call http 502: {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-502/\",\"title\":\"Error 502: Bad gateway\",\"status\":502,\"detail\":\"The origin web server returned an invalid or incomplete response to Cloudflare. This typically indicates the origin is overlo",
-  "next_attempt_at": "2026-09-24T15:42:15.908767+05:30",
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-meter-loading.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired",
+  "next_attempt_at": "2026-09-24T16:02:55.781438+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1460,11 +1460,17 @@
   }
  },
  "s02-oven-mesh": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-24T16:02:12.013819+05:30",
+   "caption_verified": true,
+   "media_id": "18121099069904062",
+   "permalink": "https://www.instagram.com/reel/DdqrQpfjt1e/",
+   "shortcode": "DdqrQpfjt1e",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-oven-mesh.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x",
+  "next_attempt_at": "2026-09-24T16:12:28.739088+05:30",
   "youtube": {
    "status": "PENDING"
   }
