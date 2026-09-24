@@ -1226,7 +1226,7 @@
   }
  },
  "s01lens": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-24T12:01:11.998723+05:30",
    "caption_verified": true,
@@ -1235,14 +1235,14 @@
    "shortcode": "DdqPrcQCo2J",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T12:31:20.373714+05:30",
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01lens.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reque",
+  "next_attempt_at": "2026-09-24T13:13:30.380437+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01magnetcut": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-24T12:31:50.913920+05:30",
    "caption_verified": true,
@@ -1252,7 +1252,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01magnetcut.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-",
-  "next_attempt_at": "2026-09-24T12:42:08.282556+05:30",
+  "next_attempt_at": "2026-09-24T13:02:48.360070+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1310,7 +1310,7 @@
   }
  },
  "s01springcut": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T11:32:55.011119+05:30",
    "caption_verified": true,
@@ -1319,8 +1319,8 @@
    "shortcode": "DdqMas0joud",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T12:43:18.246893+05:30",
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01springcut.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-",
+  "next_attempt_at": "2026-09-24T14:04:05.920571+05:30",
   "youtube": {
    "status": "PENDING"
   }
