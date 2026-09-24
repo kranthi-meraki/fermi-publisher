@@ -1190,7 +1190,7 @@
   }
  },
  "s01fridge": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-09-24T14:31:41.820352+05:30",
    "caption_verified": true,
@@ -1200,7 +1200,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01fridge.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-req",
-  "next_attempt_at": "2026-09-24T14:42:04.032543+05:30",
+  "next_attempt_at": "2026-09-24T15:02:42.203973+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1222,7 +1222,7 @@
   }
  },
  "s01inductorspark": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T13:32:00.583014+05:30",
    "caption_verified": true,
@@ -1232,7 +1232,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01inductorspark.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired.",
-  "next_attempt_at": "2026-09-24T14:43:58.870179+05:30",
+  "next_attempt_at": "2026-09-24T16:04:59.836720+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1302,7 +1302,7 @@
   }
  },
  "s01rollrace": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-24T14:01:23.396648+05:30",
    "caption_verified": true,
@@ -1312,7 +1312,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01rollrace.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-r",
-  "next_attempt_at": "2026-09-24T14:32:17.271796+05:30",
+  "next_attempt_at": "2026-09-24T15:13:23.187602+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -1398,11 +1398,17 @@
   }
  },
  "s02-blocked-laser": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-24T15:01:30.266728+05:30",
+   "caption_verified": true,
+   "media_id": "18188184088409390",
+   "permalink": "https://www.instagram.com/reel/DdqkUT7jZ1j/",
+   "shortcode": "DdqkUT7jZ1j",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-blocked-laser.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired",
+  "next_attempt_at": "2026-09-24T15:11:47.679336+05:30",
   "youtube": {
    "status": "PENDING"
   }
