@@ -1,13 +1,21 @@
 """Slot planning.
 
-48 posts a day, every 30 minutes, round the clock (IST).
+7 posts a day inside the 12:00-18:00 IST window.
 """
 from datetime import datetime, timedelta, timezone
 
 IST = timezone(timedelta(hours=5, minutes=30))
 
-# every 30 minutes, round the clock: 48 posts a day
-SLOTS = [f"{h:02d}:{m:02d}" for h in range(24) for m in (0, 30)]
+# 7 posts a day, 12:00-18:00 IST only, irregular gaps.
+#
+# Measured over 116 reels (22-25 Sep): the 12-17 block returned a median 198
+# views and a 25% breakout rate, against 137/5-8% for night and evening. The
+# sample is small (n=16) so this is a bias, not a certainty. The stronger
+# reason to cut from 48/day is that 91% of posts reached a median of 126
+# accounts - below the follower count - so volume was producing near-invisible
+# posts rather than reach. Irregular gaps because burst pacing, not daily
+# volume, is what triggers Instagram's action block.
+SLOTS = ["12:10", "13:05", "14:00", "15:00", "15:55", "16:50", "17:40"]
 
 
 def plan(start, n_items, slots=None, after=None):

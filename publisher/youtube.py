@@ -26,11 +26,22 @@ if not (os.path.exists(path) and os.path.getsize(path) > 1000000):
             if not b: break
             fo.write(b); fo.flush(); os.fsync(fo.fileno())
 key = get_mount_file_s3_key(path)[0]
+# the mount is small and shared; leaving each MP4 behind filled it and every
+# later upload died with [Errno 28] No space left on device
+import glob
+for old in glob.glob("/mnt/files/pub/*.mp4"):
+    if old != path:
+        try: os.remove(old)
+        except OSError: pass
 res, err = run_composio_tool("YOUTUBE_MULTIPART_UPLOAD_VIDEO", {{
     "title": {title!r}, "description": {desc!r}, "tags": {tags!r},
     "categoryId": "27", "privacyStatus": {privacy!r},
     "videoFile": {{"name": {fname!r}, "mimetype": "video/mp4", "s3key": key}}}},
     account="youtube_stere-bahima")
+try: os.remove(path)
+except OSError: pass
+try: os.remove("/tmp/" + {fname!r})
+except OSError: pass
 print("RESULT " + json.dumps({{"err": str(err)[:300] if err else None,
       "id": ((res or {{}}).get("data") or {{}}).get("video", {{}}).get("id")}}))
 '''

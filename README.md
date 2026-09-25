@@ -46,8 +46,30 @@ Then it runs itself.
 
 ## Schedule
 
-48 slots a day, every 30 minutes, round the clock IST (`publisher/schedule.py`).
-1,017 videos = 22 days, 23 Sep to 14 Oct.
+7 slots a day, 12:10-17:40 IST, irregular gaps (`publisher/schedule.py`).
+904 remaining videos = about 130 days.
+
+Cut from 48/day on 25 Sep after measuring 116 reels over the first 2.4 days:
+
+| Block (IST) | n | Median views | Breakout rate |
+|---|---|---|---|
+| 12-17 | 16 | 198 | 25% |
+| 06-11 | 24 | 158 | 8% |
+| 18-23 | 38 | 137 | 8% |
+| 00-05 | 38 | 137 | 5% |
+
+The afternoon edge is suggestive, not proven (n=16, p is about 0.09). The
+firmer reason to cut volume: 9% of reels earned 41% of all views, and the
+other 91% reached a median of 126 accounts - fewer than the account has
+followers. Volume was manufacturing invisible posts, not reach.
+
+Also measured, and worth not re-learning:
+- Static image cards: median 22 views vs 148 for reels. This is a reels account.
+- Pacing 20s vs 8min apart made no difference to views (124 vs 127). Spacing
+  avoids the action block; it does not buy reach.
+- Machine-drafted captions slightly beat hand-written ones (150 vs 138), so the
+  hook-and-hashtag rewrite was not the lever it was assumed to be.
+- 8 comments across 116 reels. Reply-prompts do not work; shares run 12x higher.
 
 Two things this cadence runs into:
 

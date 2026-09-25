@@ -324,7 +324,7 @@
   }
  },
  "b3smell": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T08:02:10.693027+05:30",
    "caption_verified": true,
@@ -333,14 +333,13 @@
    "shortcode": "DdnPiFmDNwD",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
-  "next_attempt_at": "2026-09-23T10:36:14.118956+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "b3starstable": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T09:01:20.657779+05:30",
    "caption_verified": true,
@@ -349,8 +348,7 @@
    "shortcode": "DdnWUELCY5W",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
-  "next_attempt_at": "2026-09-23T11:36:25.563492+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
@@ -392,7 +390,7 @@
   }
  },
  "b4amdahl": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T07:01:45.078063+05:30",
    "caption_verified": true,
@@ -401,8 +399,7 @@
    "shortcode": "DdnInvDlaiT",
    "status": "DONE"
   },
-  "last_error": "ComposioError: workbench: [Errno 28] No space left on device",
-  "next_attempt_at": "2026-09-23T09:34:54.451153+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
@@ -463,7 +460,7 @@
   }
  },
  "b4pancake": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T06:31:17.247793+05:30",
    "caption_verified": true,
@@ -472,14 +469,13 @@
    "shortcode": "DdnFImvjY8N",
    "status": "DONE"
   },
-  "last_error": "ComposioError: workbench: [Errno 28] No space left on device",
-  "next_attempt_at": "2026-09-23T09:03:23.462784+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "b4polar": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T08:31:55.213835+05:30",
    "caption_verified": true,
@@ -488,14 +484,13 @@
    "shortcode": "DdnS8Z_jmWU",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
-  "next_attempt_at": "2026-09-23T11:07:23.665758+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "b4rootn": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T07:31:50.066870+05:30",
    "caption_verified": true,
@@ -504,14 +499,13 @@
    "shortcode": "DdnMFFOEZe6",
    "status": "DONE"
   },
-  "last_error": "ComposioError: workbench: [Errno 28] No space left on device",
-  "next_attempt_at": "2026-09-23T10:05:19.323802+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "b4slit": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T06:01:54.134254+05:30",
    "caption_verified": true,
@@ -520,8 +514,7 @@
    "shortcode": "DdnBxa3ABy6",
    "status": "DONE"
   },
-  "last_error": "ComposioError: workbench: [Errno 28] No space left on device",
-  "next_attempt_at": "2026-09-23T08:33:12.912501+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
@@ -557,7 +550,7 @@
   }
  },
  "b5beam": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T14:31:54.829615+05:30",
    "caption_verified": true,
@@ -566,8 +559,7 @@
    "shortcode": "Ddn8JwVDGeT",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b5beam.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reques",
-  "next_attempt_at": "2026-09-23T17:04:42.280803+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
@@ -610,7 +602,7 @@
   }
  },
  "b5cher": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T09:31:28.439178+05:30",
    "caption_verified": true,
@@ -619,14 +611,13 @@
    "shortcode": "DdnZvItADPg",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Failed to resolve channel for authenticated user 'me': 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=id&mine=true",
-  "next_attempt_at": "2026-09-23T12:05:45.739655+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "b5evan": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T19:37:04.865152+05:30",
    "caption_verified": true,
@@ -635,8 +626,7 @@
    "shortcode": "DdofEiblOKP",
    "status": "DONE"
   },
-  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
-  "next_attempt_at": "2026-09-23T19:06:48.920264+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
@@ -690,7 +680,7 @@
   }
  },
  "b5qcold": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T19:35:04.018047+05:30",
    "caption_verified": true,
@@ -699,14 +689,13 @@
    "shortcode": "Ddoe1wnDN7D",
    "status": "DONE"
   },
-  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
-  "next_attempt_at": "2026-09-23T18:36:47.388586+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "b5shelf": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T10:31:26.631341+05:30",
    "caption_verified": true,
@@ -715,8 +704,7 @@
    "shortcode": "DdngoFHFMal",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-23T13:04:23.251290+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
@@ -740,7 +728,7 @@
   }
  },
  "b6cpcv": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T10:01:28.697745+05:30",
    "caption_verified": true,
@@ -749,8 +737,7 @@
    "shortcode": "DdndL0uATBr",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-23T12:35:19.487356+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
@@ -774,7 +761,7 @@
   }
  },
  "b6geo": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T18:34:33.446845+05:30",
    "caption_verified": true,
@@ -783,14 +770,13 @@
    "shortcode": "DdoX6bajpWS",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6geo.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-request",
-  "next_attempt_at": "2026-09-23T20:35:32.133323+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "b6goggles": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T21:32:01.927461+05:30",
    "caption_verified": true,
@@ -799,14 +785,13 @@
    "shortcode": "DdosLY1FbUI",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6goggles.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-req",
-  "next_attempt_at": "2026-09-24T00:04:52.836150+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "b6lift": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T00:02:13.254589+05:30",
    "caption_verified": true,
@@ -815,14 +800,13 @@
    "shortcode": "Ddo9azvDz_Q",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6lift.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reques",
-  "next_attempt_at": "2026-09-24T02:34:56.588190+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "b6match": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T18:42:27.707338+05:30",
    "caption_verified": true,
@@ -831,14 +815,13 @@
    "shortcode": "DdoYzuQFfq1",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6match.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reque",
-  "next_attempt_at": "2026-09-23T21:04:53.473315+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "b6mirror": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T18:46:41.670131+05:30",
    "caption_verified": true,
@@ -847,14 +830,13 @@
    "shortcode": "DdoZThYDN8I",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6mirror.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-requ",
-  "next_attempt_at": "2026-09-23T20:06:58.243475+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "b6normal": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T22:01:23.238127+05:30",
    "caption_verified": true,
@@ -863,14 +845,13 @@
    "shortcode": "DdovkzFk74K",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6normal.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-requ",
-  "next_attempt_at": "2026-09-24T00:34:02.285382+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "b6prism": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T23:31:21.237110+05:30",
    "caption_verified": true,
@@ -879,14 +860,13 @@
    "shortcode": "Ddo53i0AWRe",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-b6prism.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reque",
-  "next_attempt_at": "2026-09-24T02:04:41.431643+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "bottle": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T23:01:46.586820+05:30",
    "caption_verified": true,
@@ -895,14 +875,13 @@
    "shortcode": "Ddo2gBAj-j0",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-bottle.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reques",
-  "next_attempt_at": "2026-09-24T01:34:23.407216+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "coilspark": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T19:31:53.436402+05:30",
    "caption_verified": true,
@@ -911,14 +890,13 @@
    "shortcode": "Ddoec2gitzp",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-coilspark.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-req",
-  "next_attempt_at": "2026-09-23T22:04:33.399572+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "copperpipe": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T21:01:48.335394+05:30",
    "caption_verified": true,
@@ -927,14 +905,13 @@
    "shortcode": "Ddoou2AFRHM",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-copperpipe.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-re",
-  "next_attempt_at": "2026-09-23T23:34:41.392362+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "cue": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T19:01:18.255731+05:30",
    "caption_verified": true,
@@ -943,14 +920,13 @@
    "shortcode": "Ddoa8ZbiOA9",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-cue.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-request-i",
-  "next_attempt_at": "2026-09-23T21:41:08.321697+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "doorknob": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T22:31:39.379183+05:30",
    "caption_verified": true,
@@ -959,14 +935,13 @@
    "shortcode": "DdozDadiap_",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-doorknob.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-requ",
-  "next_attempt_at": "2026-09-24T01:04:39.747273+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "forward": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T20:01:50.866861+05:30",
    "caption_verified": true,
@@ -975,14 +950,13 @@
    "shortcode": "Ddoh5-7FOkl",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-forward.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reque",
-  "next_attempt_at": "2026-09-23T22:35:01.622399+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "fridge": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T19:38:33.288613+05:30",
    "caption_verified": true,
@@ -991,14 +965,13 @@
    "shortcode": "DdofOfkEvQ_",
    "status": "DONE"
   },
-  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
-  "next_attempt_at": "2026-09-23T19:35:23.522811+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "glass": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-23T20:31:16.113363+05:30",
    "caption_verified": true,
@@ -1007,14 +980,13 @@
    "shortcode": "DdolQb8Eyan",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-glass.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-request",
-  "next_attempt_at": "2026-09-23T23:04:19.100092+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "halflens": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T03:32:04.716156+05:30",
    "caption_verified": true,
@@ -1023,14 +995,13 @@
    "shortcode": "DdpValLgI7d",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T06:03:26.323816+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "halfspring": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T04:01:46.431255+05:30",
    "caption_verified": true,
@@ -1039,14 +1010,13 @@
    "shortcode": "DdpY1CVjmQT",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T06:33:58.514823+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "hangspring": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T04:32:17.119282+05:30",
    "caption_verified": true,
@@ -1055,14 +1025,13 @@
    "shortcode": "DdpcTegjNmb",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Failed to resolve channel for authenticated user 'me': 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=id&mine=true",
-  "next_attempt_at": "2026-09-24T07:03:48.052398+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "hivolt": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T00:31:30.034677+05:30",
    "caption_verified": true,
@@ -1071,14 +1040,13 @@
    "shortcode": "DdpAv_UFc4F",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-hivolt.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reques",
-  "next_attempt_at": "2026-09-24T03:04:15.514591+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "holeheat": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T01:01:46.807216+05:30",
    "caption_verified": true,
@@ -1087,14 +1055,13 @@
    "shortcode": "DdpEOIKj_FS",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-holeheat.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-requ",
-  "next_attempt_at": "2026-09-24T03:34:31.682404+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "magnet": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T06:02:27.195970+05:30",
    "caption_verified": true,
@@ -1103,14 +1070,13 @@
    "shortcode": "Ddpmo-HjyGi",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T08:33:42.225650+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "nc": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T06:31:45.902818+05:30",
    "caption_verified": true,
@@ -1119,14 +1085,13 @@
    "shortcode": "Ddpp-dsDxLI",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching videos from playlist 'UUIyltXGR0KAioMy0WuvIk4w'. Please ensure you have the necessary permissions.",
-  "next_attempt_at": "2026-09-24T09:03:03.663456+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "oilwater": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T05:01:30.608601+05:30",
    "caption_verified": true,
@@ -1135,14 +1100,13 @@
    "shortcode": "Ddpfp1pATf1",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Failed to resolve channel for authenticated user 'me': 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=id&mine=true",
-  "next_attempt_at": "2026-09-24T07:34:36.469594+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01airspeed": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T05:32:36.572233+05:30",
    "caption_verified": true,
@@ -1151,14 +1115,13 @@
    "shortcode": "DdpjO8OjrLW",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T08:04:14.290945+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01carousel": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T02:01:16.825069+05:30",
    "caption_verified": true,
@@ -1167,14 +1130,13 @@
    "shortcode": "DdpLCGnE405",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01carousel.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-r",
-  "next_attempt_at": "2026-09-24T04:33:58.755401+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01coppertube": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T11:01:18.489013+05:30",
    "caption_verified": true,
@@ -1183,14 +1145,13 @@
    "shortcode": "DdqI1EikbFq",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T13:34:23.140438+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01fridge": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T14:31:41.820352+05:30",
    "caption_verified": true,
@@ -1199,14 +1160,13 @@
    "shortcode": "Ddqg7CSgApM",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01fridge.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-req",
-  "next_attempt_at": "2026-09-24T17:04:13.670220+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01gridvolts": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T08:31:41.596309+05:30",
    "caption_verified": true,
@@ -1215,14 +1175,13 @@
    "shortcode": "Ddp3snJAGyL",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T11:03:33.814572+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01inductorspark": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T13:32:00.583014+05:30",
    "caption_verified": true,
@@ -1231,14 +1190,13 @@
    "shortcode": "DdqaDo4iSUc",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01inductorspark.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired.",
-  "next_attempt_at": "2026-09-24T16:04:59.836720+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01lens": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T12:01:11.998723+05:30",
    "caption_verified": true,
@@ -1247,14 +1205,13 @@
    "shortcode": "DdqPrcQCo2J",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01lens.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reque",
-  "next_attempt_at": "2026-09-24T14:34:32.850272+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01magnetcut": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T12:31:50.913920+05:30",
    "caption_verified": true,
@@ -1263,14 +1220,13 @@
    "shortcode": "DdqTLeYgl0k",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01magnetcut.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-",
-  "next_attempt_at": "2026-09-24T15:04:20.065382+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01muon": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T13:01:23.140446+05:30",
    "caption_verified": true,
@@ -1279,14 +1235,13 @@
    "shortcode": "DdqWk_wFIA7",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01muon.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-reque",
-  "next_attempt_at": "2026-09-24T15:34:35.325810+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01photoelectric": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T10:32:05.156891+05:30",
    "caption_verified": true,
@@ -1295,14 +1250,13 @@
    "shortcode": "DdqFeLqjdJW",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T13:03:03.551720+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01rollrace": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T14:01:23.396648+05:30",
    "caption_verified": true,
@@ -1311,14 +1265,13 @@
    "shortcode": "DdqdcdFk6JB",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01rollrace.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-r",
-  "next_attempt_at": "2026-09-24T16:33:41.626492+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01slinkywait": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T08:01:22.888612+05:30",
    "caption_verified": true,
@@ -1327,14 +1280,13 @@
    "shortcode": "Ddp0P1_gO0h",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T10:32:58.142759+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01springcut": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T11:32:55.011119+05:30",
    "caption_verified": true,
@@ -1343,14 +1295,13 @@
    "shortcode": "DdqMas0joud",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s01springcut.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-",
-  "next_attempt_at": "2026-09-24T14:04:05.920571+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01thinwire": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T10:01:35.887433+05:30",
    "caption_verified": true,
@@ -1359,14 +1310,13 @@
    "shortcode": "DdqB_rmlUOw",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T12:33:32.836968+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01waterlaser": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T09:01:44.823289+05:30",
    "caption_verified": true,
@@ -1375,14 +1325,13 @@
    "shortcode": "Ddp7KecgTuy",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T11:33:46.423909+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s01wheeltop": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T09:32:23.462098+05:30",
    "caption_verified": true,
@@ -1391,14 +1340,13 @@
    "shortcode": "Ddp-q8MCUYb",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T12:03:16.364076+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s02-blocked-laser": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T15:01:30.266728+05:30",
    "caption_verified": true,
@@ -1407,8 +1355,7 @@
    "shortcode": "DdqkUT7jZ1j",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-blocked-laser.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired",
-  "next_attempt_at": "2026-09-24T17:34:21.390746+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
@@ -1433,7 +1380,7 @@
   }
  },
  "s02-ground-loop": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T16:32:09.298886+05:30",
    "caption_verified": true,
@@ -1442,14 +1389,13 @@
    "shortcode": "DdqushkABha",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-ground-loop.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. ",
-  "next_attempt_at": "2026-09-24T19:05:07.737588+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s02-meter-loading": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T15:32:01.010448+05:30",
    "caption_verified": true,
@@ -1458,8 +1404,7 @@
    "shortcode": "DdqnyUdjmyO",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-meter-loading.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired",
-  "next_attempt_at": "2026-09-24T18:04:26.753440+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
@@ -1475,7 +1420,7 @@
   }
  },
  "s02-oven-mesh": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T16:02:12.013819+05:30",
    "caption_verified": true,
@@ -1484,8 +1429,7 @@
    "shortcode": "DdqrQpfjt1e",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-oven-mesh.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x",
-  "next_attempt_at": "2026-09-24T18:34:52.533205+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
@@ -1530,7 +1474,7 @@
   }
  },
  "s02-random-walk": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T18:43:29.828120+05:30",
    "caption_verified": true,
@@ -1539,14 +1483,13 @@
    "shortcode": "Ddq9uvADCVV",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-random-walk.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. ",
-  "next_attempt_at": "2026-09-24T21:05:27.421040+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s02-rolling-wheel": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T18:37:31.212648+05:30",
    "caption_verified": true,
@@ -1555,14 +1498,13 @@
    "shortcode": "Ddq9CoXEcHR",
    "status": "DONE"
   },
-  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH failed: Failed to publish media: User is performing too many actions (code: 9)",
-  "next_attempt_at": "2026-09-24T19:36:27.232537+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "s02-sagnac": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T18:47:25.898242+05:30",
    "caption_verified": true,
@@ -1571,8 +1513,7 @@
    "shortcode": "Ddq-LphgU5b",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-s02-sagnac.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-re",
-  "next_attempt_at": "2026-09-24T20:07:41.686566+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
@@ -10812,7 +10753,7 @@
   }
  },
  "ship": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T02:31:32.067812+05:30",
    "caption_verified": true,
@@ -10821,14 +10762,13 @@
    "shortcode": "DdpOgKZAhAL",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-ship.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-request-",
-  "next_attempt_at": "2026-09-24T05:04:03.688401+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "soup": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T01:32:01.598221+05:30",
    "caption_verified": true,
@@ -10837,14 +10777,13 @@
    "shortcode": "DdpHsE2jIv6",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: Failed to download file with s3key 'workbench/ok_S2MAedOs8dgQ/pr_JHxuplwVjuGK/consumer-iD6foIhOYaiXkkGU4MuawTPp5unwBKXW-ok_S2MAedOs8dgQ/trs_Ud4v4DAqkzSk/files/pub/v2-soup.mp4': storage returned HTTP 404. The file may not exist, may have been deleted, or the download URL may have expired. [x-request-",
-  "next_attempt_at": "2026-09-24T04:04:41.841854+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "spin": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T07:31:52.212696+05:30",
    "caption_verified": true,
@@ -10853,14 +10792,13 @@
    "shortcode": "Ddpw2fBo9eJ",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T10:02:51.291526+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "traction": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T07:01:09.900068+05:30",
    "caption_verified": true,
@@ -10869,14 +10807,13 @@
    "shortcode": "DdptXFTACMn",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T09:33:32.468672+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
  },
  "wheelrest": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
    "at": "2026-09-24T03:01:43.620146+05:30",
    "caption_verified": true,
@@ -10885,8 +10822,7 @@
    "shortcode": "DdpR8yalA9p",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-24T05:33:56.800904+05:30",
+  "last_error": null,
   "youtube": {
    "status": "PENDING"
   }
