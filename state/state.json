@@ -1667,17 +1667,22 @@
  "s02-tennis-racket": {
   "attempts": 0,
   "instagram": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   }
  },
  "s02-thermometer-lag": {
   "attempts": 0,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-25T20:03:16.719459+05:30",
+   "caption_verified": true,
+   "media_id": "18114021833076168",
+   "permalink": "https://www.instagram.com/reel/Ddtrpc6DUhI/",
+   "shortcode": "Ddtrpc6DUhI",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
@@ -1732,7 +1737,7 @@
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   }
  },
  "s03-car-friction": {
@@ -1774,7 +1779,12 @@
  "s03-chirp": {
   "attempts": 0,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-25T20:05:08.247764+05:30",
+   "caption_verified": true,
+   "media_id": "18162693274648437",
+   "permalink": "https://www.instagram.com/reel/Ddtr20hDMXm/",
+   "shortcode": "Ddtr20hDMXm",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
@@ -1848,11 +1858,11 @@
  "s03-free-fall": {
   "attempts": 0,
   "instagram": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   }
  },
  "s03-frustration": {
