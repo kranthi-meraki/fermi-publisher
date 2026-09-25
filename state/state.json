@@ -1192,7 +1192,7 @@
   }
  },
  "s01fridge": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T14:31:41.820352+05:30",
    "caption_verified": true,
@@ -1201,10 +1201,13 @@
    "shortcode": "Ddqg7CSgApM",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
+  "last_error": null,
   "next_attempt_at": "2026-09-25T13:06:40.733641+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-25T13:09:31.676482+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=qqwiYMK_ugk",
+   "video_id": "qqwiYMK_ugk"
   }
  },
  "s01gridvolts": {
@@ -1427,7 +1430,7 @@
    "shortcode": "DdqkUT7jZ1j",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
+  "last_error": null,
   "next_attempt_at": "2026-09-25T13:07:43.679878+05:30",
   "youtube": {
    "status": "PENDING"
@@ -1481,7 +1484,7 @@
    "shortcode": "DdqnyUdjmyO",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
+  "last_error": null,
   "next_attempt_at": "2026-09-25T13:08:55.491958+05:30",
   "youtube": {
    "status": "PENDING"
@@ -1720,7 +1723,12 @@
  "s03-brachistochrone": {
   "attempts": 0,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-25T14:01:36.727205+05:30",
+   "caption_verified": true,
+   "media_id": "18143550889590565",
+   "permalink": "https://www.instagram.com/reel/DdtCQlDDOr8/",
+   "shortcode": "DdtCQlDDOr8",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
