@@ -1421,7 +1421,7 @@
   }
  },
  "s02-blocked-laser": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T15:01:30.266728+05:30",
    "caption_verified": true,
@@ -1433,7 +1433,10 @@
   "last_error": null,
   "next_attempt_at": "2026-09-25T13:07:43.679878+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-26T00:00:49.133008+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=4QvuaB1gbSc",
+   "video_id": "4QvuaB1gbSc"
   }
  },
  "s02-gimbal-lock": {
@@ -1475,7 +1478,7 @@
   }
  },
  "s02-meter-loading": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-24T15:32:01.010448+05:30",
    "caption_verified": true,
@@ -1487,7 +1490,10 @@
   "last_error": null,
   "next_attempt_at": "2026-09-25T13:08:55.491958+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-26T00:01:32.956645+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=Qj9sm220B6k",
+   "video_id": "Qj9sm220B6k"
   }
  },
  "s02-mug-scale": {
@@ -1686,7 +1692,7 @@
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   }
  },
  "s02-two-twists": {
@@ -1788,7 +1794,7 @@
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   }
  },
  "s03-depletion": {
