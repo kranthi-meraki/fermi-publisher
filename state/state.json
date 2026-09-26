@@ -2003,13 +2003,21 @@
   }
  },
  "s03-vacuum-rabi": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-26T16:52:04.964940+05:30",
+   "caption_verified": true,
+   "media_id": "18026241032887093",
+   "permalink": "https://www.instagram.com/reel/Ddv6jswCVBU/",
+   "shortcode": "Ddv6jswCVBU",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-26T16:52:52.748483+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=kSVWbD4epak",
+   "video_id": "kSVWbD4epak"
   }
  },
  "s04-flytrap": {
