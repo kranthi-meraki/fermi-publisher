@@ -2053,13 +2053,21 @@
   }
  },
  "s04-ligonoise": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-26T15:01:33.475897+05:30",
+   "caption_verified": true,
+   "media_id": "17976696581922876",
+   "permalink": "https://www.instagram.com/reel/Ddvt6HGEetw/",
+   "shortcode": "Ddvt6HGEetw",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-26T15:03:27.668164+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=bJYIg-7A7PQ",
+   "video_id": "bJYIg-7A7PQ"
   }
  },
  "s04-meissner": {
