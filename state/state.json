@@ -1968,11 +1968,17 @@
   }
  },
  "s03-tidal": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-26T12:11:39.213069+05:30",
+   "caption_verified": true,
+   "media_id": "18021218825718409",
+   "permalink": "https://www.instagram.com/reel/DdvadyloPD1/",
+   "shortcode": "DdvadyloPD1",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
+  "next_attempt_at": "2026-09-26T12:22:47.421205+05:30",
   "youtube": {
    "status": "PENDING"
   }
