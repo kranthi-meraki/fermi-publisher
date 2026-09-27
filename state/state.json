@@ -1918,13 +1918,21 @@
   }
  },
  "s03-nucleation": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-27T14:02:08.084251+05:30",
+   "caption_verified": true,
+   "media_id": "18075747917466322",
+   "permalink": "https://www.instagram.com/reel/DdyL68uF9Ic/",
+   "shortcode": "DdyL68uF9Ic",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-27T14:02:34.809118+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=GsdPuP_fEUk",
+   "video_id": "GsdPuP_fEUk"
   }
  },
  "s03-orange-ice": {
