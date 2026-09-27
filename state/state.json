@@ -1981,13 +1981,21 @@
   }
  },
  "s03-pulse-bandwidth": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-27T17:41:53.454841+05:30",
+   "caption_verified": true,
+   "media_id": "18116762642005650",
+   "permalink": "https://www.instagram.com/reel/DdylEEZD7dW/",
+   "shortcode": "DdylEEZD7dW",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-27T17:42:29.927657+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=9L4qTFSHVuc",
+   "video_id": "9L4qTFSHVuc"
   }
  },
  "s03-supercooled": {
