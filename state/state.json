@@ -2056,13 +2056,21 @@
   }
  },
  "s04-hilbert": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-27T15:02:02.853766+05:30",
+   "caption_verified": true,
+   "media_id": "17867379141659769",
+   "permalink": "https://www.instagram.com/reel/DdySwzkiR64/",
+   "shortcode": "DdySwzkiR64",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-27T15:02:25.354893+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=b8Kuq8gRtN0",
+   "video_id": "b8Kuq8gRtN0"
   }
  },
  "s04-horizon": {
