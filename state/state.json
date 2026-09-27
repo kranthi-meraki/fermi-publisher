@@ -1946,7 +1946,7 @@
   }
  },
  "s03-pair-production": {
-  "attempts": 1,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-27T12:11:31.750166+05:30",
    "caption_verified": true,
@@ -1955,10 +1955,13 @@
    "shortcode": "Ddx_PofD4La",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
-  "next_attempt_at": "2026-09-27T12:22:37.226095+05:30",
+  "last_error": null,
+  "next_attempt_at": "2026-09-27T12:48:32.881030+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-27T12:49:01.992001+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=ClMe_gnbQq4",
+   "video_id": "ClMe_gnbQq4"
   }
  },
  "s03-pulse-bandwidth": {
@@ -2073,13 +2076,21 @@
   }
  },
  "s04-lensdelay": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-27T13:05:59.611283+05:30",
+   "caption_verified": true,
+   "media_id": "18074536769733172",
+   "permalink": "https://www.instagram.com/reel/DdyFfqTkgBb/",
+   "shortcode": "DdyFfqTkgBb",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-27T13:07:14.414146+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=vYLvNjn-hRg",
+   "video_id": "vYLvNjn-hRg"
   }
  },
  "s04-ligonoise": {
