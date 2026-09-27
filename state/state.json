@@ -1946,11 +1946,17 @@
   }
  },
  "s03-pair-production": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-27T12:11:31.750166+05:30",
+   "caption_verified": true,
+   "media_id": "18116286769770627",
+   "permalink": "https://www.instagram.com/reel/Ddx_PofD4La/",
+   "shortcode": "Ddx_PofD4La",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
+  "next_attempt_at": "2026-09-27T12:22:37.226095+05:30",
   "youtube": {
    "status": "PENDING"
   }
