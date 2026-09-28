@@ -2257,13 +2257,22 @@
   }
  },
  "s04-rydberg": {
-  "attempts": 0,
+  "attempts": 2,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-28T16:08:40.927713+05:30",
+   "caption_verified": true,
+   "media_id": "17991363927023338",
+   "permalink": "https://www.instagram.com/reel/Dd0_LMSjV7j/",
+   "shortcode": "Dd0_LMSjV7j",
+   "status": "DONE"
   },
   "last_error": null,
+  "next_attempt_at": "2026-09-28T16:07:32.069738+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-28T16:08:57.687859+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=yNS4pO4Wzlk",
+   "video_id": "yNS4pO4Wzlk"
   }
  },
  "s04-scallop": {
