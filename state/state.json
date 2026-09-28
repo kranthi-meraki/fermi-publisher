@@ -2239,13 +2239,21 @@
   }
  },
  "s04-retrograde": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-28T15:01:08.273349+05:30",
+   "caption_verified": true,
+   "media_id": "17991922635061031",
+   "permalink": "https://www.instagram.com/reel/Dd03dcQDmJ6/",
+   "shortcode": "Dd03dcQDmJ6",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-28T15:01:40.934601+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=uEBvlxj6Y3U",
+   "video_id": "uEBvlxj6Y3U"
   }
  },
  "s04-rydberg": {
