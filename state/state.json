@@ -2324,13 +2324,21 @@
   }
  },
  "s04-szilard": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-28T16:51:05.665971+05:30",
+   "caption_verified": true,
+   "media_id": "18099012905570762",
+   "permalink": "https://www.instagram.com/reel/Dd1ECk8j1de/",
+   "shortcode": "Dd1ECk8j1de",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-28T16:51:30.493266+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=K3eHgdkPTiw",
+   "video_id": "K3eHgdkPTiw"
   }
  },
  "s04-threepolarisers": {
