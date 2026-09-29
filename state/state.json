@@ -2383,13 +2383,21 @@
   }
  },
  "s04-threepolarisers": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-29T15:56:33.889431+05:30",
+   "caption_verified": true,
+   "media_id": "18048023387812624",
+   "permalink": "https://www.instagram.com/reel/Dd3imeMAcaM/",
+   "shortcode": "Dd3imeMAcaM",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-29T15:56:53.635878+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=Jk_1EkFDPJI",
+   "video_id": "Jk_1EkFDPJI"
   }
  },
  "s05-ball-wavelength": {
