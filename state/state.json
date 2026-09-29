@@ -2411,13 +2411,21 @@
   }
  },
  "s05-balloon-lurch": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-29T16:52:39.048372+05:30",
+   "caption_verified": true,
+   "media_id": "18122523427898894",
+   "permalink": "https://www.instagram.com/reel/Dd3pAPdlMa9/",
+   "shortcode": "Dd3pAPdlMa9",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-29T16:53:05.056415+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=nFR8Z2yo9IY",
+   "video_id": "nFR8Z2yo9IY"
   }
  },
  "s05-battery-sag": {
