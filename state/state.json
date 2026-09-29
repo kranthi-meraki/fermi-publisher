@@ -2237,13 +2237,21 @@
   }
  },
  "s04-ratchet": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-29T14:01:40.226952+05:30",
+   "caption_verified": true,
+   "media_id": "18071114369754732",
+   "permalink": "https://www.instagram.com/reel/Dd3VcjLkeyx/",
+   "shortcode": "Dd3VcjLkeyx",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-29T14:02:02.292254+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=Q9pBVhBeewc",
+   "video_id": "Q9pBVhBeewc"
   }
  },
  "s04-retrograde": {
