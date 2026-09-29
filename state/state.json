@@ -2217,13 +2217,21 @@
   }
  },
  "s04-pinecone": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-29T17:41:09.050387+05:30",
+   "caption_verified": true,
+   "media_id": "18117881123289801",
+   "permalink": "https://www.instagram.com/reel/Dd3ukIFEai5/",
+   "shortcode": "Dd3ukIFEai5",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-29T17:41:40.181639+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=bRf3a4pEBjA",
+   "video_id": "bRf3a4pEBjA"
   }
  },
  "s04-quantumparallel": {
