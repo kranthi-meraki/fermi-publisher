@@ -2455,11 +2455,17 @@
   }
  },
  "s05-battery-sag": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-30T17:43:10.943300+05:30",
+   "caption_verified": true,
+   "media_id": "17952045438276710",
+   "permalink": "https://www.instagram.com/reel/Dd6Ti4miHE5/",
+   "shortcode": "Dd6Ti4miHE5",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: workbench: Code did not finish within 180s.\nThe workbench aborted the cell to keep the Jupyter kernel responsive for subsequent requests. Break the task into smaller batches, stream/paginate inputs, or split long-running work across multiple cells.\nUnderlying error: Code execution timed out after 180 seconds. Break the work into smaller batches, stream/paginate the inputs, or split long-running work across m",
+  "next_attempt_at": "2026-09-30T17:56:14.220199+05:30",
   "youtube": {
    "status": "PENDING"
   }
