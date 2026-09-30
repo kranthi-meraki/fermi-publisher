@@ -2308,7 +2308,7 @@
   }
  },
  "s04-scallop": {
-  "attempts": 1,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-30T12:11:12.342950+05:30",
    "caption_verified": true,
@@ -2317,10 +2317,13 @@
    "shortcode": "Dd5tl_pClvT",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-09-30T12:21:13.490901+05:30",
+  "last_error": null,
+  "next_attempt_at": "2026-09-30T12:41:17.904137+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-30T12:41:50.904241+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=fXFvkvUzVnQ",
+   "video_id": "fXFvkvUzVnQ"
   }
  },
  "s04-screening": {
@@ -2415,13 +2418,21 @@
   }
  },
  "s05-ball-wavelength": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-30T13:08:49.461654+05:30",
+   "caption_verified": true,
+   "media_id": "17958826464215015",
+   "permalink": "https://www.instagram.com/reel/Dd50MywDVpP/",
+   "shortcode": "Dd50MywDVpP",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-30T13:09:48.614396+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=0KgBav57img",
+   "video_id": "0KgBav57img"
   }
  },
  "s05-balloon-lurch": {
