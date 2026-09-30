@@ -2495,13 +2495,21 @@
   }
  },
  "s05-drag-arc": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-30T16:51:57.677248+05:30",
+   "caption_verified": true,
+   "media_id": "18140215420617473",
+   "permalink": "https://www.instagram.com/reel/Dd6NuWdCgSN/",
+   "shortcode": "Dd6NuWdCgSN",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-30T16:52:46.824994+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=AnyxodQrdzg",
+   "video_id": "AnyxodQrdzg"
   }
  },
  "s05-generator-drag": {
@@ -2534,7 +2542,7 @@
   }
  },
  "s05-orbit-plane": {
-  "attempts": 3,
+  "attempts": 4,
   "instagram": {
    "at": "2026-09-30T15:14:47.905363+05:30",
    "caption_verified": true,
@@ -2544,7 +2552,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: workbench: Code did not finish within 180s.\nThe workbench aborted the cell to keep the Jupyter kernel responsive for subsequent requests. Break the task into smaller batches, stream/paginate inputs, or split long-running work across multiple cells.\nUnderlying error: Code execution timed out after 180 seconds. Break the work into smaller batches, stream/paginate the inputs, or split long-running work across m",
-  "next_attempt_at": "2026-09-30T16:23:01.599290+05:30",
+  "next_attempt_at": "2026-09-30T17:46:36.239405+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -2570,7 +2578,7 @@
   }
  },
  "s05-pure-water": {
-  "attempts": 1,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-30T15:56:12.921113+05:30",
    "caption_verified": true,
@@ -2579,10 +2587,13 @@
    "shortcode": "Dd6HVqfDbln",
    "status": "DONE"
   },
-  "last_error": "ComposioError: workbench: Code did not finish within 180s.\nThe workbench aborted the cell to keep the Jupyter kernel responsive for subsequent requests. Break the task into smaller batches, stream/paginate inputs, or split long-running work across multiple cells.\nUnderlying error: Code execution timed out after 180 seconds. Break the work into smaller batches, stream/paginate the inputs, or split long-running work across m",
-  "next_attempt_at": "2026-09-30T16:09:19.322236+05:30",
+  "last_error": null,
+  "next_attempt_at": "2026-09-30T16:32:25.693818+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-30T16:32:51.598552+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=n7-HQU3x1q8",
+   "video_id": "n7-HQU3x1q8"
   }
  },
  "s05-same-flux": {
