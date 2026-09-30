@@ -2504,13 +2504,21 @@
   }
  },
  "s05-generator-drag": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-30T14:01:46.428595+05:30",
+   "caption_verified": true,
+   "media_id": "18116538146284549",
+   "permalink": "https://www.instagram.com/reel/Dd56RH1jbSH/",
+   "shortcode": "Dd56RH1jbSH",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-09-30T14:02:25.715493+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=4p4j9lwrUO0",
+   "video_id": "4p4j9lwrUO0"
   }
  },
  "s05-lenz-energy": {
