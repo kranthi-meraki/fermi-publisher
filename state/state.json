@@ -2427,7 +2427,8 @@
    "shortcode": "Dd50MywDVpP",
    "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: workbench: Code did not finish within 180s.\nThe workbench aborted the cell to keep the Jupyter kernel responsive for subsequent requests. Break the task into smaller batches, stream/paginate inputs, or split long-running work across multiple cells.\nUnderlying error: Code execution timed out after 180 seconds. Break the work into smaller batches, stream/paginate the inputs, or split long-running work across m",
+  "next_attempt_at": "2026-09-30T15:32:41.209473+05:30",
   "youtube": {
    "at": "2026-09-30T13:09:48.614396+05:30",
    "status": "DONE",
@@ -2513,7 +2514,8 @@
    "shortcode": "Dd56RH1jbSH",
    "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: workbench: Code did not finish within 180s.\nThe workbench aborted the cell to keep the Jupyter kernel responsive for subsequent requests. Break the task into smaller batches, stream/paginate inputs, or split long-running work across multiple cells.\nUnderlying error: Code execution timed out after 180 seconds. Break the work into smaller batches, stream/paginate the inputs, or split long-running work across m",
+  "next_attempt_at": "2026-09-30T15:35:46.068053+05:30",
   "youtube": {
    "at": "2026-09-30T14:02:25.715493+05:30",
    "status": "DONE",
@@ -2532,7 +2534,7 @@
   }
  },
  "s05-orbit-plane": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-09-30T15:14:47.905363+05:30",
    "caption_verified": true,
@@ -2542,7 +2544,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: workbench: Code did not finish within 180s.\nThe workbench aborted the cell to keep the Jupyter kernel responsive for subsequent requests. Break the task into smaller batches, stream/paginate inputs, or split long-running work across multiple cells.\nUnderlying error: Code execution timed out after 180 seconds. Break the work into smaller batches, stream/paginate the inputs, or split long-running work across m",
-  "next_attempt_at": "2026-09-30T15:37:54.369673+05:30",
+  "next_attempt_at": "2026-09-30T16:23:01.599290+05:30",
   "youtube": {
    "status": "PENDING"
   }
@@ -2568,11 +2570,17 @@
   }
  },
  "s05-pure-water": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-30T15:56:12.921113+05:30",
+   "caption_verified": true,
+   "media_id": "18107186371944866",
+   "permalink": "https://www.instagram.com/reel/Dd6HVqfDbln/",
+   "shortcode": "Dd6HVqfDbln",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: workbench: Code did not finish within 180s.\nThe workbench aborted the cell to keep the Jupyter kernel responsive for subsequent requests. Break the task into smaller batches, stream/paginate inputs, or split long-running work across multiple cells.\nUnderlying error: Code execution timed out after 180 seconds. Break the work into smaller batches, stream/paginate the inputs, or split long-running work across m",
+  "next_attempt_at": "2026-09-30T16:09:19.322236+05:30",
   "youtube": {
    "status": "PENDING"
   }
