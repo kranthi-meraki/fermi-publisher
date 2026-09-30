@@ -2308,11 +2308,17 @@
   }
  },
  "s04-scallop": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-09-30T12:11:12.342950+05:30",
+   "caption_verified": true,
+   "media_id": "18409892101081119",
+   "permalink": "https://www.instagram.com/reel/Dd5tl_pClvT/",
+   "shortcode": "Dd5tl_pClvT",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "next_attempt_at": "2026-09-30T12:21:13.490901+05:30",
   "youtube": {
    "status": "PENDING"
   }
