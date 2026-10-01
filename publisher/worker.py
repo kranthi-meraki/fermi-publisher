@@ -224,7 +224,12 @@ def run(dry_run=False, platforms=("instagram", "youtube")):
 
 def commit_state():
     """Push state back mid-loop so a killed runner loses no record."""
-    for cmd in (["git", "add", "state/state.json"],
+    # Must stage the ACTIVE state and block files, not a hardcoded path: with a
+    # second channel the mid-loop commit was pushing nothing, so a killed
+    # runner lost every record of what it had posted.
+    rel = [os.path.relpath(f, ROOT) for f in (STATE, BLOCK_FILE)
+           if os.path.exists(f)]
+    for cmd in (["git", "add", *rel],
                 ["git", "-c", "user.name=fermi-publisher",
                  "-c", "user.email=bot@users.noreply.github.com",
                  "commit", "-m", f"state: {now_ist().isoformat()}"],
