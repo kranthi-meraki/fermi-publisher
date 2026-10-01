@@ -42,41 +42,57 @@ class Composio:
             body["id"] = self._id
         if params is not None:
             body["params"] = params
+        # The MCP endpoint answers as an SSE stream and KEEPS IT OPEN, padding
+        # with ": connected" keep-alive comments. A plain r.text read therefore
+        # returns a partial body and the JSON comes back truncated. So stream,
+        # accumulate each event's data: lines (one event's payload is their
+        # concatenation), and stop as soon as the reply to THIS request arrives.
         r = requests.post(ENDPOINT, headers=self._headers(), json=body,
-                          timeout=self.timeout)
+                          timeout=self.timeout, stream=True)
         if r.headers.get("mcp-session-id"):
             self.sid = r.headers["mcp-session-id"]
         if notify:
+            r.close()
             return None
         if r.status_code >= 400:
-            raise ComposioError(f"MCP {method} http {r.status_code}: {r.text[:300]}")
-        # SSE framing: one event's payload is the CONCATENATION of all its
-        # "data:" lines, and a large JSON body gets split across several. The
-        # previous version parsed each line on its own, which worked only while
-        # responses stayed small - a media listing from an account with many
-        # long captions splits and then fails with "Unterminated string".
+            txt = r.text[:300]
+            r.close()
+            raise ComposioError(f"MCP {method} http {r.status_code}: {txt}")
+
+        want = body.get("id")
         out = None
         buf = []
-        def _flush(buf, out):
-            if not buf:
-                return out
-            raw = "".join(buf)
+
+        def _parse(chunks):
+            if not chunks:
+                return None
             try:
-                return json.loads(raw)
+                return json.loads("".join(chunks))
             except ValueError:
-                return out           # keep the last good event, ignore noise
-        for line in r.text.splitlines():
-            if line.startswith("data:"):
-                buf.append(line[5:].lstrip() if line[:6] == "data: " else line[5:])
-            elif not line.strip():   # blank line terminates an event
-                out = _flush(buf, out)
+                return None
+
+        try:
+            for raw in r.iter_lines(decode_unicode=True):
+                line = raw if raw is not None else ""
+                if line.startswith("data:"):
+                    buf.append(line[6:] if line.startswith("data: ") else line[5:])
+                    continue
+                if line.strip():          # "event:" / ": comment" / other field
+                    continue
+                msg = _parse(buf)          # blank line ends the event
                 buf = []
-        out = _flush(buf, out)
+                if msg is None:
+                    continue
+                out = msg
+                if want is None or msg.get("id") == want:
+                    break
+            else:
+                out = _parse(buf) or out
+        finally:
+            r.close()
+
         if out is None:
-            try:
-                out = r.json()
-            except ValueError:
-                raise ComposioError(f"MCP {method}: unparseable response {r.text[:300]}")
+            raise ComposioError(f"MCP {method}: no complete SSE event received")
         if "error" in out:
             raise ComposioError(f"MCP {method}: {str(out['error'])[:300]}")
         return out.get("result")
