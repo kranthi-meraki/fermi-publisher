@@ -53,9 +53,16 @@ jobs:
           BLOCK_COOLDOWN_HOURS: "6"
           GRACE_MINUTES: "240"
         run: |
+          # --loop-minutes is what makes this work. GitHub's scheduler drops
+          # most runs - measured on this repo, a */10 cron actually lands about
+          # once every 6-7 hours - so a single-pass run would post roughly
+          # nothing. The run instead stays resident and does its own timing;
+          # the concurrency group keeps one successor queued, so the moment
+          # this run ends the next begins.
           python -m publisher.worker \
-            --platforms instagram \
-            ${{ inputs.dry_run && '--dry-run' || '' }}
+            ${{ (inputs.dry_run && '--dry-run') || '' }} \
+            --loop-minutes ${{ inputs.dry_run && 0 || 345 }} \
+            --platforms instagram
 
       - name: Commit state
         if: always()
