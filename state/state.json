@@ -2502,13 +2502,21 @@
   }
  },
  "s05-damped-door": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-01T15:56:00.200395+05:30",
+   "caption_verified": true,
+   "media_id": "18123305992904256",
+   "permalink": "https://www.instagram.com/reel/Dd8sIB6CTTT/",
+   "shortcode": "Dd8sIB6CTTT",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-01T15:56:23.275375+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=hGVvT1TuDO8",
+   "video_id": "hGVvT1TuDO8"
   }
  },
  "s05-drag-arc": {
