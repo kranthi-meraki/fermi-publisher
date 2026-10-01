@@ -40,11 +40,12 @@
   }
  },
  "charging_discharging_cell": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
    "status": "PENDING"
   },
-  "last_error": null,
+  "last_error": "ComposioError: COMPOSIO_MULTI_EXECUTE_TOOL unreachable: MCP tools/call: no complete SSE event received",
+  "next_attempt_at": "2026-10-02T01:13:05.744396+05:30",
   "youtube": {
    "status": "PENDING"
   }
