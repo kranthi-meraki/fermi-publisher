@@ -117,9 +117,14 @@
   }
  },
  "dipole_torque_energy": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-02T03:06:17.566211+05:30",
+   "caption_verified": true,
+   "media_id": "18127555564698738",
+   "permalink": "https://www.instagram.com/reel/Dd944KND8xr/",
+   "shortcode": "Dd944KND8xr",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
