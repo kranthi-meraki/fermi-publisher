@@ -50,10 +50,28 @@ class Composio:
             return None
         if r.status_code >= 400:
             raise ComposioError(f"MCP {method} http {r.status_code}: {r.text[:300]}")
+        # SSE framing: one event's payload is the CONCATENATION of all its
+        # "data:" lines, and a large JSON body gets split across several. The
+        # previous version parsed each line on its own, which worked only while
+        # responses stayed small - a media listing from an account with many
+        # long captions splits and then fails with "Unterminated string".
         out = None
-        for line in r.text.splitlines():          # SSE framing
-            if line.startswith("data: "):
-                out = json.loads(line[6:])
+        buf = []
+        def _flush(buf, out):
+            if not buf:
+                return out
+            raw = "".join(buf)
+            try:
+                return json.loads(raw)
+            except ValueError:
+                return out           # keep the last good event, ignore noise
+        for line in r.text.splitlines():
+            if line.startswith("data:"):
+                buf.append(line[5:].lstrip() if line[:6] == "data: " else line[5:])
+            elif not line.strip():   # blank line terminates an event
+                out = _flush(buf, out)
+                buf = []
+        out = _flush(buf, out)
         if out is None:
             try:
                 out = r.json()
