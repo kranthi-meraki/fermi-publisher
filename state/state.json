@@ -2474,13 +2474,22 @@
   }
  },
  "s05-bubble-pressure": {
-  "attempts": 0,
+  "attempts": 2,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-01T17:53:23.755185+05:30",
+   "caption_verified": true,
+   "media_id": "18025383698857859",
+   "permalink": "https://www.instagram.com/reel/Dd85jvskm5V/",
+   "shortcode": "Dd85jvskm5V",
+   "status": "DONE"
   },
   "last_error": null,
+  "next_attempt_at": "2026-10-01T17:52:22.293119+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-01T17:53:45.339845+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=kBHksqGnZeQ",
+   "video_id": "kBHksqGnZeQ"
   }
  },
  "s05-cherenkov": {
