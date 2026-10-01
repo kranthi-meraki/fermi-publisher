@@ -1,15 +1,22 @@
 """Instagram Reels publishing, with the guards this account has already needed."""
+import os
 import time
 from .composio_client import Composio, ComposioError
 
-IG_USER_ID = "29611910468397943"          # @fermi.ai
-ACCOUNT = "instagram_johnin-creole"
+# Account is env-driven so one worker can serve more than one channel.
+# Defaults keep the original @fermi.ai job behaving exactly as before.
+IG_USER_ID = os.environ.get("IG_USER_ID", "29611910468397943")   # @fermi.ai
+ACCOUNT = os.environ.get("IG_ACCOUNT", "instagram_johnin-creole")
 
 
-def create_container(cx: Composio, video_url, caption):
-    d = cx.execute("INSTAGRAM_POST_IG_USER_MEDIA", {
-        "ig_user_id": IG_USER_ID, "media_type": "REELS", "share_to_feed": True,
-        "video_url": video_url, "caption": caption}, ACCOUNT)
+def create_container(cx: Composio, video_url, caption, cover_url=None):
+    args = {"ig_user_id": IG_USER_ID, "media_type": "REELS", "share_to_feed": True,
+            "video_url": video_url, "caption": caption}
+    # Without cover_url Instagram picks its own frame. Several of these reels
+    # open on a near-empty frame, so an auto-picked cover is close to blank.
+    if cover_url:
+        args["cover_url"] = cover_url
+    d = cx.execute("INSTAGRAM_POST_IG_USER_MEDIA", args, ACCOUNT)
     cid = d.get("id")
     if not cid:
         raise ComposioError(f"no container id: {str(d)[:200]}")
@@ -51,14 +58,14 @@ def verify_caption(cx: Composio, media_id):
     return d
 
 
-def post_reel(cx: Composio, video_url, caption, log):
+def post_reel(cx: Composio, video_url, caption, log, cover_url=None):
     """Returns (media_id, shortcode, permalink, caption_ok)."""
     existing = already_published(cx, caption)
     if existing:
         log(f"already live as {existing.get('shortcode')} - not reposting")
         mid = existing["id"]
     else:
-        cid = create_container(cx, video_url, caption)
+        cid = create_container(cx, video_url, caption, cover_url)
         log(f"container {cid}")
         for _ in range(40):
             st = container_status(cx, cid)

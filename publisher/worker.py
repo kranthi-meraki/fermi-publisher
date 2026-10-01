@@ -11,8 +11,10 @@ from . import assets, instagram, youtube
 from .schedule import now_ist, IST
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-QUEUE = os.path.join(ROOT, "queue", "queue.jsonl")
-STATE = os.path.join(ROOT, "state", "state.json")
+# Env-driven so a second channel can run from the same worker with its own
+# queue and its own state, without either job seeing the other's posts.
+QUEUE = os.environ.get("QUEUE_FILE") or os.path.join(ROOT, "queue", "queue.jsonl")
+STATE = os.environ.get("STATE_FILE") or os.path.join(ROOT, "state", "state.json")
 
 MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "5"))
 MAX_ATTEMPTS = 4
@@ -23,7 +25,7 @@ MAX_ATTEMPTS = 4
 # 7-14 days. So on code 9 the worker stops publishing entirely for a cooling
 # period rather than working through the queue.
 BLOCK_COOLDOWN_HOURS = int(os.environ.get("BLOCK_COOLDOWN_HOURS", "6"))
-BLOCK_FILE = os.path.join(ROOT, "state", "blocked_until.json")
+BLOCK_FILE = os.environ.get("BLOCK_FILE") or os.path.join(ROOT, "state", "blocked_until.json")
 
 
 def blocked_until():
@@ -169,7 +171,7 @@ def run(dry_run=False, platforms=("instagram", "youtube")):
 
             if "instagram" in wants:
                 mid, shortcode, permalink, cap_ok = instagram.post_reel(
-                    cx, url, it["caption"], log)
+                    cx, url, it["caption"], log, it.get("cover_url"))
                 e["instagram"] = {"status": "DONE", "media_id": mid,
                                   "shortcode": shortcode, "permalink": permalink,
                                   "caption_verified": cap_ok,

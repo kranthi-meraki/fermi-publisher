@@ -1,0 +1,68 @@
+name: Fermi test prep (hourly)
+
+# One reel an hour to @fermitestprep, around the clock.
+#
+# Separate queue and state from the @fermi.ai job so neither sees the other's
+# posts. Same worker, pointed at a different account by env.
+on:
+  schedule:
+    # GitHub cron is UTC only and drops a large share of scheduled runs under
+    # load - measured on this repo at roughly one run per 90 minutes when
+    # asking for four an hour. So we ask often and let the queue decide what
+    # is actually due; a run stays resident and does its own timing, and the
+    # concurrency group keeps one successor queued behind it.
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Plan only, publish nothing"
+        type: boolean
+        default: false
+
+concurrency:
+  group: fermi-testprep       # never let two runs publish at once
+  cancel-in-progress: false
+
+permissions:
+  contents: write             # to commit testprep.json back
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Publish what is due
+        env:
+          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+          # @fermitestprep
+          IG_USER_ID: "28970777185843502"
+          IG_ACCOUNT: "instagram_lealty-hipple"
+          QUEUE_FILE: queue/testprep.jsonl
+          STATE_FILE: state/testprep.json
+          BLOCK_FILE: state/testprep_blocked_until.json
+          # One an hour means at most a couple are ever due at once. Keeping
+          # this low is the main defence against the code 9 action block,
+          # which this account hit twice on 1 Oct at tighter pacing.
+          MAX_PER_RUN: "2"
+          BLOCK_COOLDOWN_HOURS: "6"
+          GRACE_MINUTES: "240"
+        run: |
+          python -m publisher.worker \
+            --platforms instagram \
+            ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Commit state
+        if: always()
+        run: |
+          git config user.name  "fermi-publisher"
+          git config user.email "actions@users.noreply.github.com"
+          git add state/testprep.json state/testprep_blocked_until.json || true
+          git diff --cached --quiet || git commit -m "testprep state $(date -u +%FT%TZ)"
+          git pull --rebase --autostash || true
+          git push || true

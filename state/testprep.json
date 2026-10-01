@@ -1,0 +1,112 @@
+{
+ "angular_linear_momentum": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "charging_discharging_cell": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "dia_para_magnetism": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "dipole_torque_energy": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "forward_reverse_bias": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "gamma_mixture": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "lens_maker_lens_formula": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "pe_reference_level": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "resolving_magnifying_power": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "restitution_e": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "sig_figs_add_multiply": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ }
+}

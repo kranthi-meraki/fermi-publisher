@@ -17,6 +17,11 @@ IST = timezone(timedelta(hours=5, minutes=30))
 # volume, is what triggers Instagram's action block.
 SLOTS = ["12:10", "13:05", "14:00", "15:00", "15:55", "16:50", "17:40"]
 
+# One post an hour, around the clock. Minutes are irregular on purpose: a
+# fixed :00 cadence is the pattern Instagram's action-block heuristics watch
+# for, and burst pacing - not daily volume - is what triggered code 9 here.
+HOURLY = [f"{h:02d}:{m:02d}" for h, m in zip(range(24), [7, 2, 14, 5, 14, 8, 14, 26, 20, 8, 20, 26, 20, 14, 20, 29, 41, 50, 44, 32, 44, 50, 57, 48])]
+
 
 def plan(start, n_items, slots=None, after=None):
     """ISO timestamps for n_items over consecutive days.
