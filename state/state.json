@@ -2606,13 +2606,21 @@
   }
  },
  "s05-same-flux": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-01T13:06:20.846051+05:30",
+   "caption_verified": true,
+   "media_id": "17989737413865067",
+   "permalink": "https://www.instagram.com/reel/Dd8Ys2wgeA5/",
+   "shortcode": "Dd8Ys2wgeA5",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-01T13:07:09.536187+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=e8WSa5oJHZs",
+   "video_id": "e8WSa5oJHZs"
   }
  },
  "s05-sideways-work": {
@@ -2626,7 +2634,7 @@
   }
  },
  "s05-spark-volts": {
-  "attempts": 1,
+  "attempts": 3,
   "instagram": {
    "at": "2026-10-01T12:11:00.910884+05:30",
    "caption_verified": true,
@@ -2635,10 +2643,13 @@
    "shortcode": "Dd8SYEnEftg",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
-  "next_attempt_at": "2026-10-01T12:22:19.801044+05:30",
+  "last_error": null,
+  "next_attempt_at": "2026-10-01T12:43:41.455661+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-01T12:45:16.646194+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=6sXUJkl87U0",
+   "video_id": "6sXUJkl87U0"
   }
  },
  "s05-stiffness-root": {
