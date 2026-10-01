@@ -30,6 +30,7 @@ class Composio:
     def _headers(self):
         h = {"x-consumer-api-key": self.key,
              "Content-Type": "application/json",
+             # JSON first: the SSE variant is only used if the server insists
              "Accept": "application/json, text/event-stream"}
         if self.sid:
             h["mcp-session-id"] = self.sid
@@ -42,57 +43,51 @@ class Composio:
             body["id"] = self._id
         if params is not None:
             body["params"] = params
-        # The MCP endpoint answers as an SSE stream and KEEPS IT OPEN, padding
-        # with ": connected" keep-alive comments. A plain r.text read therefore
-        # returns a partial body and the JSON comes back truncated. So stream,
-        # accumulate each event's data: lines (one event's payload is their
-        # concatenation), and stop as soon as the reply to THIS request arrives.
+        # The MCP endpoint replies either as plain JSON or as an SSE stream
+        # that it KEEPS OPEN, padded with ": connected" keep-alives. Hand-parsing
+        # that stream proved fragile (truncated bodies, events with no trailing
+        # blank line), so: read the whole body with a normal request, then try
+        # JSON first and fall back to pulling the last complete SSE event out of
+        # the text. No reliance on the server closing politely.
         r = requests.post(ENDPOINT, headers=self._headers(), json=body,
-                          timeout=self.timeout, stream=True)
+                          timeout=self.timeout)
         if r.headers.get("mcp-session-id"):
             self.sid = r.headers["mcp-session-id"]
         if notify:
-            r.close()
             return None
         if r.status_code >= 400:
-            txt = r.text[:300]
-            r.close()
-            raise ComposioError(f"MCP {method} http {r.status_code}: {txt}")
+            raise ComposioError(f"MCP {method} http {r.status_code}: {r.text[:300]}")
 
-        want = body.get("id")
+        text = r.text
         out = None
-        buf = []
-
-        def _parse(chunks):
-            if not chunks:
-                return None
-            try:
-                return json.loads("".join(chunks))
-            except ValueError:
-                return None
-
         try:
-            for raw in r.iter_lines(decode_unicode=True):
-                line = raw if raw is not None else ""
+            out = json.loads(text)
+        except ValueError:
+            # SSE: one event's payload is the CONCATENATION of its data: lines.
+            events, buf = [], []
+            for line in text.split("\n"):
+                line = line.rstrip("\r")
                 if line.startswith("data:"):
                     buf.append(line[6:] if line.startswith("data: ") else line[5:])
+                elif not line.strip():
+                    if buf:
+                        events.append("".join(buf)); buf = []
+            if buf:
+                events.append("".join(buf))
+            want = body.get("id")
+            for raw in reversed(events):        # newest complete event first
+                try:
+                    msg = json.loads(raw)
+                except ValueError:
                     continue
-                if line.strip():          # "event:" / ": comment" / other field
-                    continue
-                msg = _parse(buf)          # blank line ends the event
-                buf = []
-                if msg is None:
-                    continue
-                out = msg
                 if want is None or msg.get("id") == want:
+                    out = msg
                     break
-            else:
-                out = _parse(buf) or out
-        finally:
-            r.close()
-
+                if out is None:
+                    out = msg
         if out is None:
-            raise ComposioError(f"MCP {method}: no complete SSE event received")
+            raise ComposioError(
+                f"MCP {method}: unparseable response ({len(text)} bytes): {text[:400]}")
         if "error" in out:
             raise ComposioError(f"MCP {method}: {str(out['error'])[:300]}")
         return out.get("result")
