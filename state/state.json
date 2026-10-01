@@ -2484,13 +2484,21 @@
   }
  },
  "s05-cherenkov": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-01T14:01:10.894489+05:30",
+   "caption_verified": true,
+   "media_id": "18062498267539341",
+   "permalink": "https://www.instagram.com/reel/Dd8e_KcDfDU/",
+   "shortcode": "Dd8e_KcDfDU",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-01T14:02:01.980414+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=W6BpEhgAwdk",
+   "video_id": "W6BpEhgAwdk"
   }
  },
  "s05-damped-door": {
