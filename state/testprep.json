@@ -10,11 +10,12 @@
   }
  },
  "angular_linear_momentum": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "status": "PENDING"
   },
-  "last_error": null,
+  "last_error": "JSONDecodeError: Unterminated string starting at: line 1 column 68 (char 67)",
+  "next_attempt_at": "2026-10-02T00:30:43.057518+05:30",
   "youtube": {
    "status": "PENDING"
   }
