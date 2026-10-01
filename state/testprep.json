@@ -1,5 +1,35 @@
 {
+ "activation-energy": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
  "angular_linear_momentum": {
+  "attempts": 1,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "area-under-a-curve": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "arithmetic-progression": {
   "attempts": 0,
   "instagram": {
    "status": "PENDING"
@@ -19,7 +49,47 @@
    "status": "PENDING"
   }
  },
+ "cube-roots-of-unity": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "de-moivre-s-theorem": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "determinant-vs-matrix": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
  "dia_para_magnetism": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "differentiation-vs-integration": {
   "attempts": 0,
   "instagram": {
    "status": "PENDING"
@@ -39,7 +109,57 @@
    "status": "PENDING"
   }
  },
+ "emf-vs-potential-difference": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "enthalpy-and-hess-s-law": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "first-order-half-life": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
  "forward_reverse_bias": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fundamental-theorem-of-calculus": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "galvanic-cell-vs-electrolytic-cell": {
   "attempts": 0,
   "instagram": {
    "status": "PENDING"
@@ -59,6 +179,46 @@
    "status": "PENDING"
   }
  },
+ "geometric-progression": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "gibbs-free-energy": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "hybridisation-sp-sp2-sp3": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "ionic-bond-vs-covalent-bond": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
  "lens_maker_lens_formula": {
   "attempts": 0,
   "instagram": {
@@ -69,7 +229,57 @@
    "status": "PENDING"
   }
  },
+ "molarity-vs-molality": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "mutually-exclusive-vs-independent-events": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "nth-term-vs-sum-to-n-terms": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
  "pe_reference_level": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "permutation-vs-combination": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "rate-law-and-order-of-reaction": {
   "attempts": 0,
   "instagram": {
    "status": "PENDING"
@@ -99,7 +309,117 @@
    "status": "PENDING"
   }
  },
+ "roots-vs-coefficients": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
  "sig_figs_add_multiply": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "strong-acid-vs-weak-acid": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "structural-isomers-vs-stereoisomers": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "sum-and-product-of-roots": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "the-argand-plane": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "the-discriminant": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "the-galvanic-cell": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "the-nernst-equation": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "the-quadratic-formula": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "vsepr-and-molecular-shape": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "work-vs-power": {
   "attempts": 0,
   "instagram": {
    "status": "PENDING"
