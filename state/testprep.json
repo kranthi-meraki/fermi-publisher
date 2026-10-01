@@ -162,9 +162,14 @@
   }
  },
  "forward_reverse_bias": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-02T04:15:11.966291+05:30",
+   "caption_verified": true,
+   "media_id": "18458726998186101",
+   "permalink": "https://www.instagram.com/reel/Dd-AwsXjeyA/",
+   "shortcode": "Dd-AwsXjeyA",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
