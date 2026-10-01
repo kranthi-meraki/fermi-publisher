@@ -197,9 +197,14 @@
   }
  },
  "gamma_mixture": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-02T05:08:56.119161+05:30",
+   "caption_verified": true,
+   "media_id": "18130273228761474",
+   "permalink": "https://www.instagram.com/reel/Dd-G5ktiJbk/",
+   "shortcode": "Dd-G5ktiJbk",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
