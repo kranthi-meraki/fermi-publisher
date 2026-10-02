@@ -482,9 +482,14 @@
   }
  },
  "the-galvanic-cell": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-02T21:51:36.833489+05:30",
+   "caption_verified": true,
+   "media_id": "18077245328409816",
+   "permalink": "https://www.instagram.com/reel/Dd_5pyCFLTk/",
+   "shortcode": "Dd_5pyCFLTk",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
