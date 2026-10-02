@@ -268,16 +268,19 @@ def loop(minutes, platforms, tick=60):
     log(f"loop mode: working until {deadline.strftime('%H:%M')} IST")
     posted = 0
     while now_ist() < deadline:
-        n_before = sum(1 for v in load_state().values()
-                       if v.get("instagram", {}).get("status") == "DONE")
+        before = load_state()
         try:
             run(False, platforms)
         except Exception:
             traceback.print_exc()
-        n_after = sum(1 for v in load_state().values()
+        after = load_state()
+        posted += sum(1 for v in after.values()
+                      if v.get("instagram", {}).get("status") == "DONE") - \
+                  sum(1 for v in before.values()
                       if v.get("instagram", {}).get("status") == "DONE")
-        if n_after != n_before:
-            posted += n_after - n_before
+        # push failures too, not just posts: a resident run is otherwise
+        # opaque for hours, since live Actions logs are not readable via API
+        if after != before:
             commit_state()
         time.sleep(tick)
     log(f"loop finished; {posted} posted this run")
