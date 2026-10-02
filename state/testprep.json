@@ -256,6 +256,166 @@
    "status": "PENDING"
   }
  },
+ "hi_amplitude_vs_intensity": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "hi_angular_velocity_vs_linear_velocity": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "hi_atomic_mass_vs_mass_number": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "hi_dielectric_constant_vs_dielectric_strength": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "hi_electric_field_shell_vs_potential_shell": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "hi_gas_constant_r_vs_boltzmann_constant_k": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "hi_inelastic_collision_vs_perfectly_inelastic": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "hi_resolving_power_vs_magnifying_power": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "hi_shear_modulus_vs_young_s_modulus": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "hi_slope_of_the_a_x_graph_vs_slope_of_the_v_x_graph": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "hi_stefan_boltzmann_law_vs_newton_s_law_of_cooling": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "hi_torque_on_a_dipole_vs_force_on_a_dipole": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "hi_volume_of_body_vs_volume_of_fluid_displaced": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "hi_work_by_a_spring_vs_change_in_spring_pe": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "hi_work_by_gravity_vs_change_in_gravitational_pe": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "hi_work_by_magnetic_force_vs_work_by_electric_force": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
  "hybridisation-sp-sp2-sp3": {
   "attempts": 1,
   "instagram": {
