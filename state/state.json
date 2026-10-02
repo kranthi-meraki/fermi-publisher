@@ -2618,13 +2618,21 @@
   }
  },
  "s05-plank-walk": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-02T13:23:41.735589+05:30",
+   "caption_verified": true,
+   "media_id": "18342515989254218",
+   "permalink": "https://www.instagram.com/reel/Dd-3LAxgfSi/",
+   "shortcode": "Dd-3LAxgfSi",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-02T13:24:09.769350+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=Jy78CQdYq-A",
+   "video_id": "Jy78CQdYq-A"
   }
  },
  "s05-pure-water": {
@@ -2665,13 +2673,21 @@
   }
  },
  "s05-sideways-work": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-02T14:01:33.658181+05:30",
+   "caption_verified": true,
+   "media_id": "18094997726647337",
+   "permalink": "https://www.instagram.com/reel/Dd_D1ywm12m/",
+   "shortcode": "Dd_D1ywm12m",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-02T14:02:03.635527+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=yxSBULJQ5Fs",
+   "video_id": "yxSBULJQ5Fs"
   }
  },
  "s05-spark-volts": {
@@ -2694,13 +2710,21 @@
   }
  },
  "s05-stiffness-root": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-02T13:24:12.340096+05:30",
+   "caption_verified": true,
+   "media_id": "18218692729354539",
+   "permalink": "https://www.instagram.com/reel/Dd-9i-EDhd3/",
+   "shortcode": "Dd-9i-EDhd3",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-02T13:24:41.835435+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=90YQILn1rMk",
+   "video_id": "90YQILn1rMk"
   }
  },
  "s05-sun-wobble": {
