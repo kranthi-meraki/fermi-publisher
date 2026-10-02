@@ -332,9 +332,14 @@
   }
  },
  "resolving_magnifying_power": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-02T08:22:02.261633+05:30",
+   "caption_verified": true,
+   "media_id": "18103395284004113",
+   "permalink": "https://www.instagram.com/reel/Dd-dALvDZjJ/",
+   "shortcode": "Dd-dALvDZjJ",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
