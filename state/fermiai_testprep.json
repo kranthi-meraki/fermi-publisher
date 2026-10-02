@@ -195,9 +195,14 @@
   }
  },
  "gamma_mixture": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-03T05:06:18.236279+05:30",
+   "caption_verified": true,
+   "media_id": "18624555907012070",
+   "permalink": "https://www.instagram.com/reel/DeArZhdjdM5/",
+   "shortcode": "DeArZhdjdM5",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
