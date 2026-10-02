@@ -160,9 +160,14 @@
   }
  },
  "forward_reverse_bias": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-03T04:40:38.109273+05:30",
+   "caption_verified": true,
+   "media_id": "18355024810170631",
+   "permalink": "https://www.instagram.com/reel/DeAodZGjUPK/",
+   "shortcode": "DeAodZGjUPK",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
