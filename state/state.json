@@ -2866,13 +2866,21 @@
   }
  },
  "s06-mossbauer": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-02T16:51:59.380179+05:30",
+   "caption_verified": true,
+   "media_id": "18079519778381467",
+   "permalink": "https://www.instagram.com/reel/Dd_XUpFkiCy/",
+   "shortcode": "Dd_XUpFkiCy",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-02T16:52:33.714466+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=TqVLkZkSfSg",
+   "video_id": "TqVLkZkSfSg"
   }
  },
  "s06-origin": {
