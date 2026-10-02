@@ -162,9 +162,14 @@
   }
  },
  "first-order-half-life": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-02T18:29:20.194566+05:30",
+   "caption_verified": true,
+   "media_id": "18116528201055974",
+   "permalink": "https://www.instagram.com/reel/Dd_OHsmAt09/",
+   "shortcode": "Dd_OHsmAt09",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
@@ -237,9 +242,14 @@
   }
  },
  "gibbs-free-energy": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-02T18:29:22.409987+05:30",
+   "caption_verified": true,
+   "media_id": "18105985658360936",
+   "permalink": "https://www.instagram.com/reel/Dd_WQZ0Ccl9/",
+   "shortcode": "Dd_WQZ0Ccl9",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
@@ -259,7 +269,7 @@
  "ionic-bond-vs-covalent-bond": {
   "attempts": 0,
   "instagram": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   },
   "last_error": null,
   "youtube": {
@@ -282,9 +292,14 @@
   }
  },
  "molarity-vs-molality": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-02T18:30:30.734032+05:30",
+   "caption_verified": true,
+   "media_id": "18287055673291712",
+   "permalink": "https://www.instagram.com/reel/Dd_eOknAfEs/",
+   "shortcode": "Dd_eOknAfEs",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
