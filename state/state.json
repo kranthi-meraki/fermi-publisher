@@ -2876,13 +2876,21 @@
   }
  },
  "s06-origin": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-02T15:57:13.315875+05:30",
+   "caption_verified": true,
+   "media_id": "18113460692002347",
+   "permalink": "https://www.instagram.com/reel/Dd_RDwxiU2g/",
+   "shortcode": "Dd_RDwxiU2g",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-02T15:57:40.846858+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=XJxwWBZi9-I",
+   "video_id": "XJxwWBZi9-I"
   }
  },
  "s06-oscillator": {
