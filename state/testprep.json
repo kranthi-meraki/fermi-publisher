@@ -357,9 +357,14 @@
   }
  },
  "rate-law-and-order-of-reaction": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-02T19:33:28.785519+05:30",
+   "caption_verified": true,
+   "media_id": "18086291513292876",
+   "permalink": "https://www.instagram.com/reel/Dd_pyXbCh1h/",
+   "shortcode": "Dd_pyXbCh1h",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
