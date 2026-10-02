@@ -54,6 +54,17 @@ def is_action_block(err):
 # Instagram continues unaffected.
 YT_DAILY_CAP = int(os.environ.get("YT_DAILY_CAP", "25"))
 GRACE_MINUTES = int(os.environ.get("GRACE_MINUTES", "240"))
+# A late-starting runner finds several slots due at once and, ticking every
+# minute, would post them back to back - the burst pattern that triggers
+# code 9. With this set, nothing goes out until the last post is this old.
+MIN_GAP_MINUTES = int(os.environ.get("MIN_GAP_MINUTES", "0"))
+
+
+def last_post_at(st):
+    ats = [v["instagram"]["at"] for v in st.values()
+           if v.get("instagram", {}).get("status") == "DONE"
+           and v["instagram"].get("at")]
+    return max(ats) if ats else None
 # Measured on this repo: a */15 cron actually fired once in 70 minutes.
 # GitHub throttles frequent schedules, so the grace window has to be wide
 # enough that a sparse run still catches its slots, and a single run has
@@ -144,6 +155,10 @@ def run(dry_run=False, platforms=("instagram", "youtube")):
     bu = blocked_until()
     if bu and now.isoformat() < bu:
         log(f"action block in force until {bu[:16]} - publishing nothing")
+        return 0
+    last = last_post_at(st)
+    if MIN_GAP_MINUTES and last and \
+            now - now.fromisoformat(last) < timedelta(minutes=MIN_GAP_MINUTES):
         return 0
     todo = due_items(items, st, now, platforms)
     if not todo:

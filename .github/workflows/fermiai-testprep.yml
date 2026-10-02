@@ -1,0 +1,68 @@
+name: Fermi.ai test prep (half-hourly)
+
+# The JEE test-prep reels (fermi-reels-cdn v4 + v5) to @fermi.ai, one every
+# ~30 minutes. Same reels, captions and covers as the @fermitestprep job, but
+# its own queue, state and block file so the two never see each other's posts.
+# Slots avoid the main @fermi.ai queue by 15+ minutes.
+on:
+  schedule:
+    # See testprep.yml: GitHub drops most scheduled runs, so a run stays
+    # resident and does its own timing; the cron only keeps the chain alive.
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Plan only, publish nothing"
+        type: boolean
+        default: false
+
+concurrency:
+  group: fermiai-testprep     # never let two runs publish at once
+  cancel-in-progress: false
+
+permissions:
+  contents: write             # to commit fermiai_testprep.json back
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Publish what is due
+        env:
+          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+          # @fermi.ai
+          IG_USER_ID: "29611910468397943"
+          IG_ACCOUNT: "instagram_johnin-creole"
+          QUEUE_FILE: queue/fermiai_testprep.jsonl
+          STATE_FILE: state/fermiai_testprep.json
+          BLOCK_FILE: state/fermiai_testprep_blocked_until.json
+          # One per pass, and never two within 25 minutes: a late runner
+          # drains its backlog at the 30-minute pace instead of in a burst.
+          MAX_PER_RUN: "1"
+          MIN_GAP_MINUTES: "25"
+          # Never skip a late slot - the gap above already paces catch-up.
+          GRACE_MINUTES: "100000"
+          BLOCK_COOLDOWN_HOURS: "6"
+        run: |
+          python -m publisher.worker \
+            ${{ (inputs.dry_run && '--dry-run') || '' }} \
+            --loop-minutes ${{ inputs.dry_run && 0 || 345 }} \
+            --platforms instagram
+
+      - name: Commit state
+        if: always()
+        run: |
+          git config user.name  "fermi-publisher"
+          git config user.email "actions@users.noreply.github.com"
+          git add state/fermiai_testprep.json || true
+          git add state/fermiai_testprep_blocked_until.json || true
+          git diff --cached --quiet || git commit -m "fermiai-testprep state $(date -u +%FT%TZ)"
+          git pull --rebase --autostash || true
+          git push || true
