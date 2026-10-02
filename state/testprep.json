@@ -252,9 +252,14 @@
   }
  },
  "lens_maker_lens_formula": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-02T06:15:42.594607+05:30",
+   "caption_verified": true,
+   "media_id": "18119545913286774",
+   "permalink": "https://www.instagram.com/reel/Dd-OibIiji-/",
+   "shortcode": "Dd-OibIiji-",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
