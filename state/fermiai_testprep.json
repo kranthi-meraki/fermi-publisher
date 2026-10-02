@@ -90,9 +90,14 @@
   }
  },
  "dia_para_magnetism": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-03T03:49:11.527483+05:30",
+   "caption_verified": true,
+   "media_id": "17974908606138612",
+   "permalink": "https://www.instagram.com/reel/DeAikR7jifZ/",
+   "shortcode": "DeAikR7jifZ",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
