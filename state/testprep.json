@@ -297,9 +297,14 @@
   }
  },
  "pe_reference_level": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-02T07:27:41.663863+05:30",
+   "caption_verified": true,
+   "media_id": "17919696021448202",
+   "permalink": "https://www.instagram.com/reel/Dd-Wx8Ak1K5/",
+   "shortcode": "Dd-Wx8Ak1K5",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
