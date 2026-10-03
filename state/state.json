@@ -2766,13 +2766,21 @@
   }
  },
  "s06-bennu": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-03T15:01:49.526699+05:30",
+   "caption_verified": true,
+   "media_id": "18014769887747483",
+   "permalink": "https://www.instagram.com/reel/DeBvhSvjqQe/",
+   "shortcode": "DeBvhSvjqQe",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-03T15:02:46.751249+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=wcyjFYW-fKA",
+   "video_id": "wcyjFYW-fKA"
   }
  },
  "s06-binarysearch": {
