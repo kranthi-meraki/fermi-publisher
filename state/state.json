@@ -2887,13 +2887,21 @@
   }
  },
  "s06-frostspray": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-03T15:57:03.436455+05:30",
+   "caption_verified": true,
+   "media_id": "17908367289481992",
+   "permalink": "https://www.instagram.com/reel/DeB11CMkhas/",
+   "shortcode": "DeB11CMkhas",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-03T15:57:40.535907+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=XpgFu6PtVlc",
+   "video_id": "XpgFu6PtVlc"
   }
  },
  "s06-meanfreepath": {
