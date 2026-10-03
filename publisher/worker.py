@@ -242,16 +242,37 @@ def commit_state():
     # Must stage the ACTIVE state and block files, not a hardcoded path: with a
     # second channel the mid-loop commit was pushing nothing, so a killed
     # runner lost every record of what it had posted.
-    rel = [os.path.relpath(f, ROOT) for f in (STATE, BLOCK_FILE)
-           if os.path.exists(f)]
-    for cmd in (["git", "add", *rel],
-                ["git", "-c", "user.name=fermi-publisher",
-                 "-c", "user.email=bot@users.noreply.github.com",
-                 "commit", "-m", f"state: {now_ist().isoformat()}"],
-                ["git", "pull", "--rebase", "--autostash", "-q",
-                 "-X", "ours", "origin", "master"],
-                ["git", "push", "-q", "origin", "HEAD:master"]):
-        subprocess.run(cmd, cwd=ROOT, capture_output=True)
+    #
+    # No rebase: a pull --rebase that stopped midway left the checkout detached
+    # on 2 Oct, and every later push from that run failed silently. Each job
+    # owns its state files outright, so take them aside, move onto the remote
+    # tip, put them back, commit, push - and retry if another job got there
+    # first.
+    files = {f: open(f).read() for f in (STATE, BLOCK_FILE) if os.path.exists(f)}
+    rel = [os.path.relpath(f, ROOT) for f in files]
+
+    def git(*a):
+        return subprocess.run(["git", *a], cwd=ROOT, capture_output=True, text=True)
+
+    for attempt in range(3):
+        git("rebase", "--abort")
+        git("fetch", "-q", "origin", "master")
+        git("checkout", "-q", "-B", "master", "origin/master")
+        git("reset", "-q", "--hard", "origin/master")
+        for f, body in files.items():
+            with open(f, "w") as fh:
+                fh.write(body)
+        git("add", *rel)
+        if git("diff", "--cached", "--quiet").returncode == 0:
+            return
+        git("-c", "user.name=fermi-publisher",
+            "-c", "user.email=bot@users.noreply.github.com",
+            "commit", "-q", "-m", f"state: {now_ist().isoformat()}")
+        p = git("push", "-q", "origin", "HEAD:master")
+        if p.returncode == 0:
+            return
+        log(f"state push failed (attempt {attempt + 1}/3): {p.stderr.strip()[:300]}")
+        time.sleep(5 + 10 * attempt)
 
 
 def loop(minutes, platforms, tick=60):
