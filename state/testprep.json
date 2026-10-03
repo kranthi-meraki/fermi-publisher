@@ -4472,9 +4472,14 @@
   }
  },
  "hi_work_by_a_spring_vs_change_in_spring_pe": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-03T10:25:15.391227+05:30",
+   "caption_verified": true,
+   "media_id": "18141912697614636",
+   "permalink": "https://www.instagram.com/reel/DeA3xFDDzFy/",
+   "shortcode": "DeA3xFDDzFy",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
@@ -4499,7 +4504,7 @@
  "hi_work_by_magnetic_force_vs_work_by_electric_force": {
   "attempts": 0,
   "instagram": {
-   "status": "PENDING"
+   "status": "SKIPPED"
   },
   "last_error": null,
   "youtube": {
@@ -4692,9 +4697,14 @@
   }
  },
  "structural-isomers-vs-stereoisomers": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-03T10:25:17.600139+05:30",
+   "caption_verified": true,
+   "media_id": "18636905254007351",
+   "permalink": "https://www.instagram.com/reel/DeA9dEmgP2R/",
+   "shortcode": "DeA9dEmgP2R",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
