@@ -345,9 +345,14 @@
   }
  },
  "restitution_e": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-03T07:44:36.290669+05:30",
+   "caption_verified": true,
+   "media_id": "18039421526830491",
+   "permalink": "https://www.instagram.com/reel/DeA9hGolrVO/",
+   "shortcode": "DeA9hGolrVO",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
