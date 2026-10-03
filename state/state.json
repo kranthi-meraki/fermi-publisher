@@ -2859,13 +2859,21 @@
   }
  },
  "s06-eulerdisk": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-03T16:51:35.912852+05:30",
+   "caption_verified": true,
+   "media_id": "18062002451793649",
+   "permalink": "https://www.instagram.com/reel/DeB8FrLkjFK/",
+   "shortcode": "DeB8FrLkjFK",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-03T16:52:00.928596+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=bYvdJRnteho",
+   "video_id": "bYvdJRnteho"
   }
  },
  "s06-falsepositive": {
