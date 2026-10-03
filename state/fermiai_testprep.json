@@ -160,9 +160,14 @@
   }
  },
  "first-order-half-life": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-03T10:18:14.431785+05:30",
+   "caption_verified": true,
+   "media_id": "18176427061429196",
+   "permalink": "https://www.instagram.com/reel/DeBPFqZgGfx/",
+   "shortcode": "DeBPFqZgGfx",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
