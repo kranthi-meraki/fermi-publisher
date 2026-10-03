@@ -2778,7 +2778,7 @@
   }
  },
  "s06-carnotpower": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-10-03T12:26:30.165272+05:30",
    "caption_verified": true,
@@ -2787,10 +2787,13 @@
    "shortcode": "DeBb-ZJCSaZ",
    "status": "DONE"
   },
-  "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
+  "last_error": null,
   "next_attempt_at": "2026-10-03T12:37:59.463370+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-03T12:38:59.613902+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=erlW4FjDluE",
+   "video_id": "erlW4FjDluE"
   }
  },
  "s06-co2snow": {
