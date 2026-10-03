@@ -2778,9 +2778,9 @@
   }
  },
  "s06-carnotpower": {
-  "attempts": 2,
+  "attempts": 1,
   "instagram": {
-   "at": "2026-10-03T12:11:07.812824+05:30",
+   "at": "2026-10-03T12:26:30.165272+05:30",
    "caption_verified": true,
    "media_id": "18114108293024418",
    "permalink": "https://www.instagram.com/reel/DeBb-ZJCSaZ/",
@@ -2788,7 +2788,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: youtube upload failed: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1068312718386'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uplo",
-  "next_attempt_at": "2026-10-03T12:44:14.786163+05:30",
+  "next_attempt_at": "2026-10-03T12:37:59.463370+05:30",
   "youtube": {
    "status": "PENDING"
   }
