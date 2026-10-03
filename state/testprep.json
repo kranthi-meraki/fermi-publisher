@@ -132,9 +132,14 @@
   }
  },
  "differentiation-vs-integration": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-04T04:06:01.844547+05:30",
+   "caption_verified": true,
+   "media_id": "17977538406123762",
+   "permalink": "https://www.instagram.com/reel/DeDJTfbgeo8/",
+   "shortcode": "DeDJTfbgeo8",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
