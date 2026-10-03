@@ -425,9 +425,14 @@
   }
  },
  "strong-acid-vs-weak-acid": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-03T23:38:06.946181+05:30",
+   "caption_verified": true,
+   "media_id": "18129213580805879",
+   "permalink": "https://www.instagram.com/reel/DeCqoqdCuVy/",
+   "shortcode": "DeCqoqdCuVy",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
