@@ -46,9 +46,14 @@
   }
  },
  "arithmetic-progression": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-04T00:12:57.546378+05:30",
+   "caption_verified": true,
+   "media_id": "18126320833869986",
+   "permalink": "https://www.instagram.com/reel/DeBME2cD9Oz/",
+   "shortcode": "DeBME2cD9Oz",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
