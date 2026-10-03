@@ -370,9 +370,14 @@
   }
  },
  "sig_figs_add_multiply": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-03T08:17:25.219507+05:30",
+   "caption_verified": true,
+   "media_id": "18073296548733825",
+   "permalink": "https://www.instagram.com/reel/DeBBQe-gG1h/",
+   "shortcode": "DeBBQe-gG1h",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
