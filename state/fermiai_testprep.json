@@ -495,9 +495,14 @@
   }
  },
  "the-nernst-equation": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-04T03:00:09.619434+05:30",
+   "caption_verified": true,
+   "media_id": "18000555104797704",
+   "permalink": "https://www.instagram.com/reel/DeDBvSqj5of/",
+   "shortcode": "DeDBvSqj5of",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
