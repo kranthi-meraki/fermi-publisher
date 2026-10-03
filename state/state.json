@@ -2807,13 +2807,21 @@
   }
  },
  "s06-dielectric": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-03T13:06:11.676183+05:30",
+   "caption_verified": true,
+   "media_id": "18011033042970000",
+   "permalink": "https://www.instagram.com/reel/DeBiQtADG-s/",
+   "shortcode": "DeBiQtADG-s",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-03T13:06:28.771120+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=bkOGj7gIg5I",
+   "video_id": "bkOGj7gIg5I"
   }
  },
  "s06-dome": {
