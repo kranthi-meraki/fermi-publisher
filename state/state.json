@@ -2728,13 +2728,21 @@
   }
  },
  "s05-sun-wobble": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-03T14:01:27.438576+05:30",
+   "caption_verified": true,
+   "media_id": "18052856687590381",
+   "permalink": "https://www.instagram.com/reel/DeBonEij9t-/",
+   "shortcode": "DeBonEij9t-",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-03T14:01:51.280454+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=rCP5VYw6WtI",
+   "video_id": "rCP5VYw6WtI"
   }
  },
  "s05-velocity-selector": {
