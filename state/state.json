@@ -2784,13 +2784,21 @@
   }
  },
  "s06-binarysearch": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-03T17:41:05.101383+05:30",
+   "caption_verified": true,
+   "media_id": "18168023833463658",
+   "permalink": "https://www.instagram.com/reel/DeCBvPjDNxr/",
+   "shortcode": "DeCBvPjDNxr",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-03T17:41:29.211156+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=Hx7PM1p37kw",
+   "video_id": "Hx7PM1p37kw"
   }
  },
  "s06-carnotpower": {
