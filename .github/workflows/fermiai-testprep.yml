@@ -1,7 +1,7 @@
-name: Fermi.ai test prep (half-hourly)
+name: Fermi.ai test prep (2-hourly)
 
 # The JEE test-prep reels (fermi-reels-cdn v4 + v5) to @fermi.ai, one every
-# ~30 minutes. Same reels, captions and covers as the @fermitestprep job, but
+# ~2 hours. Same reels, captions and covers as the @fermitestprep job, but
 # its own queue, state and block file so the two never see each other's posts.
 # Slots avoid the main @fermi.ai queue by 15+ minutes.
 on:
@@ -43,10 +43,10 @@ jobs:
           QUEUE_FILE: queue/fermiai_testprep.jsonl
           STATE_FILE: state/fermiai_testprep.json
           BLOCK_FILE: state/fermiai_testprep_blocked_until.json
-          # One per pass, and never two within 25 minutes: a late runner
-          # drains its backlog at the 30-minute pace instead of in a burst.
+          # One per pass, and never two within 100 minutes: a late runner
+          # drains its backlog at the 2-hour pace instead of in a burst.
           MAX_PER_RUN: "1"
-          MIN_GAP_MINUTES: "25"
+          MIN_GAP_MINUTES: "100"
           # Never skip a late slot - the gap above already paces catch-up.
           GRACE_MINUTES: "100000"
           BLOCK_COOLDOWN_HOURS: "6"
