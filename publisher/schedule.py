@@ -52,3 +52,10 @@ def now_ist():
 # Two posts an hour, jittered. 48/day is aggressive for this account -
 # it tripped Instagram's code 9 action block twice on 1 Oct at ~30 posts/day.
 HALF_HOURLY = ['00:04', '00:29', '01:01', '01:26', '01:54', '02:21', '02:56', '03:26', '03:54', '04:26', '04:51', '05:23', '05:53', '06:25', '06:53', '07:18', '07:43', '08:16', '08:46', '09:16', '09:51', '10:16', '10:49', '11:24', '11:51', '12:26', '12:58', '13:30', '13:55', '14:28', '14:55', '15:27', '16:02', '16:32', '16:59', '17:26', '17:54', '18:22', '18:55', '19:23', '19:48', '20:16', '20:43', '21:15', '21:48', '22:21', '22:46', '23:14', '23:44']
+
+
+# One post every ~2 hours, jittered. 12/day. Chosen over 48/day after this
+# account tripped Instagram's code 9 action block twice on 1 Oct, and after
+# the @fermi.ai measurement that 48/day left 91% of posts reaching fewer
+# accounts than the account had followers.
+TWO_HOURLY = ['00:12', '02:00', '04:05', '05:53', '07:48', '09:40', '11:52', '13:52', '15:47', '17:52', '19:40', '21:45', '23:45']
