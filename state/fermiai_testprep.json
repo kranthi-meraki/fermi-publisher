@@ -447,7 +447,7 @@
  "structural-isomers-vs-stereoisomers": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-04T06:22:46.584279+05:30",
+   "at": "2026-10-04T09:28:48.061998+05:30",
    "caption_verified": true,
    "media_id": "18085048505309701",
    "permalink": "https://www.instagram.com/reel/DeDY70KE2RH/",
@@ -530,14 +530,9 @@
   }
  },
  "vsepr-and-molecular-shape": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-04T08:03:31.855800+05:30",
-   "caption_verified": true,
-   "media_id": "17993971256839649",
-   "permalink": "https://www.instagram.com/reel/DeDkeJylScD/",
-   "shortcode": "DeDkeJylScD",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
