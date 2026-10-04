@@ -3102,13 +3102,21 @@
   }
  },
  "s07-delayed-neutrons": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-04T17:41:32.366613+05:30",
+   "caption_verified": true,
+   "media_id": "18636403465045794",
+   "permalink": "https://www.instagram.com/reel/DeEmmDKEcBo/",
+   "shortcode": "DeEmmDKEcBo",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-04T17:42:11.457941+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=Se69lhjlsqw",
+   "video_id": "Se69lhjlsqw"
   }
  },
  "s07-effusion-energy": {
