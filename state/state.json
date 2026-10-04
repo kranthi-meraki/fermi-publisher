@@ -2738,27 +2738,19 @@
   }
  },
  "s05-velocity-selector": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-04T13:06:26.947368+05:30",
-   "caption_verified": true,
-   "media_id": "17907437577488055",
-   "permalink": "https://www.instagram.com/reel/DeEHG5Ejw_F/",
-   "shortcode": "DeEHG5Ejw_F",
-   "status": "DONE"
+   "status": "SKIPPED"
   },
   "last_error": null,
   "youtube": {
-   "at": "2026-10-04T13:07:18.531713+05:30",
-   "status": "DONE",
-   "url": "https://www.youtube.com/watch?v=unwpIqnOniM",
-   "video_id": "unwpIqnOniM"
+   "status": "SKIPPED"
   }
  },
  "s05-water-strider": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-04T15:02:18.527617+05:30",
+   "at": "2026-10-04T17:14:20.665382+05:30",
    "caption_verified": true,
    "media_id": "18132258949674177",
    "permalink": "https://www.instagram.com/reel/DeEUXuzj-po/",
@@ -2767,10 +2759,10 @@
   },
   "last_error": null,
   "youtube": {
-   "at": "2026-10-04T15:02:35.451885+05:30",
+   "at": "2026-10-04T17:14:36.410073+05:30",
    "status": "DONE",
-   "url": "https://www.youtube.com/watch?v=zIM1miVyM6Q",
-   "video_id": "zIM1miVyM6Q"
+   "url": "https://www.youtube.com/watch?v=pKmEMwA3Ch4",
+   "video_id": "pKmEMwA3Ch4"
   }
  },
  "s06-bennu": {
@@ -2831,7 +2823,7 @@
  "s06-co2snow": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-04T14:01:19.585138+05:30",
+   "at": "2026-10-04T17:13:51.862401+05:30",
    "caption_verified": true,
    "media_id": "18112636724037766",
    "permalink": "https://www.instagram.com/reel/DeENZAiDCti/",
@@ -2840,10 +2832,10 @@
   },
   "last_error": null,
   "youtube": {
-   "at": "2026-10-04T14:01:44.268544+05:30",
+   "at": "2026-10-04T17:14:18.139160+05:30",
    "status": "DONE",
-   "url": "https://www.youtube.com/watch?v=qWUdaftm-nk",
-   "video_id": "qWUdaftm-nk"
+   "url": "https://www.youtube.com/watch?v=QFXn89cx318",
+   "video_id": "QFXn89cx318"
   }
  },
  "s06-dielectric": {
@@ -2994,7 +2986,7 @@
  "s06-oscillator": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-04T15:56:43.982499+05:30",
+   "at": "2026-10-04T17:14:38.532307+05:30",
    "caption_verified": true,
    "media_id": "17942621868359243",
    "permalink": "https://www.instagram.com/reel/DeEalq5ARKu/",
@@ -3003,10 +2995,10 @@
   },
   "last_error": null,
   "youtube": {
-   "at": "2026-10-04T15:57:11.159559+05:30",
+   "at": "2026-10-04T17:14:59.889506+05:30",
    "status": "DONE",
-   "url": "https://www.youtube.com/watch?v=1U3Iv4z5dP0",
-   "video_id": "1U3Iv4z5dP0"
+   "url": "https://www.youtube.com/watch?v=jP58h4CyUVY",
+   "video_id": "jP58h4CyUVY"
   }
  },
  "s06-pendulum": {
@@ -3122,7 +3114,7 @@
  "s07-effusion-energy": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-04T16:51:11.456112+05:30",
+   "at": "2026-10-04T17:15:02.748740+05:30",
    "caption_verified": true,
    "media_id": "18027113972884192",
    "permalink": "https://www.instagram.com/reel/DeEg049Disi/",
@@ -3131,10 +3123,10 @@
   },
   "last_error": null,
   "youtube": {
-   "at": "2026-10-04T16:51:37.457966+05:30",
+   "at": "2026-10-04T17:15:32.265291+05:30",
    "status": "DONE",
-   "url": "https://www.youtube.com/watch?v=wq8KTlRCALg",
-   "video_id": "wq8KTlRCALg"
+   "url": "https://www.youtube.com/watch?v=Q0SisFYzI2Y",
+   "video_id": "Q0SisFYzI2Y"
   }
  },
  "s07-fermi-surface": {
