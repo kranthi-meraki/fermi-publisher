@@ -75,9 +75,14 @@
   }
  },
  "cube-roots-of-unity": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-04T20:17:31.516642+05:30",
+   "caption_verified": true,
+   "media_id": "18114230333323066",
+   "permalink": "https://www.instagram.com/reel/DeE4cfbggSz/",
+   "shortcode": "DeE4cfbggSz",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
