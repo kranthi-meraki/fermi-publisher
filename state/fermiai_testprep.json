@@ -32,7 +32,7 @@
  "area-under-a-curve": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-04T12:49:38.925419+05:30",
+   "at": "2026-10-04T15:14:59.501030+05:30",
    "caption_verified": true,
    "media_id": "18111957851466536",
    "permalink": "https://www.instagram.com/reel/DeEFNpZDUBx/",
@@ -90,14 +90,9 @@
   }
  },
  "determinant-vs-matrix": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-04T14:30:42.321772+05:30",
-   "caption_verified": true,
-   "media_id": "17902622430663738",
-   "permalink": "https://www.instagram.com/reel/DeEQvhMH-UX/",
-   "shortcode": "DeEQvhMH-UX",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
