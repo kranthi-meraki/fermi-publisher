@@ -4882,9 +4882,14 @@
   }
  },
  "work-vs-power": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-05T04:07:05.627237+05:30",
+   "caption_verified": true,
+   "media_id": "18601488199067904",
+   "permalink": "https://www.instagram.com/reel/DeFuKfeCrlf/",
+   "shortcode": "DeFuKfeCrlf",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
