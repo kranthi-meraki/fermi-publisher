@@ -30,9 +30,14 @@
   }
  },
  "area-under-a-curve": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-04T12:49:38.925419+05:30",
+   "caption_verified": true,
+   "media_id": "18111957851466536",
+   "permalink": "https://www.instagram.com/reel/DeEFNpZDUBx/",
+   "shortcode": "DeEFNpZDUBx",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
