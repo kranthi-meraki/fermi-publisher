@@ -2738,13 +2738,21 @@
   }
  },
  "s05-velocity-selector": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-04T13:06:26.947368+05:30",
+   "caption_verified": true,
+   "media_id": "17907437577488055",
+   "permalink": "https://www.instagram.com/reel/DeEHG5Ejw_F/",
+   "shortcode": "DeEHG5Ejw_F",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-04T13:07:18.531713+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=unwpIqnOniM",
+   "video_id": "unwpIqnOniM"
   }
  },
  "s05-water-strider": {
