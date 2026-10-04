@@ -4622,9 +4622,14 @@
   }
  },
  "nth-term-vs-sum-to-n-terms": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-04T15:48:28.706675+05:30",
+   "caption_verified": true,
+   "media_id": "18032695820891007",
+   "permalink": "https://www.instagram.com/reel/DeEZsIuCPcT/",
+   "shortcode": "DeEZsIuCPcT",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
