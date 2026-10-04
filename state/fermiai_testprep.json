@@ -90,9 +90,14 @@
   }
  },
  "de-moivre-s-theorem": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-05T02:02:27.017383+05:30",
+   "caption_verified": true,
+   "media_id": "18354954766168771",
+   "permalink": "https://www.instagram.com/reel/DeFf8e-kT22/",
+   "shortcode": "DeFf8e-kT22",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
