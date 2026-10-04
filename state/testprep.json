@@ -4287,9 +4287,14 @@
   }
  },
  "geometric-progression": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-04T11:53:31.460112+05:30",
+   "caption_verified": true,
+   "media_id": "17873140569638478",
+   "permalink": "https://www.instagram.com/reel/DeD-yuXjr79/",
+   "shortcode": "DeD-yuXjr79",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
