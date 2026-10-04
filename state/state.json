@@ -2756,13 +2756,21 @@
   }
  },
  "s05-water-strider": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-04T15:02:18.527617+05:30",
+   "caption_verified": true,
+   "media_id": "18132258949674177",
+   "permalink": "https://www.instagram.com/reel/DeEUXuzj-po/",
+   "shortcode": "DeEUXuzj-po",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-04T15:02:35.451885+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=zIM1miVyM6Q",
+   "video_id": "zIM1miVyM6Q"
   }
  },
  "s06-bennu": {
