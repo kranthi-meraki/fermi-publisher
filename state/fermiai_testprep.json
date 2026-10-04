@@ -47,7 +47,7 @@
  "arithmetic-progression": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-04T18:36:31.644992+05:30",
+   "at": "2026-10-04T21:00:47.752855+05:30",
    "caption_verified": true,
    "media_id": "18106722488195227",
    "permalink": "https://www.instagram.com/reel/DeEs5hZgQwG/",
@@ -75,14 +75,9 @@
   }
  },
  "cube-roots-of-unity": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-04T20:17:31.516642+05:30",
-   "caption_verified": true,
-   "media_id": "18114230333323066",
-   "permalink": "https://www.instagram.com/reel/DeE4cfbggSz/",
-   "shortcode": "DeE4cfbggSz",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
