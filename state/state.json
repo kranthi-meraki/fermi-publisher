@@ -3120,13 +3120,21 @@
   }
  },
  "s07-effusion-energy": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-04T16:51:11.456112+05:30",
+   "caption_verified": true,
+   "media_id": "18027113972884192",
+   "permalink": "https://www.instagram.com/reel/DeEg049Disi/",
+   "shortcode": "DeEg049Disi",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-04T16:51:37.457966+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=wq8KTlRCALg",
+   "video_id": "wq8KTlRCALg"
   }
  },
  "s07-fermi-surface": {
