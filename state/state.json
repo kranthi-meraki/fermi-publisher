@@ -2913,7 +2913,7 @@
   }
  },
  "s06-meanfreepath": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-10-04T12:11:37.294132+05:30",
    "caption_verified": true,
@@ -2922,8 +2922,8 @@
    "shortcode": "DeEA2EvDZEB",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Failed to resolve channel for authenticated user 'me': 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=id&mine=true",
-  "next_attempt_at": "2026-10-04T12:21:38.274590+05:30",
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "next_attempt_at": "2026-10-04T12:41:41.433529+05:30",
   "youtube": {
    "status": "PENDING"
   }
