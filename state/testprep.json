@@ -4652,9 +4652,14 @@
   }
  },
  "permutation-vs-combination": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-04T21:46:15.162498+05:30",
+   "caption_verified": true,
+   "media_id": "18113011226141092",
+   "permalink": "https://www.instagram.com/reel/DeFCnNrjRU5/",
+   "shortcode": "DeFCnNrjRU5",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
