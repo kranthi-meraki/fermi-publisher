@@ -2913,7 +2913,7 @@
   }
  },
  "s06-meanfreepath": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-10-04T12:11:37.294132+05:30",
    "caption_verified": true,
@@ -2922,10 +2922,13 @@
    "shortcode": "DeEA2EvDZEB",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "last_error": null,
   "next_attempt_at": "2026-10-04T12:41:41.433529+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-04T12:43:27.534106+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=WKM0p_B4HnI",
+   "video_id": "WKM0p_B4HnI"
   }
  },
  "s06-mossbauer": {
