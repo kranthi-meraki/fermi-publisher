@@ -4842,9 +4842,14 @@
   }
  },
  "the-quadratic-formula": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-04T23:46:55.570001+05:30",
+   "caption_verified": true,
+   "media_id": "18074663747729252",
+   "permalink": "https://www.instagram.com/reel/DeFQb3BjySu/",
+   "shortcode": "DeFQb3BjySu",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
