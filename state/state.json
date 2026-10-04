@@ -2913,11 +2913,17 @@
   }
  },
  "s06-meanfreepath": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-04T12:11:37.294132+05:30",
+   "caption_verified": true,
+   "media_id": "18344564842252430",
+   "permalink": "https://www.instagram.com/reel/DeEA2EvDZEB/",
+   "shortcode": "DeEA2EvDZEB",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Failed to resolve channel for authenticated user 'me': 403 Client Error: Forbidden for url: https://www.googleapis.com/youtube/v3/channels?part=id&mine=true",
+  "next_attempt_at": "2026-10-04T12:21:38.274590+05:30",
   "youtube": {
    "status": "PENDING"
   }
