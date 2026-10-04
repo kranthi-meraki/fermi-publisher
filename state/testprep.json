@@ -4777,9 +4777,14 @@
   }
  },
  "the-argand-plane": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-04T17:53:15.162798+05:30",
+   "caption_verified": true,
+   "media_id": "18107028557580049",
+   "permalink": "https://www.instagram.com/reel/DeEn9XMii6R/",
+   "shortcode": "DeEn9XMii6R",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
