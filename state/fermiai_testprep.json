@@ -350,9 +350,14 @@
   }
  },
  "mutually-exclusive-vs-independent-events": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-05T06:09:35.693421+05:30",
+   "caption_verified": true,
+   "media_id": "18019256993931272",
+   "permalink": "https://www.instagram.com/reel/DeF8OYgFSkA/",
+   "shortcode": "DeF8OYgFSkA",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
