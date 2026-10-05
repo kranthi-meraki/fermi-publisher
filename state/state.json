@@ -3030,13 +3030,21 @@
   }
  },
  "s06-scallop": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-05T17:42:10.943291+05:30",
+   "caption_verified": true,
+   "media_id": "18027523985879354",
+   "permalink": "https://www.instagram.com/reel/DeHLb9BlgMz/",
+   "shortcode": "DeHLb9BlgMz",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-05T17:42:44.655393+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=EMqCvVq37lY",
+   "video_id": "EMqCvVq37lY"
   }
  },
  "s06-sterngerlach": {
