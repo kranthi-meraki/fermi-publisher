@@ -297,9 +297,14 @@
   }
  },
  "en_and_gate_vs_or_gate": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-05T07:49:23.878760+05:30",
+   "caption_verified": true,
+   "media_id": "18115479436819145",
+   "permalink": "https://www.instagram.com/reel/DeGHqmLinmv/",
+   "shortcode": "DeGHqmLinmv",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
