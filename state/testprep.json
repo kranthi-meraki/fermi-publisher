@@ -4452,9 +4452,14 @@
   }
  },
  "fs_gravitation_15s": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-06T01:34:36.468005+05:30",
+   "caption_verified": true,
+   "media_id": "17904121680576942",
+   "permalink": "https://www.instagram.com/reel/DeIBjZekUbj/",
+   "shortcode": "DeIBjZekUbj",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
