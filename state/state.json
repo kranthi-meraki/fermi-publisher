@@ -3051,13 +3051,21 @@
   }
  },
  "s07-alpha-tunnel": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-05T13:06:59.052273+05:30",
+   "caption_verified": true,
+   "media_id": "18128970073700213",
+   "permalink": "https://www.instagram.com/reel/DeGr9HSDhJF/",
+   "shortcode": "DeGr9HSDhJF",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-05T13:07:29.489992+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=LfDug0s2wkQ",
+   "video_id": "LfDug0s2wkQ"
   }
  },
  "s07-asteroid-spin": {
