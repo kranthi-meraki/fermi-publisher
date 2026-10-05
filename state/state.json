@@ -3155,13 +3155,21 @@
   }
  },
  "s07-fermi-surface": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-05T15:01:34.025128+05:30",
+   "caption_verified": true,
+   "media_id": "17951596206295958",
+   "permalink": "https://www.instagram.com/reel/DeG5GO4DpgC/",
+   "shortcode": "DeG5GO4DpgC",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-05T15:01:52.354320+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=-XvJI90CkjI",
+   "video_id": "-XvJI90CkjI"
   }
  },
  "s07-graphene-massless": {
