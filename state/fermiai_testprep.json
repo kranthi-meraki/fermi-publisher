@@ -400,9 +400,14 @@
   }
  },
  "permutation-vs-combination": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-05T17:40:15.031626+05:30",
+   "caption_verified": true,
+   "media_id": "17903759649665967",
+   "permalink": "https://www.instagram.com/reel/DeHLQh7D2ep/",
+   "shortcode": "DeHLQh7D2ep",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
