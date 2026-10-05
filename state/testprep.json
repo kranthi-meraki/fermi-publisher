@@ -4477,9 +4477,14 @@
   }
  },
  "fs_kinematics_15s": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-06T02:04:16.095053+05:30",
+   "caption_verified": true,
+   "media_id": "18110043956621645",
+   "permalink": "https://www.instagram.com/reel/DeIE9M1gVA0/",
+   "shortcode": "DeIE9M1gVA0",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
