@@ -540,9 +540,14 @@
   }
  },
  "the-discriminant": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-05T15:59:18.678511+05:30",
+   "caption_verified": true,
+   "media_id": "18189972643406061",
+   "permalink": "https://www.instagram.com/reel/DeG_uW8FUzS/",
+   "shortcode": "DeG_uW8FUzS",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
