@@ -4502,9 +4502,14 @@
   }
  },
  "fs_kinetic_theory_15s": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-06T02:38:52.648915+05:30",
+   "caption_verified": true,
+   "media_id": "18344472016269248",
+   "permalink": "https://www.instagram.com/reel/DeII6WNE0Rh/",
+   "shortcode": "DeII6WNE0Rh",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
