@@ -4291,6 +4291,406 @@
    "status": "PENDING"
   }
  },
+ "fs_capacitors": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_capacitors_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_circular_motion": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_circular_motion_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_current_electricity": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_current_electricity_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_electrostatics": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_electrostatics_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_emi_ac": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_emi_ac_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_fluids_elasticity": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_fluids_elasticity_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_gravitation": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_gravitation_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_kinematics": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_kinematics_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_kinetic_theory": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_kinetic_theory_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_magnetism": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_magnetism_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_modern_physics": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_modern_physics_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_momentum_collisions": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_momentum_collisions_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_newton_friction": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_newton_friction_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_ray_optics": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_ray_optics_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_rotational_motion": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_rotational_motion_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_shm": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_shm_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_thermodynamics": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_thermodynamics_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_wave_optics": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_wave_optics_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_waves_sound": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_waves_sound_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_work_energy_power": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
+ "fs_work_energy_power_15s": {
+  "attempts": 0,
+  "instagram": {
+   "status": "PENDING"
+  },
+  "last_error": null,
+  "youtube": {
+   "status": "PENDING"
+  }
+ },
  "fundamental-theorem-of-calculus": {
   "attempts": 1,
   "instagram": {
