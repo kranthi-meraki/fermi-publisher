@@ -460,9 +460,14 @@
   }
  },
  "roots-vs-coefficients": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-05T21:41:09.937949+05:30",
+   "caption_verified": true,
+   "media_id": "18125400188298150",
+   "permalink": "https://www.instagram.com/reel/DeHmy-0Dc69/",
+   "shortcode": "DeHmy-0Dc69",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
