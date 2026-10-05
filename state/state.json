@@ -3032,11 +3032,17 @@
   }
  },
  "s06-sterngerlach": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-05T12:11:21.759340+05:30",
+   "caption_verified": true,
+   "media_id": "18096342848550116",
+   "permalink": "https://www.instagram.com/reel/DeGll8qm7Ey/",
+   "shortcode": "DeGll8qm7Ey",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "next_attempt_at": "2026-10-05T12:21:22.629238+05:30",
   "youtube": {
    "status": "PENDING"
   }
