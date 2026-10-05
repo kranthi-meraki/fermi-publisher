@@ -4352,9 +4352,14 @@
   }
  },
  "fs_current_electricity_15s": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-06T00:00:45.670636+05:30",
+   "caption_verified": true,
+   "media_id": "18012259100763276",
+   "permalink": "https://www.instagram.com/reel/DeH2zZEkq8E/",
+   "shortcode": "DeH2zZEkq8E",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
