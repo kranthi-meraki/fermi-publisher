@@ -630,9 +630,14 @@
   }
  },
  "work-vs-power": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-06T01:03:42.216477+05:30",
+   "caption_verified": true,
+   "media_id": "18052352969802606",
+   "permalink": "https://www.instagram.com/reel/DeH-BsciST8/",
+   "shortcode": "DeH-BsciST8",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
