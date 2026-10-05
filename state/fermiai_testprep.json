@@ -525,9 +525,14 @@
   }
  },
  "the-argand-plane": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-05T13:35:23.264964+05:30",
+   "caption_verified": true,
+   "media_id": "18151262581535416",
+   "permalink": "https://www.instagram.com/reel/DeGvQA5D152/",
+   "shortcode": "DeGvQA5D152",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
