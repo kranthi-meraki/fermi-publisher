@@ -370,9 +370,14 @@
   }
  },
  "nth-term-vs-sum-to-n-terms": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-05T11:54:42.388027+05:30",
+   "caption_verified": true,
+   "media_id": "18028142648913108",
+   "permalink": "https://www.instagram.com/reel/DeGjudEmF5B/",
+   "shortcode": "DeGjudEmF5B",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
