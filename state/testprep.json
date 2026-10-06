@@ -4773,9 +4773,14 @@
   }
  },
  "fs_thermodynamics": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-06T16:15:54.987087+05:30",
+   "caption_verified": true,
+   "media_id": "18100483490261979",
+   "permalink": "https://www.instagram.com/reel/DeIw_DNE0ga/",
+   "shortcode": "DeIw_DNE0ga",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
