@@ -1,0 +1,66 @@
+name: Fermi.ai puzzles (hourly)
+
+# The 28 maths puzzle reels (fermi-reels-cdn puzzles/) to @fermi.ai, one
+# about every hour, with their own covers. Separate queue, state and block
+# file from the other @fermi.ai jobs so none sees the others' posts.
+# Slots keep 15+ minutes clear of both other @fermi.ai queues.
+on:
+  schedule:
+    # See testprep.yml: GitHub drops most scheduled runs, so a run stays
+    # resident and does its own timing; the cron only keeps the chain alive.
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Plan only, publish nothing"
+        type: boolean
+        default: false
+
+concurrency:
+  group: fermiai-puzzles      # never let two runs publish at once
+  cancel-in-progress: false
+
+permissions:
+  contents: write             # to commit fermiai_puzzles.json back
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Publish what is due
+        env:
+          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+          # @fermi.ai
+          IG_USER_ID: "29611910468397943"
+          IG_ACCOUNT: "instagram_johnin-creole"
+          QUEUE_FILE: queue/fermiai_puzzles.jsonl
+          STATE_FILE: state/fermiai_puzzles.json
+          BLOCK_FILE: state/fermiai_puzzles_blocked_until.json
+          # One per pass, and never two within 50 minutes: a late runner
+          # drains its backlog at the hourly pace instead of in a burst.
+          MAX_PER_RUN: "1"
+          MIN_GAP_MINUTES: "50"
+          # Never skip a late slot - the gap above already paces catch-up.
+          GRACE_MINUTES: "100000"
+          BLOCK_COOLDOWN_HOURS: "6"
+        run: |
+          python -m publisher.worker \
+            ${{ (inputs.dry_run && '--dry-run') || '' }} \
+            --loop-minutes ${{ inputs.dry_run && 0 || 345 }} \
+            --platforms instagram
+
+      - name: Commit state
+        if: always()
+        env:
+          STATE_FILE: state/fermiai_puzzles.json
+          BLOCK_FILE: state/fermiai_puzzles_blocked_until.json
+        # same fetch/reset/retry path the worker uses mid-run; a plain
+        # `git pull --rebase` here failed on a detached HEAD and lost state
+        run: python -c "from publisher.worker import commit_state; commit_state()"
