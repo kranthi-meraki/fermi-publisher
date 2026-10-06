@@ -60,9 +60,14 @@
   }
  },
  "pz_corner_circles_in_square": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-06T23:14:48.985237+05:30",
+   "caption_verified": true,
+   "media_id": "18109298294188379",
+   "permalink": "https://www.instagram.com/reel/DeKWWY0F6VZ/",
+   "shortcode": "DeKWWY0F6VZ",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
