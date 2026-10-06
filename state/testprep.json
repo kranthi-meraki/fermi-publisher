@@ -4502,9 +4502,14 @@
   }
  },
  "fs_kinematics": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-06T11:59:48.592896+05:30",
+   "caption_verified": true,
+   "media_id": "18100483490261979",
+   "permalink": "https://www.instagram.com/reel/DeIw_DNE0ga/",
+   "shortcode": "DeIw_DNE0ga",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
