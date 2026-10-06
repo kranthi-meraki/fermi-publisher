@@ -15,9 +15,14 @@
   }
  },
  "pz_arbelos_area": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-06T20:06:45.568834+05:30",
+   "caption_verified": true,
+   "media_id": "18119690506747040",
+   "permalink": "https://www.instagram.com/reel/DeKA1ADDa91/",
+   "shortcode": "DeKA1ADDa91",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
