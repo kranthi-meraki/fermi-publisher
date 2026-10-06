@@ -3256,13 +3256,21 @@
   }
  },
  "s07-johnson-noise": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-06T17:41:51.980949+05:30",
+   "caption_verified": true,
+   "media_id": "18108050831220932",
+   "permalink": "https://www.instagram.com/reel/DeJwNWdm0pt/",
+   "shortcode": "DeJwNWdm0pt",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-06T17:42:19.528727+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=3GyaqACmqU4",
+   "video_id": "3GyaqACmqU4"
   }
  },
  "s07-moire-graphene": {
