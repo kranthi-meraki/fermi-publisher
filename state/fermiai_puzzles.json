@@ -106,9 +106,14 @@
   }
  },
  "pz_dollar_chessboard": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-07T02:20:59.977641+05:30",
+   "caption_verified": true,
+   "media_id": "18023972813865177",
+   "permalink": "https://www.instagram.com/reel/DeKrp8HimS_/",
+   "shortcode": "DeKrp8HimS_",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
