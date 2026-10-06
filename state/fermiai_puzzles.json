@@ -45,9 +45,14 @@
   }
  },
  "pz_coin_rotations": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-06T22:14:05.880242+05:30",
+   "caption_verified": true,
+   "media_id": "17874582342585074",
+   "permalink": "https://www.instagram.com/reel/DeKPaHjkbpB/",
+   "shortcode": "DeKPaHjkbpB",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
