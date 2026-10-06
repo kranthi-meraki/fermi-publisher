@@ -4294,7 +4294,7 @@
  "fs_capacitors": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-06T08:29:01.850517+05:30",
+   "at": "2026-10-06T10:16:35.217598+05:30",
    "caption_verified": true,
    "media_id": "18100483490261979",
    "permalink": "https://www.instagram.com/reel/DeIw_DNE0ga/",
@@ -4322,14 +4322,9 @@
   }
  },
  "fs_circular_motion": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-06T08:57:07.373664+05:30",
-   "caption_verified": true,
-   "media_id": "18100483490261979",
-   "permalink": "https://www.instagram.com/reel/DeIw_DNE0ga/",
-   "shortcode": "DeIw_DNE0ga",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -4352,14 +4347,9 @@
   }
  },
  "fs_current_electricity": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-06T09:29:12.200954+05:30",
-   "caption_verified": true,
-   "media_id": "18100483490261979",
-   "permalink": "https://www.instagram.com/reel/DeIw_DNE0ga/",
-   "shortcode": "DeIw_DNE0ga",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -4382,14 +4372,9 @@
   }
  },
  "fs_electrostatics": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-06T10:03:17.427072+05:30",
-   "caption_verified": true,
-   "media_id": "18100483490261979",
-   "permalink": "https://www.instagram.com/reel/DeIw_DNE0ga/",
-   "shortcode": "DeIw_DNE0ga",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -4800,7 +4785,7 @@
  "fs_work_energy_power_15s": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-06T08:02:31.500579+05:30",
+   "at": "2026-10-06T10:16:33.229400+05:30",
    "caption_verified": true,
    "media_id": "18120908713923989",
    "permalink": "https://www.instagram.com/reel/DeIt8hACpOd/",
