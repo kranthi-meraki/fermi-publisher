@@ -3085,13 +3085,21 @@
   }
  },
  "s07-asteroid-spin": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-06T15:02:44.848238+05:30",
+   "caption_verified": true,
+   "media_id": "18623776744053903",
+   "permalink": "https://www.instagram.com/reel/DeJd_u7EQMB/",
+   "shortcode": "DeJd_u7EQMB",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-06T15:03:34.163474+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=QXXr8cq-Nn8",
+   "video_id": "QXXr8cq-Nn8"
   }
  },
  "s07-butterfly-blue": {
