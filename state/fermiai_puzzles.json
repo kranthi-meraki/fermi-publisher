@@ -90,11 +90,16 @@
   }
  },
  "pz_cube_hexagon_section": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-07T01:29:09.686660+05:30",
+   "caption_verified": true,
+   "media_id": "18097343687549513",
+   "permalink": "https://www.instagram.com/reel/DeKlsreiuvc/",
+   "shortcode": "DeKlsreiuvc",
+   "status": "DONE"
   },
-  "last_error": "ComposioError: COMPOSIO_MULTI_EXECUTE_TOOL unreachable: MCP tools/call http 502: {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-502/\",\"title\":\"Error 502: Bad gateway\",\"status\":502,\"detail\":\"The origin web server returned an invalid or incomplete response to Cloudflare. This typically indicates the origin is overlo",
+  "last_error": null,
   "next_attempt_at": "2026-10-07T01:28:05.624013+05:30",
   "youtube": {
    "status": "PENDING"
