@@ -75,9 +75,14 @@
   }
  },
  "pz_crossed_ladders": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-07T00:16:33.515003+05:30",
+   "caption_verified": true,
+   "media_id": "18076417901448640",
+   "permalink": "https://www.instagram.com/reel/DeKdaqyiv73/",
+   "shortcode": "DeKdaqyiv73",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
