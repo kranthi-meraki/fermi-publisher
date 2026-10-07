@@ -137,9 +137,9 @@
   }
  },
  "pz_hands_clock_angle": {
-  "attempts": 4,
+  "attempts": 1,
   "instagram": {
-   "at": "2026-10-07T06:15:51.497705+05:30",
+   "at": "2026-10-07T06:27:14.325702+05:30",
    "caption_verified": true,
    "media_id": "18116731586516712",
    "permalink": "https://www.instagram.com/reel/DeK_0A4iWY5/",
@@ -147,20 +147,14 @@
    "status": "DONE"
   },
   "last_error": null,
-  "next_attempt_at": "2026-10-07T05:57:02.654022+05:30",
   "youtube": {
    "status": "PENDING"
   }
  },
  "pz_incircle_345": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-07T05:23:44.593067+05:30",
-   "caption_verified": true,
-   "media_id": "18113075954277339",
-   "permalink": "https://www.instagram.com/reel/DeLAkqbk-f4/",
-   "shortcode": "DeLAkqbk-f4",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
