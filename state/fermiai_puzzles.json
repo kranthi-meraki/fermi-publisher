@@ -212,9 +212,14 @@
   }
  },
  "pz_paper_fold_crease": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-07T14:42:38.508167+05:30",
+   "caption_verified": true,
+   "media_id": "18177910972436509",
+   "permalink": "https://www.instagram.com/reel/DeLrldoCDdn/",
+   "shortcode": "DeLrldoCDdn",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
