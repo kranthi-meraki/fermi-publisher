@@ -573,9 +573,14 @@
   }
  },
  "en_balanced_bridge_vs_unbalanced_bridge": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-08T04:06:24.838271+05:30",
+   "caption_verified": true,
+   "media_id": "18430729993146035",
+   "permalink": "https://www.instagram.com/reel/DeNch8-D48A/",
+   "shortcode": "DeNch8-D48A",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
