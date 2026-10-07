@@ -259,7 +259,7 @@
  "pz_rectangle_quarter_circle": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-07T21:19:30.709984+05:30",
+   "at": "2026-10-07T23:43:19.978154+05:30",
    "caption_verified": true,
    "media_id": "18104533208217128",
    "permalink": "https://www.instagram.com/reel/DeMSIO9j6cl/",
@@ -272,14 +272,9 @@
   }
  },
  "pz_rotated_square_overlap": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-07T22:10:16.014301+05:30",
-   "caption_verified": true,
-   "media_id": "17961278274241493",
-   "permalink": "https://www.instagram.com/reel/DeMzwOuCSIY/",
-   "shortcode": "DeMzwOuCSIY",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -287,14 +282,9 @@
   }
  },
  "pz_routh_one_third": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-07T23:01:01.260911+05:30",
-   "caption_verified": true,
-   "media_id": "17956135677255835",
-   "permalink": "https://www.instagram.com/reel/DeM5kbAiIyM/",
-   "shortcode": "DeM5kbAiIyM",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
