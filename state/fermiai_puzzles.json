@@ -199,11 +199,11 @@
  "pz_lens_two_circles": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-07T13:52:34.840363+05:30",
+   "at": "2026-10-07T17:58:35.504854+05:30",
    "caption_verified": true,
-   "media_id": "18115217585004520",
-   "permalink": "https://www.instagram.com/reel/DeLXUgFFPuE/",
-   "shortcode": "DeLXUgFFPuE",
+   "media_id": "18110588516049842",
+   "permalink": "https://www.instagram.com/reel/DeMW9UBj_ng/",
+   "shortcode": "DeMW9UBj_ng",
    "status": "DONE"
   },
   "last_error": null,
@@ -212,14 +212,9 @@
   }
  },
  "pz_paper_fold_crease": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-07T14:42:38.508167+05:30",
-   "caption_verified": true,
-   "media_id": "18177910972436509",
-   "permalink": "https://www.instagram.com/reel/DeLrldoCDdn/",
-   "shortcode": "DeLrldoCDdn",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -227,14 +222,9 @@
   }
  },
  "pz_pizza_cuts": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-07T15:34:01.712028+05:30",
-   "caption_verified": true,
-   "media_id": "17935533696400432",
-   "permalink": "https://www.instagram.com/reel/DeMGZ0JineJ/",
-   "shortcode": "DeMGZ0JineJ",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -242,14 +232,9 @@
   }
  },
  "pz_pompeiu_triangle": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-07T16:24:52.834427+05:30",
-   "caption_verified": true,
-   "media_id": "17960477544250500",
-   "permalink": "https://www.instagram.com/reel/DeMMOI8Ahhr/",
-   "shortcode": "DeMMOI8Ahhr",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -257,14 +242,9 @@
   }
  },
  "pz_rectangle_quarter_circle": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-07T17:16:22.190065+05:30",
-   "caption_verified": true,
-   "media_id": "18104533208217128",
-   "permalink": "https://www.instagram.com/reel/DeMSIO9j6cl/",
-   "shortcode": "DeMSIO9j6cl",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
