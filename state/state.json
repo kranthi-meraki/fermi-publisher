@@ -3344,7 +3344,7 @@
   }
  },
  "s07-synchrotron-cone": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-10-07T12:11:28.777918+05:30",
    "caption_verified": true,
@@ -3353,10 +3353,13 @@
    "shortcode": "DeLvMvEiPvS",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "last_error": null,
   "next_attempt_at": "2026-10-07T12:41:33.583096+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-07T12:42:25.762831+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=McEHfjys8Vs",
+   "video_id": "McEHfjys8Vs"
   }
  },
  "s07-waveguide-slow": {
