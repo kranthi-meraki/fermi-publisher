@@ -3404,13 +3404,21 @@
   }
  },
  "s08-aharonov": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-07T17:41:14.947132+05:30",
+   "caption_verified": true,
+   "media_id": "18119584021877599",
+   "permalink": "https://www.instagram.com/reel/DeMU9OQDo9O/",
+   "shortcode": "DeMU9OQDo9O",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-07T17:41:38.369456+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=RhQzy-U90XE",
+   "video_id": "RhQzy-U90XE"
   }
  },
  "s08-aliasing": {
