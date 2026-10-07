@@ -468,9 +468,14 @@
   }
  },
  "en_average_of_u_and_v_vs_average_velocity": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-07T19:41:08.672983+05:30",
+   "caption_verified": true,
+   "media_id": "17976089517136559",
+   "permalink": "https://www.instagram.com/reel/DeMisXTj6XZ/",
+   "shortcode": "DeMisXTj6XZ",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
