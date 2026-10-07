@@ -513,9 +513,14 @@
   }
  },
  "en_axial_field_vs_equatorial_field": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-07T21:46:18.935136+05:30",
+   "caption_verified": true,
+   "media_id": "17877924609628081",
+   "permalink": "https://www.instagram.com/reel/DeMxAkrDq0v/",
+   "shortcode": "DeMxAkrDq0v",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
