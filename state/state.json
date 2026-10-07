@@ -3292,13 +3292,21 @@
   }
  },
  "s07-pancake-field": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-07T16:51:49.496080+05:30",
+   "caption_verified": true,
+   "media_id": "18095346407393937",
+   "permalink": "https://www.instagram.com/reel/DeMPRrmioeS/",
+   "shortcode": "DeMPRrmioeS",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-07T16:52:23.824487+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=6kLJ3S4LR98",
+   "video_id": "6kLJ3S4LR98"
   }
  },
  "s07-proton-mass": {
