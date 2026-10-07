@@ -242,9 +242,14 @@
   }
  },
  "pz_pompeiu_triangle": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-07T16:24:52.834427+05:30",
+   "caption_verified": true,
+   "media_id": "17960477544250500",
+   "permalink": "https://www.instagram.com/reel/DeMMOI8Ahhr/",
+   "shortcode": "DeMMOI8Ahhr",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
