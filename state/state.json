@@ -3324,13 +3324,21 @@
   }
  },
  "s07-silicon-dark": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-07T15:01:55.883884+05:30",
+   "caption_verified": true,
+   "media_id": "18130536010703149",
+   "permalink": "https://www.instagram.com/reel/DeMCsvrD2qk/",
+   "shortcode": "DeMCsvrD2qk",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-07T15:02:21.986315+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=5n5AwQLbZNo",
+   "video_id": "5n5AwQLbZNo"
   }
  },
  "s07-stm-tunnelling": {
