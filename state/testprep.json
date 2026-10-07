@@ -478,9 +478,14 @@
   }
  },
  "en_average_power_vs_instantaneous_power": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-07T15:47:42.942152+05:30",
+   "caption_verified": true,
+   "media_id": "18115527119088393",
+   "permalink": "https://www.instagram.com/reel/DeMH_EnCvcQ/",
+   "shortcode": "DeMH_EnCvcQ",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
