@@ -287,9 +287,14 @@
   }
  },
  "pz_routh_one_third": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-07T23:01:01.260911+05:30",
+   "caption_verified": true,
+   "media_id": "17956135677255835",
+   "permalink": "https://www.instagram.com/reel/DeM5kbAiIyM/",
+   "shortcode": "DeM5kbAiIyM",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
