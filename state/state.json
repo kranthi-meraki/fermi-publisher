@@ -3363,13 +3363,21 @@
   }
  },
  "s07-waveguide-slow": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-07T13:06:32.537259+05:30",
+   "caption_verified": true,
+   "media_id": "18116070290108518",
+   "permalink": "https://www.instagram.com/reel/DeL1fb6iqD7/",
+   "shortcode": "DeL1fb6iqD7",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-07T13:07:19.003440+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=VZoi32D3vrI",
+   "video_id": "VZoi32D3vrI"
   }
  },
  "s08-aharonov": {
