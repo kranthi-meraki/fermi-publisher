@@ -227,9 +227,14 @@
   }
  },
  "pz_pizza_cuts": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-07T19:39:21.204495+05:30",
+   "caption_verified": true,
+   "media_id": "17935533696400432",
+   "permalink": "https://www.instagram.com/reel/DeMGZ0JineJ/",
+   "shortcode": "DeMGZ0JineJ",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
