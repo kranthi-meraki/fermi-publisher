@@ -528,9 +528,14 @@
   }
  },
  "en_b_at_center_of_loop_vs_b_at_axis_of_loop": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-08T00:12:55.809233+05:30",
+   "caption_verified": true,
+   "media_id": "18069076841772965",
+   "permalink": "https://www.instagram.com/reel/DeNByqqEQhl/",
+   "shortcode": "DeNByqqEQhl",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
