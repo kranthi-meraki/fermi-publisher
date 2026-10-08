@@ -319,11 +319,11 @@
  "pz_square_on_hypotenuse": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-08T03:05:15.612340+05:30",
+   "at": "2026-10-08T05:30:34.248474+05:30",
    "caption_verified": true,
-   "media_id": "18112498454465476",
-   "permalink": "https://www.instagram.com/reel/DeNVg31nCnr/",
-   "shortcode": "DeNVg31nCnr",
+   "media_id": "18115182098099427",
+   "permalink": "https://www.instagram.com/reel/DeNmJICjrG-/",
+   "shortcode": "DeNmJICjrG-",
    "status": "DONE"
   },
   "last_error": null,
@@ -332,14 +332,9 @@
   }
  },
  "pz_star_hexagon_ratio": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-08T03:56:06.904446+05:30",
-   "caption_verified": true,
-   "media_id": "18168062692426247",
-   "permalink": "https://www.instagram.com/reel/DeNbUy1Al9M/",
-   "shortcode": "DeNbUy1Al9M",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -347,14 +342,9 @@
   }
  },
  "pz_tangent_circles_chord": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-08T04:46:52.730811+05:30",
-   "caption_verified": true,
-   "media_id": "18095261945445233",
-   "permalink": "https://www.instagram.com/reel/DeNhJMTCpGe/",
-   "shortcode": "DeNhJMTCpGe",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
