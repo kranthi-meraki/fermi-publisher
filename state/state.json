@@ -3346,13 +3346,21 @@
   }
  },
  "s07-second-law-odds": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-08T16:52:24.522349+05:30",
+   "caption_verified": true,
+   "media_id": "18248311102309672",
+   "permalink": "https://www.instagram.com/reel/DeO0JaFDsiP/",
+   "shortcode": "DeO0JaFDsiP",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-08T16:52:41.795025+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=SFI-7nJQfm4",
+   "video_id": "SFI-7nJQfm4"
   }
  },
  "s07-silicon-dark": {
