@@ -3328,13 +3328,21 @@
   }
  },
  "s07-reciprocal-spots": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-08T15:56:24.661549+05:30",
+   "caption_verified": true,
+   "media_id": "18114244484164547",
+   "permalink": "https://www.instagram.com/reel/DeOtwEWAK3c/",
+   "shortcode": "DeOtwEWAK3c",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-08T15:56:46.325203+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=GWm7KVGtOgQ",
+   "video_id": "GWm7KVGtOgQ"
   }
  },
  "s07-second-law-odds": {
