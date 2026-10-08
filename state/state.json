@@ -3467,13 +3467,21 @@
   }
  },
  "s08-cherenkov": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-08T14:01:45.402820+05:30",
+   "caption_verified": true,
+   "media_id": "18335495836275989",
+   "permalink": "https://www.instagram.com/reel/DeOgnzBD9dR/",
+   "shortcode": "DeOgnzBD9dR",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-08T14:02:25.510237+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=MY2rS1ydAr8",
+   "video_id": "MY2rS1ydAr8"
   }
  },
  "s08-evanescent": {
