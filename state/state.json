@@ -3310,13 +3310,21 @@
   }
  },
  "s07-proton-mass": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-08T13:06:33.367782+05:30",
+   "caption_verified": true,
+   "media_id": "18465354880189050",
+   "permalink": "https://www.instagram.com/reel/DeOaS6LCo06/",
+   "shortcode": "DeOaS6LCo06",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-08T13:06:48.544379+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=banQ2V--868",
+   "video_id": "banQ2V--868"
   }
  },
  "s07-reciprocal-spots": {
