@@ -663,9 +663,14 @@
   }
  },
  "en_beta_minus_decay_vs_beta_plus_decay": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-08T15:48:15.093968+05:30",
+   "caption_verified": true,
+   "media_id": "18134741491639566",
+   "permalink": "https://www.instagram.com/reel/DeOs1tbDziO/",
+   "shortcode": "DeOs1tbDziO",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
