@@ -618,9 +618,14 @@
   }
  },
  "en_bar_magnet_field_vs_solenoid_field": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-08T09:41:50.276940+05:30",
+   "caption_verified": true,
+   "media_id": "18189852829406274",
+   "permalink": "https://www.instagram.com/reel/DeOC6KGEXzp/",
+   "shortcode": "DeOC6KGEXzp",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
