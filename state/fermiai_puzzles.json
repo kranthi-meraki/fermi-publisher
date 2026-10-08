@@ -349,11 +349,11 @@
  "pz_tangent_circles_chord": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-08T12:04:42.210969+05:30",
+   "at": "2026-10-08T17:01:41.079204+05:30",
    "caption_verified": true,
-   "media_id": "18095261945445233",
-   "permalink": "https://www.instagram.com/reel/DeNhJMTCpGe/",
-   "shortcode": "DeNhJMTCpGe",
+   "media_id": "18383384791238460",
+   "permalink": "https://www.instagram.com/reel/DeO1PQ-EidM/",
+   "shortcode": "DeO1PQ-EidM",
    "status": "DONE"
   },
   "last_error": null,
@@ -362,14 +362,9 @@
   }
  },
  "pz_three_unit_circles_gap": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-08T12:54:46.701213+05:30",
-   "caption_verified": true,
-   "media_id": "18479914231112817",
-   "permalink": "https://www.instagram.com/reel/DeN3a01gLy_/",
-   "shortcode": "DeN3a01gLy_",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -377,14 +372,9 @@
   }
  },
  "pz_trapezoid_diagonals": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-08T13:44:51.865317+05:30",
-   "caption_verified": true,
-   "media_id": "18118651903923011",
-   "permalink": "https://www.instagram.com/reel/DeN9UMhkdJS/",
-   "shortcode": "DeN9UMhkdJS",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -392,14 +382,9 @@
   }
  },
  "pz_triangle_13_14_15": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-08T14:34:56.364456+05:30",
-   "caption_verified": true,
-   "media_id": "18151974001544947",
-   "permalink": "https://www.instagram.com/reel/DeODHXWlY9g/",
-   "shortcode": "DeODHXWlY9g",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -407,14 +392,9 @@
   }
  },
  "pz_two_quarter_circles_lens": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-08T15:26:29.618741+05:30",
-   "caption_verified": true,
-   "media_id": "18116317607667211",
-   "permalink": "https://www.instagram.com/reel/DeOqWl4jSjq/",
-   "shortcode": "DeOqWl4jSjq",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
