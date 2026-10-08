@@ -648,9 +648,14 @@
   }
  },
  "en_beat_frequency_vs_average_frequency": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-08T13:53:25.515391+05:30",
+   "caption_verified": true,
+   "media_id": "18065730044783551",
+   "permalink": "https://www.instagram.com/reel/DeOftX4gJE0/",
+   "shortcode": "DeOftX4gJE0",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
