@@ -362,9 +362,14 @@
   }
  },
  "pz_three_unit_circles_gap": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-08T17:52:24.679961+05:30",
+   "caption_verified": true,
+   "media_id": "18632958553054585",
+   "permalink": "https://www.instagram.com/reel/DeO7Cvdjqtk/",
+   "shortcode": "DeO7Cvdjqtk",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
