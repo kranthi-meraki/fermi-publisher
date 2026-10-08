@@ -588,9 +588,14 @@
   }
  },
  "en_balanced_forces_vs_action_reaction_pair": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-08T05:54:01.087832+05:30",
+   "caption_verified": true,
+   "media_id": "18244281019311175",
+   "permalink": "https://www.instagram.com/reel/DeNo2F2gCh5/",
+   "shortcode": "DeNo2F2gCh5",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
