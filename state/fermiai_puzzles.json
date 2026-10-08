@@ -392,9 +392,14 @@
   }
  },
  "pz_triangle_13_14_15": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-08T19:33:52.069563+05:30",
+   "caption_verified": true,
+   "media_id": "18630862477028326",
+   "permalink": "https://www.instagram.com/reel/DePGpzQiNrD/",
+   "shortcode": "DePGpzQiNrD",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
