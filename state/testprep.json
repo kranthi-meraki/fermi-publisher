@@ -708,11 +708,12 @@
   }
  },
  "en_boiling_vs_evaporation": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
    "status": "PENDING"
   },
-  "last_error": null,
+  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA failed: Instagram API error (status 500): An unexpected error has occurred. Please retry your request later.",
+  "next_attempt_at": "2026-10-08T22:32:41.982245+05:30",
   "youtube": {
    "status": "PENDING"
   }
