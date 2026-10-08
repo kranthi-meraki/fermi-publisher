@@ -394,7 +394,7 @@
  "pz_triangle_13_14_15": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-08T19:33:52.069563+05:30",
+   "at": "2026-10-08T22:46:56.689245+05:30",
    "caption_verified": true,
    "media_id": "18630862477028326",
    "permalink": "https://www.instagram.com/reel/DePGpzQiNrD/",
@@ -407,14 +407,9 @@
   }
  },
  "pz_two_quarter_circles_lens": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-08T20:24:30.653716+05:30",
-   "caption_verified": true,
-   "media_id": "18117858287056060",
-   "permalink": "https://www.instagram.com/reel/DePMdXDlI-3/",
-   "shortcode": "DePMdXDlI-3",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
