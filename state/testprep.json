@@ -708,11 +708,16 @@
   }
  },
  "en_boiling_vs_evaporation": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-08T22:33:33.870011+05:30",
+   "caption_verified": true,
+   "media_id": "17910486291542234",
+   "permalink": "https://www.instagram.com/reel/DePbN8fF2-h/",
+   "shortcode": "DePbN8fF2-h",
+   "status": "DONE"
   },
-  "last_error": "ComposioError: INSTAGRAM_POST_IG_USER_MEDIA failed: Instagram API error (status 500): An unexpected error has occurred. Please retry your request later.",
+  "last_error": null,
   "next_attempt_at": "2026-10-08T22:32:41.982245+05:30",
   "youtube": {
    "status": "PENDING"
