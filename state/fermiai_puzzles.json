@@ -334,7 +334,7 @@
  "pz_star_hexagon_ratio": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-08T06:20:39.216178+05:30",
+   "at": "2026-10-08T11:14:37.595761+05:30",
    "caption_verified": true,
    "media_id": "18168062692426247",
    "permalink": "https://www.instagram.com/reel/DeNbUy1Al9M/",
@@ -347,14 +347,9 @@
   }
  },
  "pz_tangent_circles_chord": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-08T07:10:43.541740+05:30",
-   "caption_verified": true,
-   "media_id": "18095261945445233",
-   "permalink": "https://www.instagram.com/reel/DeNhJMTCpGe/",
-   "shortcode": "DeNhJMTCpGe",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -362,14 +357,9 @@
   }
  },
  "pz_three_unit_circles_gap": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-08T08:01:27.456024+05:30",
-   "caption_verified": true,
-   "media_id": "18479914231112817",
-   "permalink": "https://www.instagram.com/reel/DeN3a01gLy_/",
-   "shortcode": "DeN3a01gLy_",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -377,14 +367,9 @@
   }
  },
  "pz_trapezoid_diagonals": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-08T08:52:59.537839+05:30",
-   "caption_verified": true,
-   "media_id": "18118651903923011",
-   "permalink": "https://www.instagram.com/reel/DeN9UMhkdJS/",
-   "shortcode": "DeN9UMhkdJS",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -392,14 +377,9 @@
   }
  },
  "pz_triangle_13_14_15": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-08T09:43:42.264245+05:30",
-   "caption_verified": true,
-   "media_id": "18151974001544947",
-   "permalink": "https://www.instagram.com/reel/DeODHXWlY9g/",
-   "shortcode": "DeODHXWlY9g",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -407,14 +387,9 @@
   }
  },
  "pz_two_quarter_circles_lens": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-08T10:34:19.449906+05:30",
-   "caption_verified": true,
-   "media_id": "17862850077695414",
-   "permalink": "https://www.instagram.com/reel/DeOI6vEjkvT/",
-   "shortcode": "DeOI6vEjkvT",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
