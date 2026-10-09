@@ -3664,13 +3664,21 @@
   }
  },
  "s08-winding": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-09T14:01:46.638717+05:30",
+   "caption_verified": true,
+   "media_id": "18478463590142047",
+   "permalink": "https://www.instagram.com/reel/DeRFaxMjmCy/",
+   "shortcode": "DeRFaxMjmCy",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-09T14:02:09.232763+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=ymAr5SAAzpo",
+   "video_id": "ymAr5SAAzpo"
   }
  },
  "s09-boltzmann-16000": {
