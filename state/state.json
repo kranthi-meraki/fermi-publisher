@@ -3527,13 +3527,21 @@
   }
  },
  "s08-fluxquantum": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-09T15:56:49.764499+05:30",
+   "caption_verified": true,
+   "media_id": "18116881958099306",
+   "permalink": "https://www.instagram.com/reel/DeRSkVHksi2/",
+   "shortcode": "DeRSkVHksi2",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-09T15:57:18.278501+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=J9wX7v2knAM",
+   "video_id": "J9wX7v2knAM"
   }
  },
  "s08-geodesic": {
