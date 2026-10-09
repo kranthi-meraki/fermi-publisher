@@ -3547,11 +3547,17 @@
   }
  },
  "s08-gibbs": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-09T12:11:52.258130+05:30",
+   "caption_verified": true,
+   "media_id": "18127628152915093",
+   "permalink": "https://www.instagram.com/reel/DeQ41mZmv2F/",
+   "shortcode": "DeQ41mZmv2F",
+   "status": "DONE"
   },
-  "last_error": null,
+  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "next_attempt_at": "2026-10-09T12:21:54.162168+05:30",
   "youtube": {
    "status": "PENDING"
   }
