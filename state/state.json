@@ -3716,13 +3716,21 @@
   }
  },
  "s09-chimney-tip": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-09T16:51:24.683775+05:30",
+   "caption_verified": true,
+   "media_id": "17970451269188986",
+   "permalink": "https://www.instagram.com/reel/DeRY0eNj5bf/",
+   "shortcode": "DeRY0eNj5bf",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-09T16:52:17.773609+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=wskIU_STKQw",
+   "video_id": "wskIU_STKQw"
   }
  },
  "s09-eddington-limit": {
