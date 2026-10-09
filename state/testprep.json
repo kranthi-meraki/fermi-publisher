@@ -844,9 +844,14 @@
   }
  },
  "en_charge_near_a_metal_plate_vs_between_plates": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-09T19:41:44.011909+05:30",
+   "caption_verified": true,
+   "media_id": "18223693462338897",
+   "permalink": "https://www.instagram.com/reel/DeRsWDmjDeN/",
+   "shortcode": "DeRsWDmjDeN",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
