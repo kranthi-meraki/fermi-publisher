@@ -3547,7 +3547,7 @@
   }
  },
  "s08-gibbs": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
    "at": "2026-10-09T12:11:52.258130+05:30",
    "caption_verified": true,
@@ -3557,7 +3557,7 @@
    "status": "DONE"
   },
   "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
-  "next_attempt_at": "2026-10-09T12:21:54.162168+05:30",
+  "next_attempt_at": "2026-10-09T12:41:57.321073+05:30",
   "youtube": {
    "status": "PENDING"
   }
