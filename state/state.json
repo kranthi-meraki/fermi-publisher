@@ -3547,7 +3547,7 @@
   }
  },
  "s08-gibbs": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-10-09T12:11:52.258130+05:30",
    "caption_verified": true,
@@ -3556,10 +3556,13 @@
    "shortcode": "DeQ41mZmv2F",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "last_error": null,
   "next_attempt_at": "2026-10-09T12:41:57.321073+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-09T12:42:35.456782+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=NSLGZ8giF_o",
+   "video_id": "NSLGZ8giF_o"
   }
  },
  "s08-gibbsterms": {
