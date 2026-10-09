@@ -3652,13 +3652,21 @@
   }
  },
  "s08-sterngerlach": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-09T17:41:24.420313+05:30",
+   "caption_verified": true,
+   "media_id": "17890448805683295",
+   "permalink": "https://www.instagram.com/reel/DeReinuCdS6/",
+   "shortcode": "DeReinuCdS6",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-09T17:42:23.453752+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=uemlzoKoOXM",
+   "video_id": "uemlzoKoOXM"
   }
  },
  "s08-triplepoint": {
