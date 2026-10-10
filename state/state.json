@@ -3574,13 +3574,21 @@
   }
  },
  "s08-gibbsterms": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-10T14:01:47.549029+05:30",
+   "caption_verified": true,
+   "media_id": "18126391001511563",
+   "permalink": "https://www.instagram.com/reel/DeTqMRVijvm/",
+   "shortcode": "DeTqMRVijvm",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-10T14:02:15.288853+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=OHnXOY3mlLk",
+   "video_id": "OHnXOY3mlLk"
   }
  },
  "s08-horizon": {
