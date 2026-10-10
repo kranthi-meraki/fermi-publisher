@@ -3545,13 +3545,21 @@
   }
  },
  "s08-geodesic": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-10T16:51:58.477840+05:30",
+   "caption_verified": true,
+   "media_id": "18395732116165386",
+   "permalink": "https://www.instagram.com/reel/DeT9raoCjOI/",
+   "shortcode": "DeT9raoCjOI",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-10T16:52:42.619536+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=c7XFpPCEsOo",
+   "video_id": "c7XFpPCEsOo"
   }
  },
  "s08-gibbs": {
