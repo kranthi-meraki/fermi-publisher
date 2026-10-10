@@ -49,7 +49,7 @@ jobs:
           # One an hour means at most a couple are ever due at once. Keeping
           # this low is the main defence against the code 9 action block,
           # which this account hit twice on 1 Oct at tighter pacing.
-          MAX_PER_RUN: "2"
+          MAX_PER_RUN: "1"
           BLOCK_COOLDOWN_HOURS: "6"
           GRACE_MINUTES: "240"
         run: |
