@@ -62,7 +62,7 @@
  "i300-005-the-moon-s-far-side-we-never-see": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-11T00:57:41.583350+05:30",
+   "at": "2026-10-11T02:39:30.893496+05:30",
    "caption_verified": true,
    "media_id": "18154581964522815",
    "permalink": "https://www.instagram.com/reel/DeU1Q5igATv/",
@@ -75,14 +75,9 @@
   }
  },
  "i300-006-the-great-red-spot-is-a-storm-older-than": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-11T01:59:16.849712+05:30",
-   "caption_verified": true,
-   "media_id": "17988574008060083",
-   "permalink": "https://www.instagram.com/reel/DeU8Wbwkv6K/",
-   "shortcode": "DeU8Wbwkv6K",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
