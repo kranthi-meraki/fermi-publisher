@@ -5510,9 +5510,14 @@
   }
  },
  "id300_003_the_sun_s_core_one_sugar_cube_of_fusion": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-10T23:50:05.697297+05:30",
+   "caption_verified": true,
+   "media_id": "18190095742405163",
+   "permalink": "https://www.instagram.com/reel/DeUtk30lGCZ/",
+   "shortcode": "DeUtk30lGCZ",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
