@@ -3642,7 +3642,7 @@
   }
  },
  "s08-puff": {
-  "attempts": 2,
+  "attempts": 3,
   "instagram": {
    "at": "2026-10-10T12:12:01.678595+05:30",
    "caption_verified": true,
@@ -3651,10 +3651,13 @@
    "shortcode": "DeTdpbYiAU_",
    "status": "DONE"
   },
-  "last_error": "ComposioError: YOUTUBE_LIST_CHANNEL_VIDEOS failed: Access forbidden when fetching channel information for authenticated user 'me'. Please ensure you have the necessary permissions and the channel is accessible.",
+  "last_error": null,
   "next_attempt_at": "2026-10-10T12:42:06.585563+05:30",
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-10T12:43:00.678977+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=mrgMf8p_s7Q",
+   "video_id": "mrgMf8p_s7Q"
   }
  },
  "s08-sterngerlach": {
