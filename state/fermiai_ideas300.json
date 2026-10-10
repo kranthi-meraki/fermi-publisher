@@ -30,9 +30,14 @@
   }
  },
  "i300-003-the-sun-s-core-one-sugar-cube-of-fusion": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-10T23:04:55.071694+05:30",
+   "caption_verified": true,
+   "media_id": "18098287502330662",
+   "permalink": "https://www.instagram.com/reel/DeUoZ95CesA/",
+   "shortcode": "DeUoZ95CesA",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
