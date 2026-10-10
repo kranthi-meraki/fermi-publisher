@@ -3618,13 +3618,21 @@
   }
  },
  "s08-landauer": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-10T17:41:43.814430+05:30",
+   "caption_verified": true,
+   "media_id": "17936139417394412",
+   "permalink": "https://www.instagram.com/reel/DeUDYMKj8gS/",
+   "shortcode": "DeUDYMKj8gS",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-10T17:42:11.368180+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=lvzwZpiF8IY",
+   "video_id": "lvzwZpiF8IY"
   }
  },
  "s08-meanfree": {
