@@ -3592,13 +3592,21 @@
   }
  },
  "s08-horizon": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-10T15:01:27.922480+05:30",
+   "caption_verified": true,
+   "media_id": "18101006267636752",
+   "permalink": "https://www.instagram.com/reel/DeTxCmXjF1O/",
+   "shortcode": "DeTxCmXjF1O",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
-   "status": "PENDING"
+   "at": "2026-10-10T15:01:57.364812+05:30",
+   "status": "DONE",
+   "url": "https://www.youtube.com/watch?v=2ok373994HI",
+   "video_id": "2ok373994HI"
   }
  },
  "s08-landauer": {
