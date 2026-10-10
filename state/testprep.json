@@ -1054,9 +1054,14 @@
   }
  },
  "en_conductor_vs_insulator": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-10T15:48:27.033030+05:30",
+   "caption_verified": true,
+   "media_id": "18141506272591740",
+   "permalink": "https://www.instagram.com/reel/DeT2c48AIJ9/",
+   "shortcode": "DeT2c48AIJ9",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
