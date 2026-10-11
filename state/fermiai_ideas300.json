@@ -255,9 +255,14 @@
   }
  },
  "i300-018-betelgeuse-if-it-were-our-sun": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T15:01:34.390655+05:30",
+   "caption_verified": true,
+   "media_id": "18112381781232598",
+   "permalink": "https://www.instagram.com/reel/DeWV4bbiSzN/",
+   "shortcode": "DeWV4bbiSzN",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
