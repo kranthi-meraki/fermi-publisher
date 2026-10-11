@@ -5915,9 +5915,14 @@
   }
  },
  "id300_044_lightning_is_a_300_million_volt_bridge": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T02:15:10.869797+05:30",
+   "caption_verified": true,
+   "media_id": "18130637575763051",
+   "permalink": "https://www.instagram.com/reel/DeXi92MFHhC/",
+   "shortcode": "DeXi92MFHhC",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
