@@ -5705,9 +5705,14 @@
   }
  },
  "id300_016_aurora_the_sun_hits_earth_s_shield": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T12:20:58.665637+05:30",
+   "caption_verified": true,
+   "media_id": "18096742763660692",
+   "permalink": "https://www.instagram.com/reel/DeWDf8Vjd_h/",
+   "shortcode": "DeWDf8Vjd_h",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
