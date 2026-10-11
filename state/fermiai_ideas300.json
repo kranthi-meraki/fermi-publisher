@@ -435,9 +435,14 @@
   }
  },
  "i300-044-lightning-is-a-300-million-volt-bridge": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T02:56:10.137263+05:30",
+   "caption_verified": true,
+   "media_id": "17904464472596321",
+   "permalink": "https://www.instagram.com/reel/DeXhCZQEkmG/",
+   "shortcode": "DeXhCZQEkmG",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
