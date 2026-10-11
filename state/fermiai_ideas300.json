@@ -300,9 +300,14 @@
   }
  },
  "i300-021-we-are-made-of-dead-stars": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T17:34:01.858511+05:30",
+   "caption_verified": true,
+   "media_id": "18344473276265383",
+   "permalink": "https://www.instagram.com/reel/DeWnVCykxAe/",
+   "shortcode": "DeWnVCykxAe",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
