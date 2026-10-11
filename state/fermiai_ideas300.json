@@ -195,9 +195,14 @@
   }
  },
  "i300-014-the-sun-will-swallow-the-inner-planets": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T10:58:17.479221+05:30",
+   "caption_verified": true,
+   "media_id": "18103611737576477",
+   "permalink": "https://www.instagram.com/reel/DeV6CiKAZen/",
+   "shortcode": "DeV6CiKAZen",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
