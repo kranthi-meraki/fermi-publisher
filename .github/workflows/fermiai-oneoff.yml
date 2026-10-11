@@ -1,0 +1,61 @@
+name: Fermi.ai one-off posts
+
+# Single reels posted to @fermi.ai on request (ads, one-offs), from
+# queue/fermiai_oneoff.jsonl. Dispatch-only: no cron, so it never runs on
+# its own. A run stays up long enough to reach the item's scheduled slot.
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Plan only, publish nothing"
+        type: boolean
+        default: false
+      loop_minutes:
+        description: "How long to stay up waiting for due items"
+        default: "90"
+
+concurrency:
+  group: fermiai-oneoff       # never let two runs publish at once
+  cancel-in-progress: false
+
+permissions:
+  contents: write             # to commit fermiai_oneoff.json back
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Publish what is due
+        env:
+          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+          # @fermi.ai
+          IG_USER_ID: "29611910468397943"
+          IG_ACCOUNT: "instagram_johnin-creole"
+          QUEUE_FILE: queue/fermiai_oneoff.jsonl
+          STATE_FILE: state/fermiai_oneoff.json
+          BLOCK_FILE: state/fermiai_oneoff_blocked_until.json
+          # One at a time; a late run still posts rather than skipping.
+          MAX_PER_RUN: "1"
+          GRACE_MINUTES: "100000"
+          BLOCK_COOLDOWN_HOURS: "6"
+        run: |
+          python -m publisher.worker \
+            ${{ (inputs.dry_run && '--dry-run') || '' }} \
+            --loop-minutes ${{ inputs.dry_run && '0' || inputs.loop_minutes }} \
+            --platforms instagram
+
+      - name: Commit state
+        if: always()
+        env:
+          STATE_FILE: state/fermiai_oneoff.json
+          BLOCK_FILE: state/fermiai_oneoff_blocked_until.json
+        # same fetch/reset/retry path the worker uses mid-run; a plain
+        # `git pull --rebase` here failed on a detached HEAD and lost state
+        run: python -c "from publisher.worker import commit_state; commit_state()"
