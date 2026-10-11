@@ -135,9 +135,14 @@
   }
  },
  "i300-010-europa-s-hidden-ocean": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T06:52:23.792799+05:30",
+   "caption_verified": true,
+   "media_id": "18465873613143096",
+   "permalink": "https://www.instagram.com/reel/DeVd5rKgbqc/",
+   "shortcode": "DeVd5rKgbqc",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
