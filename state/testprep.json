@@ -5900,9 +5900,14 @@
   }
  },
  "id300_043_water_at_40_c_stays_liquid_supercooling": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T01:03:33.748336+05:30",
+   "caption_verified": true,
+   "media_id": "18096844253428975",
+   "permalink": "https://www.instagram.com/reel/DeXaxyPjXqb/",
+   "shortcode": "DeXaxyPjXqb",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
