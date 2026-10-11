@@ -240,9 +240,14 @@
   }
  },
  "i300-017-the-sun-s-magnetic-field-flips-every-11": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T13:30:34.174311+05:30",
+   "caption_verified": true,
+   "media_id": "18185696527418027",
+   "permalink": "https://www.instagram.com/reel/DeWLcWejKKe/",
+   "shortcode": "DeWLcWejKKe",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
