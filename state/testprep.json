@@ -5765,9 +5765,14 @@
   }
  },
  "id300_020_a_supernova_outshines_a_galaxy": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T16:42:16.788979+05:30",
+   "caption_verified": true,
+   "media_id": "18635367964033781",
+   "permalink": "https://www.instagram.com/reel/DeWhaqWjDVc/",
+   "shortcode": "DeWhaqWjDVc",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
