@@ -5885,9 +5885,14 @@
   }
  },
  "id300_042_why_ice_floats_and_why_life_exists": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T00:08:18.040043+05:30",
+   "caption_verified": true,
+   "media_id": "18156577189519869",
+   "permalink": "https://www.instagram.com/reel/DeXUcpakt3k/",
+   "shortcode": "DeXUcpakt3k",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
