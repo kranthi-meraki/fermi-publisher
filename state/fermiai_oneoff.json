@@ -1,8 +1,17 @@
 {
  "ad-v4-us-formula-dump": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T12:50:25+05:30",
+   "caption_verified": true,
+   "collaborators_invited": [
+    "fermitestprep"
+   ],
+   "media_id": "17968809672175828",
+   "note": "posted by hand via composio proxy (Graph API collaborators field); Composio tool has no collaborators param",
+   "permalink": "https://www.instagram.com/reel/DeWG4hOk4bn/",
+   "shortcode": "DeWG4hOk4bn",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
