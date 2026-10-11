@@ -5825,9 +5825,14 @@
   }
  },
  "id300_024_pulsars_the_first_cosmic_clocks": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T20:45:25.039632+05:30",
+   "caption_verified": true,
+   "media_id": "18106292750191874",
+   "permalink": "https://www.instagram.com/reel/DeW9Oc1gM68/",
+   "shortcode": "DeW9Oc1gM68",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
