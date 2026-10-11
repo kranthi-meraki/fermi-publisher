@@ -330,9 +330,14 @@
   }
  },
  "i300-023-magnetars-and-credit-cards": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T19:15:18.564623+05:30",
+   "caption_verified": true,
+   "media_id": "18097705439431865",
+   "permalink": "https://www.instagram.com/reel/DeWy64AlXT9/",
+   "shortcode": "DeWy64AlXT9",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
