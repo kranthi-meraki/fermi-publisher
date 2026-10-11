@@ -345,9 +345,14 @@
   }
  },
  "i300-024-pulsars-the-first-cosmic-clocks": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T20:21:05.004160+05:30",
+   "caption_verified": true,
+   "media_id": "18070682312762946",
+   "permalink": "https://www.instagram.com/reel/DeW6c2ogR86/",
+   "shortcode": "DeW6c2ogR86",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
