@@ -420,9 +420,14 @@
   }
  },
  "i300-043-water-at-40-c-stays-liquid-supercooling": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T01:03:37.086230+05:30",
+   "caption_verified": true,
+   "media_id": "17974173711149275",
+   "permalink": "https://www.instagram.com/reel/DeXaxVhAuGk/",
+   "shortcode": "DeXaxVhAuGk",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
