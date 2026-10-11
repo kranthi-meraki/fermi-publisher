@@ -5780,9 +5780,14 @@
   }
  },
  "id300_021_we_are_made_of_dead_stars": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T17:50:57.651314+05:30",
+   "caption_verified": true,
+   "media_id": "18095967302395151",
+   "permalink": "https://www.instagram.com/reel/DeWpSFVDnqC/",
+   "shortcode": "DeWpSFVDnqC",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
