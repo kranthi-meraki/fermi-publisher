@@ -5675,9 +5675,14 @@
   }
  },
  "id300_014_the_sun_will_swallow_the_inner_planets": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T10:20:34.894403+05:30",
+   "caption_verified": true,
+   "media_id": "18075447614482514",
+   "permalink": "https://www.instagram.com/reel/DeV1vAcm4ys/",
+   "shortcode": "DeV1vAcm4ys",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
