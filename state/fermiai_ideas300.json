@@ -422,11 +422,11 @@
  "i300-043-water-at-40-c-stays-liquid-supercooling": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-12T01:03:37.086230+05:30",
+   "at": "2026-10-12T02:06:05.919112+05:30",
    "caption_verified": true,
-   "media_id": "17974173711149275",
-   "permalink": "https://www.instagram.com/reel/DeXaxVhAuGk/",
-   "shortcode": "DeXaxVhAuGk",
+   "media_id": "18093535112433889",
+   "permalink": "https://www.instagram.com/reel/DeXh7FGlTMt/",
+   "shortcode": "DeXh7FGlTMt",
    "status": "DONE"
   },
   "last_error": null,
@@ -435,14 +435,9 @@
   }
  },
  "i300-044-lightning-is-a-300-million-volt-bridge": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-12T01:58:09.103034+05:30",
-   "caption_verified": true,
-   "media_id": "17904464472596321",
-   "permalink": "https://www.instagram.com/reel/DeXhCZQEkmG/",
-   "shortcode": "DeXhCZQEkmG",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
