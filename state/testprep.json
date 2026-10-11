@@ -5722,7 +5722,7 @@
  "id300_017_the_sun_s_magnetic_field_flips_every_11_years": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-11T13:14:39.234838+05:30",
+   "at": "2026-10-11T14:39:45.198836+05:30",
    "caption_verified": true,
    "media_id": "18116538851320708",
    "permalink": "https://www.instagram.com/reel/DeWJpWWDJOn/",
@@ -5735,14 +5735,9 @@
   }
  },
  "id300_018_betelgeuse_if_it_were_our_sun": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-11T14:21:32.556799+05:30",
-   "caption_verified": true,
-   "media_id": "17909297304557717",
-   "permalink": "https://www.instagram.com/reel/DeWRTGlHa-z/",
-   "shortcode": "DeWRTGlHa-z",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
