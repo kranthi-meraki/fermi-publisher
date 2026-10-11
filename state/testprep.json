@@ -5645,9 +5645,14 @@
   }
  },
  "id300_012_the_kuiper_belt_as_a_cosmic_suburb": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T08:57:20.574165+05:30",
+   "caption_verified": true,
+   "media_id": "18354672583216511",
+   "permalink": "https://www.instagram.com/reel/DeVsNGdjPSZ/",
+   "shortcode": "DeVsNGdjPSZ",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
