@@ -5735,9 +5735,14 @@
   }
  },
  "id300_018_betelgeuse_if_it_were_our_sun": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T14:40:49.229098+05:30",
+   "caption_verified": true,
+   "media_id": "17909297304557717",
+   "permalink": "https://www.instagram.com/reel/DeWRTGlHa-z/",
+   "shortcode": "DeWRTGlHa-z",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
