@@ -285,9 +285,14 @@
   }
  },
  "i300-020-a-supernova-outshines-a-galaxy": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T16:43:21.585858+05:30",
+   "caption_verified": true,
+   "media_id": "18205483801373689",
+   "permalink": "https://www.instagram.com/reel/DeWhjUvgNvR/",
+   "shortcode": "DeWhjUvgNvR",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
