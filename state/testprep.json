@@ -5960,9 +5960,14 @@
   }
  },
  "id300_047_double_rainbows_and_alexander_s_dark_band": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T05:08:58.757988+05:30",
+   "caption_verified": true,
+   "media_id": "18123656350871809",
+   "permalink": "https://www.instagram.com/reel/DeX22xjDBfh/",
+   "shortcode": "DeX22xjDBfh",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
