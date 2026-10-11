@@ -5870,9 +5870,14 @@
   }
  },
  "id300_041_why_a_snowflake_always_has_six_arms": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-11T23:49:37.036728+05:30",
+   "caption_verified": true,
+   "media_id": "18055382162583423",
+   "permalink": "https://www.instagram.com/reel/DeXSTLDCCRE/",
+   "shortcode": "DeXSTLDCCRE",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
