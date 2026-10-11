@@ -480,9 +480,14 @@
   }
  },
  "i300-047-double-rainbows-and-alexander-s-dark-ban": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T05:28:21.915497+05:30",
+   "caption_verified": true,
+   "media_id": "17912114529521995",
+   "permalink": "https://www.instagram.com/reel/DeX5ErcDb9Y/",
+   "shortcode": "DeX5ErcDb9Y",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
