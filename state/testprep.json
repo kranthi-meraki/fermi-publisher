@@ -6080,9 +6080,14 @@
   }
  },
  "id300_055_why_waves_break_at_the_shore": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T13:15:21.760631+05:30",
+   "caption_verified": true,
+   "media_id": "18016650383745179",
+   "permalink": "https://www.instagram.com/reel/DeYuhpzjRQ3/",
+   "shortcode": "DeYuhpzjRQ3",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
