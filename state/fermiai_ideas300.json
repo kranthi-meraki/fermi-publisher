@@ -780,9 +780,14 @@
   }
  },
  "i300-071-the-double-slit-one-electron-at-a-time": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T04:10:00.836472+05:30",
+   "caption_verified": true,
+   "media_id": "18102357269577475",
+   "permalink": "https://www.instagram.com/reel/DeaU5evioyD/",
+   "shortcode": "DeaU5evioyD",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
