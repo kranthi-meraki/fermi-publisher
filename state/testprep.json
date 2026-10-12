@@ -6245,9 +6245,14 @@
   }
  },
  "id300_066_bioluminescence_living_light": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T00:07:39.747166+05:30",
+   "caption_verified": true,
+   "media_id": "18107326715348818",
+   "permalink": "https://www.instagram.com/reel/DeZ5LuMlES7/",
+   "shortcode": "DeZ5LuMlES7",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
