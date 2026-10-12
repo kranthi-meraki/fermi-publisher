@@ -525,9 +525,14 @@
   }
  },
  "i300-050-fata-morgana-mirages-that-build-cities": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T08:00:42.493593+05:30",
+   "caption_verified": true,
+   "media_id": "18116438995974179",
+   "permalink": "https://www.instagram.com/reel/DeYKhGIFUhe/",
+   "shortcode": "DeYKhGIFUhe",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
