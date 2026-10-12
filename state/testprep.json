@@ -6170,9 +6170,14 @@
   }
  },
  "id300_061_earthquake_waves_p_arrives_first": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T23:16:56.338665+05:30",
+   "caption_verified": true,
+   "media_id": "18128502688885894",
+   "permalink": "https://www.instagram.com/reel/DeZzXLeieWb/",
+   "shortcode": "DeZzXLeieWb",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
