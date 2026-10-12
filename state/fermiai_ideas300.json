@@ -630,9 +630,14 @@
   }
  },
  "i300-057-the-coriolis-effect-hurricanes-spin": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T15:48:18.684437+05:30",
+   "caption_verified": true,
+   "media_id": "18077928872412525",
+   "permalink": "https://www.instagram.com/reel/DeZABbuCe6W/",
+   "shortcode": "DeZABbuCe6W",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
