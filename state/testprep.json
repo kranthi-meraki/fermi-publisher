@@ -6230,9 +6230,14 @@
   }
  },
  "id300_065_why_a_bird_can_stand_on_a_power_line": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T23:50:04.025614+05:30",
+   "caption_verified": true,
+   "media_id": "18091165712225907",
+   "permalink": "https://www.instagram.com/reel/DeZ3KNwjGqC/",
+   "shortcode": "DeZ3KNwjGqC",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
