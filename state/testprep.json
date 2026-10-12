@@ -6005,9 +6005,14 @@
   }
  },
  "id300_050_fata_morgana_mirages_that_build_cities": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T08:20:56.744360+05:30",
+   "caption_verified": true,
+   "media_id": "18645773098001960",
+   "permalink": "https://www.instagram.com/reel/DeYM01FD4dY/",
+   "shortcode": "DeYM01FD4dY",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
