@@ -6260,9 +6260,14 @@
   }
  },
  "id300_071_the_double_slit_one_electron_at_a_time": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T01:03:25.554746+05:30",
+   "caption_verified": true,
+   "media_id": "18110468462265206",
+   "permalink": "https://www.instagram.com/reel/DeZ_jJOj35h/",
+   "shortcode": "DeZ_jJOj35h",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
