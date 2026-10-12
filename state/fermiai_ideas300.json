@@ -690,9 +690,14 @@
   }
  },
  "i300-061-earthquake-waves-p-arrives-first": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T19:12:03.928557+05:30",
+   "caption_verified": true,
+   "media_id": "18103626680573268",
+   "permalink": "https://www.instagram.com/reel/DeZXVnSldvl/",
+   "shortcode": "DeZXVnSldvl",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
