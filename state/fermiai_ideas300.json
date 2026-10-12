@@ -765,9 +765,14 @@
   }
  },
  "i300-066-bioluminescence-living-light": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T03:19:03.257886+05:30",
+   "caption_verified": true,
+   "media_id": "17863716651694332",
+   "permalink": "https://www.instagram.com/reel/DeaPFRYERok/",
+   "shortcode": "DeaPFRYERok",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
