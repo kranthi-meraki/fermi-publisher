@@ -6185,9 +6185,14 @@
   }
  },
  "id300_062_why_does_the_ocean_taste_salty": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T23:18:37.378955+05:30",
+   "caption_verified": true,
+   "media_id": "17914838649537711",
+   "permalink": "https://www.instagram.com/reel/DeZzj_FDfFG/",
+   "shortcode": "DeZzj_FDfFG",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
