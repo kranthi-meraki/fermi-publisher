@@ -675,9 +675,14 @@
   }
  },
  "i300-060-earth-s-magnetic-field-flips-and-when": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T18:21:19.952567+05:30",
+   "caption_verified": true,
+   "media_id": "17918657514452499",
+   "permalink": "https://www.instagram.com/reel/DeZRh9aCUbj/",
+   "shortcode": "DeZRh9aCUbj",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
