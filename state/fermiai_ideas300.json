@@ -510,9 +510,14 @@
   }
  },
  "i300-049-why-the-sky-has-a-halo-around-the-sun": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T07:09:53.192622+05:30",
+   "caption_verified": true,
+   "media_id": "17993927100051084",
+   "permalink": "https://www.instagram.com/reel/DeYEsCfjVPm/",
+   "shortcode": "DeYEsCfjVPm",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
