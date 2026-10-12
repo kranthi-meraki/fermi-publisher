@@ -6140,9 +6140,14 @@
   }
  },
  "id300_059_the_jet_stream_a_river_in_the_sky": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T17:51:10.286718+05:30",
+   "caption_verified": true,
+   "media_id": "17996034429012632",
+   "permalink": "https://www.instagram.com/reel/DeZOFYdjrAS/",
+   "shortcode": "DeZOFYdjrAS",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
