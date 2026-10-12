@@ -6320,9 +6320,14 @@
   }
  },
  "id300_075_entanglement_is_not_faster_than_light_messaging": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T05:17:15.688301+05:30",
+   "caption_verified": true,
+   "media_id": "17902522527596474",
+   "permalink": "https://www.instagram.com/reel/DeacnNsFMLY/",
+   "shortcode": "DeacnNsFMLY",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
