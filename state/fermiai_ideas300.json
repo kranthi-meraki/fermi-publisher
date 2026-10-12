@@ -600,9 +600,14 @@
   }
  },
  "i300-055-why-waves-break-at-the-shore": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-12T12:45:55.991017+05:30",
+   "caption_verified": true,
+   "media_id": "18114305129331914",
+   "permalink": "https://www.instagram.com/reel/DeYrLXMj21m/",
+   "shortcode": "DeYrLXMj21m",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
