@@ -1020,9 +1020,14 @@
   }
  },
  "i300-087-why-the-nucleus-holds-together": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T18:56:42.092288+05:30",
+   "caption_verified": true,
+   "media_id": "18019661810944548",
+   "permalink": "https://www.instagram.com/reel/Deb6YKsEY8U/",
+   "shortcode": "Deb6YKsEY8U",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
