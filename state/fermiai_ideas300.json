@@ -1065,9 +1065,14 @@
   }
  },
  "i300-090-e-mc2-in-your-hand": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T23:33:46.550117+05:30",
+   "caption_verified": true,
+   "media_id": "18141590449716722",
+   "permalink": "https://www.instagram.com/reel/DecaF-NE8RW/",
+   "shortcode": "DecaF-NE8RW",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
