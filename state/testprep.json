@@ -6665,9 +6665,14 @@
   }
  },
  "id300_102_galileo_s_telescope_jupiter_s_moons": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-14T04:15:10.739923+05:30",
+   "caption_verified": true,
+   "media_id": "18108658120917994",
+   "permalink": "https://www.instagram.com/reel/Dec6TqQk_rA/",
+   "shortcode": "Dec6TqQk_rA",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
