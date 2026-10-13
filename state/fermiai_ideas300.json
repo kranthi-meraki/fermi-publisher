@@ -1125,9 +1125,14 @@
   }
  },
  "i300-094-superconductivity-a-magnet-floats": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-14T02:56:28.635451+05:30",
+   "caption_verified": true,
+   "media_id": "18103787492315832",
+   "permalink": "https://www.instagram.com/reel/DecxR6eE9NX/",
+   "shortcode": "DecxR6eE9NX",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
