@@ -6680,9 +6680,14 @@
   }
  },
  "id300_103_newton_and_the_apple_what_is_true": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-14T05:09:48.253639+05:30",
+   "caption_verified": true,
+   "media_id": "18015169427977751",
+   "permalink": "https://www.instagram.com/reel/DedAjMcjGyv/",
+   "shortcode": "DedAjMcjGyv",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
