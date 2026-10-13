@@ -900,9 +900,14 @@
   }
  },
  "i300-079-antimatter-one-gram-a-bomb": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T11:12:34.961898+05:30",
+   "caption_verified": true,
+   "media_id": "18080598695342031",
+   "permalink": "https://www.instagram.com/reel/DebFQwdDmZ7/",
+   "shortcode": "DebFQwdDmZ7",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
