@@ -6425,9 +6425,14 @@
   }
  },
  "id300_082_the_higgs_what_the_particle_did": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T12:22:19.875246+05:30",
+   "caption_verified": true,
+   "media_id": "18108518657085120",
+   "permalink": "https://www.instagram.com/reel/DebNQJ0AQev/",
+   "shortcode": "DebNQJ0AQev",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
