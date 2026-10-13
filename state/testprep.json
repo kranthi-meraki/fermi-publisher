@@ -6380,9 +6380,14 @@
   }
  },
  "id300_079_antimatter_one_gram_a_bomb": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T09:09:15.259061+05:30",
+   "caption_verified": true,
+   "media_id": "18130620841755589",
+   "permalink": "https://www.instagram.com/reel/Dea3JbHiGeT/",
+   "shortcode": "Dea3JbHiGeT",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
