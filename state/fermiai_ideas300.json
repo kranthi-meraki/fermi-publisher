@@ -915,9 +915,14 @@
   }
  },
  "i300-080-a-muon-lives-long-enough-only-because-of": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T12:03:08.776740+05:30",
+   "caption_verified": true,
+   "media_id": "18377000419209686",
+   "permalink": "https://www.instagram.com/reel/DebLEErFUzK/",
+   "shortcode": "DebLEErFUzK",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
