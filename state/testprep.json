@@ -6485,9 +6485,14 @@
   }
  },
  "id300_086_the_lightest_element_makes_everything": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T16:42:36.381398+05:30",
+   "caption_verified": true,
+   "media_id": "18196073839348097",
+   "permalink": "https://www.instagram.com/reel/DebrBtBk0rB/",
+   "shortcode": "DebrBtBk0rB",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
