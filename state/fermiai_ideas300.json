@@ -1110,9 +1110,14 @@
   }
  },
  "i300-093-why-metals-are-shiny": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-14T02:05:44.162804+05:30",
+   "caption_verified": true,
+   "media_id": "18129264280793891",
+   "permalink": "https://www.instagram.com/reel/DecrfPUDUL-/",
+   "shortcode": "DecrfPUDUL-",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
