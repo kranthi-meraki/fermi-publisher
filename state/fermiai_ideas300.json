@@ -1005,9 +1005,14 @@
   }
  },
  "i300-086-the-lightest-element-makes-everything": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T18:05:59.906931+05:30",
+   "caption_verified": true,
+   "media_id": "18143078908590285",
+   "permalink": "https://www.instagram.com/reel/Deb0kuWjSK8/",
+   "shortcode": "Deb0kuWjSK8",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
