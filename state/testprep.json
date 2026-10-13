@@ -6500,9 +6500,14 @@
   }
  },
  "id300_087_why_the_nucleus_holds_together": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T17:51:35.167630+05:30",
+   "caption_verified": true,
+   "media_id": "18025411844921332",
+   "permalink": "https://www.instagram.com/reel/Deby68tEbH0/",
+   "shortcode": "Deby68tEbH0",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
