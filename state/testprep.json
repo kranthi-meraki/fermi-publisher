@@ -6605,9 +6605,14 @@
   }
  },
  "id300_094_superconductivity_a_magnet_floats": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-14T00:07:43.395060+05:30",
+   "caption_verified": true,
+   "media_id": "18108164753254135",
+   "permalink": "https://www.instagram.com/reel/Decd99jDVVU/",
+   "shortcode": "Decd99jDVVU",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
