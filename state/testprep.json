@@ -6575,9 +6575,14 @@
   }
  },
  "id300_092_lasers_stimulated_emission": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T23:50:17.004557+05:30",
+   "caption_verified": true,
+   "media_id": "18134318920680227",
+   "permalink": "https://www.instagram.com/reel/Decb-nbE6uv/",
+   "shortcode": "Decb-nbE6uv",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
