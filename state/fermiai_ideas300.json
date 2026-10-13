@@ -990,9 +990,14 @@
   }
  },
  "i300-085-gold-is-not-from-earth-neutron-star-merg": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T17:15:17.766745+05:30",
+   "caption_verified": true,
+   "media_id": "18108116303216586",
+   "permalink": "https://www.instagram.com/reel/Debuw_wAo7s/",
+   "shortcode": "Debuw_wAo7s",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
