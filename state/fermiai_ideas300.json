@@ -885,9 +885,14 @@
   }
  },
  "i300-078-the-periodic-table-is-a-quantum-map": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T10:21:19.509336+05:30",
+   "caption_verified": true,
+   "media_id": "18104947793256583",
+   "permalink": "https://www.instagram.com/reel/Dea_ZcRDIuG/",
+   "shortcode": "Dea_ZcRDIuG",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
