@@ -6590,9 +6590,14 @@
   }
  },
  "id300_093_why_metals_are_shiny": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T23:51:59.210910+05:30",
+   "caption_verified": true,
+   "media_id": "18152773075535576",
+   "permalink": "https://www.instagram.com/reel/DeccK1kia6u/",
+   "shortcode": "DeccK1kia6u",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
