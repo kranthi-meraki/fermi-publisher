@@ -870,9 +870,14 @@
   }
  },
  "i300-077-the-pauli-exclusion-principle-holds-up-m": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-13T09:30:31.229778+05:30",
+   "caption_verified": true,
+   "media_id": "18132326329742884",
+   "permalink": "https://www.instagram.com/reel/Dea5lHTCiJy/",
+   "shortcode": "Dea5lHTCiJy",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
