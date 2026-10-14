@@ -1305,9 +1305,14 @@
   }
  },
  "i300-110-marconi-crosses-the-atlantic": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-15T01:04:58.260968+05:30",
+   "caption_verified": true,
+   "media_id": "17885713608687672",
+   "permalink": "https://www.instagram.com/reel/DefJUSBAUtb/",
+   "shortcode": "DefJUSBAUtb",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
