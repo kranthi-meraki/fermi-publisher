@@ -7020,9 +7020,14 @@
   }
  },
  "id300_126_chien_shiung_wu_breaks_parity": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-15T04:14:40.575560+05:30",
+   "caption_verified": true,
+   "media_id": "18111386837600458",
+   "permalink": "https://www.instagram.com/reel/DeffB7SlJdw/",
+   "shortcode": "DeffB7SlJdw",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
