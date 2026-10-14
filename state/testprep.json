@@ -6870,9 +6870,14 @@
   }
  },
  "id300_116_einstein_s_1905_four_papers": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-14T18:45:44.678767+05:30",
+   "caption_verified": true,
+   "media_id": "17998952475033445",
+   "permalink": "https://www.instagram.com/reel/Deed7cNjxP_/",
+   "shortcode": "Deed7cNjxP_",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
