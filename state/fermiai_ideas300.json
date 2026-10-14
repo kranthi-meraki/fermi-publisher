@@ -1260,9 +1260,14 @@
   }
  },
  "i300-107-faraday-in-the-lab-induction": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-14T14:24:16.837077+05:30",
+   "caption_verified": true,
+   "media_id": "18107491241249176",
+   "permalink": "https://www.instagram.com/reel/Ded__btkeUG/",
+   "shortcode": "Ded__btkeUG",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
