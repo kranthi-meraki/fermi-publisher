@@ -7035,9 +7035,14 @@
   }
  },
  "id300_146_the_twin_paradox_honestly": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-15T05:10:20.096836+05:30",
+   "caption_verified": true,
+   "media_id": "18105433562279842",
+   "permalink": "https://www.instagram.com/reel/DeflZWmFA2K/",
+   "shortcode": "DeflZWmFA2K",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
