@@ -6930,9 +6930,14 @@
   }
  },
  "id300_120_davisson_germer_electrons_diffract": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-14T22:57:57.581269+05:30",
+   "caption_verified": true,
+   "media_id": "18058679414556523",
+   "permalink": "https://www.instagram.com/reel/Dee6zCUjT19/",
+   "shortcode": "Dee6zCUjT19",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
