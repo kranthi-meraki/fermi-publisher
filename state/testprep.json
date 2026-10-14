@@ -6885,9 +6885,14 @@
   }
  },
  "id300_117_eddington_s_1919_eclipse": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-14T19:33:42.507757+05:30",
+   "caption_verified": true,
+   "media_id": "18104694116575869",
+   "permalink": "https://www.instagram.com/reel/DeejaffD-hz/",
+   "shortcode": "DeejaffD-hz",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
