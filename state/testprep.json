@@ -6975,9 +6975,14 @@
   }
  },
  "id300_123_hahn_and_meitner_splitting_the_atom": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-15T01:03:43.084749+05:30",
+   "caption_verified": true,
+   "media_id": "18143255608610273",
+   "permalink": "https://www.instagram.com/reel/DefJLAqFVGi/",
+   "shortcode": "DefJLAqFVGi",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
