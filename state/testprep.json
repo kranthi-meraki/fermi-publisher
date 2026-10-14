@@ -6785,14 +6785,9 @@
   }
  },
  "id300_110_marconi_crosses_the_atlantic": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-14T12:20:58.582864+05:30",
-   "caption_verified": true,
-   "media_id": "17910441993310307",
-   "permalink": "https://www.instagram.com/reel/Dedx46clLCH/",
-   "shortcode": "Dedx46clLCH",
-   "status": "DONE"
+   "status": "SKIPPED"
   },
   "last_error": null,
   "youtube": {
@@ -6802,7 +6797,7 @@
  "id300_111_ro_ntgen_photographs_a_hand": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-14T13:14:33.735578+05:30",
+   "at": "2026-10-14T17:05:56.009839+05:30",
    "caption_verified": true,
    "media_id": "18105715385206519",
    "permalink": "https://www.instagram.com/reel/Ded4CZsiiZR/",
@@ -6815,14 +6810,9 @@
   }
  },
  "id300_112_becquerel_s_fogged_plate": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-14T14:21:14.074922+05:30",
-   "caption_verified": true,
-   "media_id": "17963136753198970",
-   "permalink": "https://www.instagram.com/reel/Ded_pyKE_nh/",
-   "shortcode": "Ded_pyKE_nh",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -6830,14 +6820,9 @@
   }
  },
  "id300_113_marie_curie_s_glowing_notebooks": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-14T15:29:55.457171+05:30",
-   "caption_verified": true,
-   "media_id": "18114971939275499",
-   "permalink": "https://www.instagram.com/reel/DeeHguQjxTv/",
-   "shortcode": "DeeHguQjxTv",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -6845,14 +6830,9 @@
   }
  },
  "id300_114_thomson_s_electron": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-14T16:42:40.021413+05:30",
-   "caption_verified": true,
-   "media_id": "18125565575513846",
-   "permalink": "https://www.instagram.com/reel/DeeP1IwDXGd/",
-   "shortcode": "DeeP1IwDXGd",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
