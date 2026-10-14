@@ -6725,9 +6725,14 @@
   }
  },
  "id300_106_rsted_s_compass_needle_twitch": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-14T11:21:39.158417+05:30",
+   "caption_verified": true,
+   "media_id": "17986105878117224",
+   "permalink": "https://www.instagram.com/reel/DedWhtXArvk/",
+   "shortcode": "DedWhtXArvk",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
