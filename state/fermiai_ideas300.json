@@ -1230,9 +1230,14 @@
   }
  },
  "i300-105-young-s-double-slit-1801": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-14T12:42:46.459880+05:30",
+   "caption_verified": true,
+   "media_id": "18634915828044528",
+   "permalink": "https://www.instagram.com/reel/Ded0YeRgZ6M/",
+   "shortcode": "Ded0YeRgZ6M",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
