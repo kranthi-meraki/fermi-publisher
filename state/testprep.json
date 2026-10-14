@@ -6845,9 +6845,14 @@
   }
  },
  "id300_114_thomson_s_electron": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-14T16:42:40.021413+05:30",
+   "caption_verified": true,
+   "media_id": "18125565575513846",
+   "permalink": "https://www.instagram.com/reel/DeeP1IwDXGd/",
+   "shortcode": "DeeP1IwDXGd",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
