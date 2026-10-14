@@ -6990,9 +6990,14 @@
   }
  },
  "id300_124_fermi_s_first_reactor_under_a_stadium": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-15T02:15:13.820284+05:30",
+   "caption_verified": true,
+   "media_id": "18147180739492848",
+   "permalink": "https://www.instagram.com/reel/DefRYa5DFqe/",
+   "shortcode": "DefRYa5DFqe",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
