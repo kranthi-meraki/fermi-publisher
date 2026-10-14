@@ -1245,9 +1245,14 @@
   }
  },
  "i300-106-rsted-s-compass-needle-twitch": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-14T17:37:50.123493+05:30",
+   "caption_verified": true,
+   "media_id": "17958345648016231",
+   "permalink": "https://www.instagram.com/reel/Ded6MIgDOwX/",
+   "shortcode": "Ded6MIgDOwX",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
