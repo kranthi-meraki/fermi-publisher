@@ -1232,7 +1232,7 @@
  "i300-105-young-s-double-slit-1801": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-14T16:47:45.038728+05:30",
+   "at": "2026-10-14T20:53:42.840347+05:30",
    "caption_verified": true,
    "media_id": "18634915828044528",
    "permalink": "https://www.instagram.com/reel/Ded0YeRgZ6M/",
@@ -1245,14 +1245,9 @@
   }
  },
  "i300-106-rsted-s-compass-needle-twitch": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-14T17:37:50.123493+05:30",
-   "caption_verified": true,
-   "media_id": "17958345648016231",
-   "permalink": "https://www.instagram.com/reel/Ded6MIgDOwX/",
-   "shortcode": "Ded6MIgDOwX",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -1260,14 +1255,9 @@
   }
  },
  "i300-107-faraday-in-the-lab-induction": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-14T18:27:55.004104+05:30",
-   "caption_verified": true,
-   "media_id": "18107491241249176",
-   "permalink": "https://www.instagram.com/reel/Ded__btkeUG/",
-   "shortcode": "Ded__btkeUG",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -1275,14 +1265,9 @@
   }
  },
  "i300-108-maxwell-finds-light-inside-his-equations": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-14T19:18:43.745059+05:30",
-   "caption_verified": true,
-   "media_id": "18135164689678174",
-   "permalink": "https://www.instagram.com/reel/DeehrkXE7Op/",
-   "shortcode": "DeehrkXE7Op",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -1290,14 +1275,9 @@
   }
  },
  "i300-109-hertz-makes-radio-waves": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-14T20:09:25.602557+05:30",
-   "caption_verified": true,
-   "media_id": "18124604476928605",
-   "permalink": "https://www.instagram.com/reel/Deenf5EiaRL/",
-   "shortcode": "Deenf5EiaRL",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
