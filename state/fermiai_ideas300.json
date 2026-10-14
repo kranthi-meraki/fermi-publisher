@@ -1185,9 +1185,14 @@
   }
  },
  "i300-102-galileo-s-telescope-jupiter-s-moons": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-14T10:11:56.631414+05:30",
+   "caption_verified": true,
+   "media_id": "18111218471582177",
+   "permalink": "https://www.instagram.com/reel/DedNNSIir38/",
+   "shortcode": "DedNNSIir38",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
