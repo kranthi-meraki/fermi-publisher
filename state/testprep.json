@@ -6740,9 +6740,14 @@
   }
  },
  "id300_107_faraday_in_the_lab_induction": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-14T11:22:42.547593+05:30",
+   "caption_verified": true,
+   "media_id": "18088249370284818",
+   "permalink": "https://www.instagram.com/reel/Dedb_gZEwML/",
+   "shortcode": "Dedb_gZEwML",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
