@@ -1365,9 +1365,14 @@
   }
  },
  "i300-114-thomson-s-electron": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-15T05:11:41.874973+05:30",
+   "caption_verified": true,
+   "media_id": "18128493871880960",
+   "permalink": "https://www.instagram.com/reel/DefljjFE1Qk/",
+   "shortcode": "DefljjFE1Qk",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
