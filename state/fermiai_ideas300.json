@@ -1170,9 +1170,14 @@
   }
  },
  "i300-101-tycho-s-nose-and-kepler-s-laws": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-14T06:08:49.821766+05:30",
+   "caption_verified": true,
+   "media_id": "17965325652196407",
+   "permalink": "https://www.instagram.com/reel/DedHTYulWGa/",
+   "shortcode": "DedHTYulWGa",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
