@@ -1350,9 +1350,14 @@
   }
  },
  "i300-113-marie-curie-s-glowing-notebooks": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-15T04:21:00.662482+05:30",
+   "caption_verified": true,
+   "media_id": "18177365374441694",
+   "permalink": "https://www.instagram.com/reel/DeffvnxiLC5/",
+   "shortcode": "DeffvnxiLC5",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
