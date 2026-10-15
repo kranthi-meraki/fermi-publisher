@@ -1425,9 +1425,14 @@
   }
  },
  "i300-118-bohr-and-the-hydrogen-spectrum": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-15T10:05:52.727846+05:30",
+   "caption_verified": true,
+   "media_id": "17975370456132860",
+   "permalink": "https://www.instagram.com/reel/DegHN6-kWL9/",
+   "shortcode": "DegHN6-kWL9",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
