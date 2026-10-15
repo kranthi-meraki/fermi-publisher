@@ -7170,9 +7170,14 @@
   }
  },
  "id300_155_galileo_s_two_balls_tied_together": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-15T14:21:44.120361+05:30",
+   "caption_verified": true,
+   "media_id": "18231325552331927",
+   "permalink": "https://www.instagram.com/reel/DegkfoGiMeI/",
+   "shortcode": "DegkfoGiMeI",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
