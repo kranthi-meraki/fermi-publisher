@@ -7125,9 +7125,14 @@
   }
  },
  "id300_152_the_epr_argument": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-15T11:27:14.832140+05:30",
+   "caption_verified": true,
+   "media_id": "17871081291645249",
+   "permalink": "https://www.instagram.com/reel/DegQhnXAt9j/",
+   "shortcode": "DegQhnXAt9j",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
