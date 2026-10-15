@@ -1650,9 +1650,14 @@
   }
  },
  "i300-152-the-epr-argument": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-16T05:06:02.570134+05:30",
+   "caption_verified": true,
+   "media_id": "18081013724523337",
+   "permalink": "https://www.instagram.com/reel/DeiJsgrCCtK/",
+   "shortcode": "DeiJsgrCCtK",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
