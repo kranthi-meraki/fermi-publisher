@@ -1457,7 +1457,7 @@
  "i300-120-davisson-germer-electrons-diffract": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-15T11:47:43.208065+05:30",
+   "at": "2026-10-15T14:10:30.888237+05:30",
    "caption_verified": true,
    "media_id": "17933334126421345",
    "permalink": "https://www.instagram.com/reel/DegS4JWAF6Z/",
@@ -1470,14 +1470,9 @@
   }
  },
  "i300-121-compton-scattering": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-15T12:38:25.542529+05:30",
-   "caption_verified": true,
-   "media_id": "18103714421203778",
-   "permalink": "https://www.instagram.com/reel/DegYrQBAAGX/",
-   "shortcode": "DegYrQBAAGX",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -1485,14 +1480,9 @@
   }
  },
  "i300-122-chadwick-finds-the-neutron": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-15T13:29:13.845886+05:30",
-   "caption_verified": true,
-   "media_id": "18031900490904830",
-   "permalink": "https://www.instagram.com/reel/DegefFPiMyj/",
-   "shortcode": "DegefFPiMyj",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
