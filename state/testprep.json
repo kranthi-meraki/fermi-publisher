@@ -7200,9 +7200,14 @@
   }
  },
  "id300_157_the_bucket_argument_and_absolute_rotation": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-15T16:42:35.100906+05:30",
+   "caption_verified": true,
+   "media_id": "17866291212676437",
+   "permalink": "https://www.instagram.com/reel/Deg0nzLDpxo/",
+   "shortcode": "Deg0nzLDpxo",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
