@@ -1395,9 +1395,14 @@
   }
  },
  "i300-116-einstein-s-1905-four-papers": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-15T06:53:18.638352+05:30",
+   "caption_verified": true,
+   "media_id": "18216369001348309",
+   "permalink": "https://www.instagram.com/reel/DefxLtgAeAe/",
+   "shortcode": "DefxLtgAeAe",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
