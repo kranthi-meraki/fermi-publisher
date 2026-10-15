@@ -1575,9 +1575,14 @@
   }
  },
  "i300-147-the-ladder-in-the-barn": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-16T00:08:12.414635+05:30",
+   "caption_verified": true,
+   "media_id": "17888171202488124",
+   "permalink": "https://www.instagram.com/reel/DehnoUPCX8B/",
+   "shortcode": "DehnoUPCX8B",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
