@@ -1590,9 +1590,14 @@
   }
  },
  "i300-148-maxwell-s-demon": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-16T00:58:52.989882+05:30",
+   "caption_verified": true,
+   "media_id": "18448363054125267",
+   "permalink": "https://www.instagram.com/reel/DehtanVjhXX/",
+   "shortcode": "DehtanVjhXX",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
