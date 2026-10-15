@@ -1410,9 +1410,14 @@
   }
  },
  "i300-117-eddington-s-1919-eclipse": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-15T07:44:07.295718+05:30",
+   "caption_verified": true,
+   "media_id": "18465093439191693",
+   "permalink": "https://www.instagram.com/reel/Def2_TYCGVA/",
+   "shortcode": "Def2_TYCGVA",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
