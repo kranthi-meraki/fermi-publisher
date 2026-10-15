@@ -1620,9 +1620,14 @@
   }
  },
  "i300-150-loschmidt-s-reversibility-paradox": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-16T03:24:07.006951+05:30",
+   "caption_verified": true,
+   "media_id": "18232859950324939",
+   "permalink": "https://www.instagram.com/reel/Deh-CgSk3iA/",
+   "shortcode": "Deh-CgSk3iA",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
