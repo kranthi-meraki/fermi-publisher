@@ -1560,9 +1560,14 @@
   }
  },
  "i300-146-the-twin-paradox-honestly": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-15T23:17:38.076966+05:30",
+   "caption_verified": true,
+   "media_id": "17983792890091989",
+   "permalink": "https://www.instagram.com/reel/Dehh1JWCN4P/",
+   "shortcode": "Dehh1JWCN4P",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
