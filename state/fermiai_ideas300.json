@@ -1397,7 +1397,7 @@
  "i300-116-einstein-s-1905-four-papers": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-15T06:53:18.638352+05:30",
+   "at": "2026-10-15T08:24:23.761580+05:30",
    "caption_verified": true,
    "media_id": "18216369001348309",
    "permalink": "https://www.instagram.com/reel/DefxLtgAeAe/",
@@ -1410,14 +1410,9 @@
   }
  },
  "i300-117-eddington-s-1919-eclipse": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-15T07:44:07.295718+05:30",
-   "caption_verified": true,
-   "media_id": "18465093439191693",
-   "permalink": "https://www.instagram.com/reel/Def2_TYCGVA/",
-   "shortcode": "Def2_TYCGVA",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
