@@ -7681,9 +7681,14 @@
   }
  },
  "id300_191_bernoulli_why_planes_fly_honestly": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-16T22:58:19.023094+05:30",
+   "caption_verified": true,
+   "media_id": "17884289772691453",
+   "permalink": "https://www.instagram.com/reel/DekEapIjOC2/",
+   "shortcode": "DekEapIjOC2",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
