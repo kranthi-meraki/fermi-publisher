@@ -1815,9 +1815,14 @@
   }
  },
  "i300-163-russell-s-paradox": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-16T20:38:03.270259+05:30",
+   "caption_verified": true,
+   "media_id": "18152790328539509",
+   "permalink": "https://www.instagram.com/reel/DejeVGbj5BU/",
+   "shortcode": "DejeVGbj5BU",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
