@@ -7530,11 +7530,16 @@
   }
  },
  "id300_181_centripetal_vs_centrifugal": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-16T12:31:25.919671+05:30",
+   "caption_verified": true,
+   "media_id": "18127303183858237",
+   "permalink": "https://www.instagram.com/reel/Dei8q6-gkkz/",
+   "shortcode": "Dei8q6-gkkz",
+   "status": "DONE"
   },
-  "last_error": "ComposioError: container ERROR - recreate with a fresh container",
+  "last_error": null,
   "next_attempt_at": "2026-10-16T12:30:38.727892+05:30",
   "youtube": {
    "status": "PENDING"
