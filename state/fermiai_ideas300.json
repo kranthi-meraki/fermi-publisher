@@ -1800,9 +1800,14 @@
   }
  },
  "i300-162-simpson-s-paradox-in-a-lab": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-16T19:47:58.898822+05:30",
+   "caption_verified": true,
+   "media_id": "18492785092108476",
+   "permalink": "https://www.instagram.com/reel/DejYhgBCBJD/",
+   "shortcode": "DejYhgBCBJD",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
