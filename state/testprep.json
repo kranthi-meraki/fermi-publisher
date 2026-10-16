@@ -7515,9 +7515,14 @@
   }
  },
  "id300_180_banking_of_roads": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-16T11:27:19.393960+05:30",
+   "caption_verified": true,
+   "media_id": "18104102198457898",
+   "permalink": "https://www.instagram.com/reel/Dei1VVuivTW/",
+   "shortcode": "Dei1VVuivTW",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
