@@ -7653,7 +7653,7 @@
  "id300_189_escape_velocity_derived": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-16T20:45:40.125143+05:30",
+   "at": "2026-10-16T22:18:36.183479+05:30",
    "caption_verified": true,
    "media_id": "17916186132459770",
    "permalink": "https://www.instagram.com/reel/Dej1O0GDkw9/",
@@ -7666,14 +7666,9 @@
   }
  },
  "id300_190_pascal_s_law_and_hydraulic_lifts": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-16T21:51:19.926263+05:30",
-   "caption_verified": true,
-   "media_id": "18098849030103658",
-   "permalink": "https://www.instagram.com/reel/Dej8wQtjj52/",
-   "shortcode": "Dej8wQtjj52",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
