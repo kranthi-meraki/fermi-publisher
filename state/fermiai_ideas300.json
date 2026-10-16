@@ -1830,9 +1830,14 @@
   }
  },
  "i300-164-go-del-in-one-scene": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-16T18:16:36.504185+05:30",
+   "caption_verified": true,
+   "media_id": "18112273673157253",
+   "permalink": "https://www.instagram.com/reel/DejkLGVDLyr/",
+   "shortcode": "DejkLGVDLyr",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
