@@ -7756,9 +7756,14 @@
   }
  },
  "id300_196_thermal_expansion_the_bimetal_strip": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-17T03:06:27.761568+05:30",
+   "caption_verified": true,
+   "media_id": "18339586900279649",
+   "permalink": "https://www.instagram.com/reel/Dekgz-dDELv/",
+   "shortcode": "Dekgz-dDELv",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
