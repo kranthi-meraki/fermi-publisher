@@ -1725,9 +1725,14 @@
   }
  },
  "i300-157-the-bucket-argument-and-absolute-rotatio": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-16T09:59:42.370417+05:30",
+   "caption_verified": true,
+   "media_id": "18127187933084702",
+   "permalink": "https://www.instagram.com/reel/DeirTrhjxKU/",
+   "shortcode": "DeirTrhjxKU",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
