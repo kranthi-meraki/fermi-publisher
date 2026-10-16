@@ -1695,9 +1695,14 @@
   }
  },
  "i300-155-galileo-s-two-balls-tied-together": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-16T08:18:05.535163+05:30",
+   "caption_verified": true,
+   "media_id": "18127443418889828",
+   "permalink": "https://www.instagram.com/reel/Deifq6hDlmC/",
+   "shortcode": "Deifq6hDlmC",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
