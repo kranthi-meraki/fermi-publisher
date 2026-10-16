@@ -1935,9 +1935,14 @@
   }
  },
  "i300-171-why-you-cannot-push-a-rope": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-17T04:07:40.741844+05:30",
+   "caption_verified": true,
+   "media_id": "18630116920036694",
+   "permalink": "https://www.instagram.com/reel/Dekn1K-kqp3/",
+   "shortcode": "Dekn1K-kqp3",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
