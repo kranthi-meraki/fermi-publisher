@@ -7696,9 +7696,14 @@
   }
  },
  "id300_192_terminal_velocity": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-16T23:49:20.152546+05:30",
+   "caption_verified": true,
+   "media_id": "17962010010230420",
+   "permalink": "https://www.instagram.com/reel/DekKQRUgn7I/",
+   "shortcode": "DekKQRUgn7I",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
