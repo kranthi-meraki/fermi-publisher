@@ -1860,9 +1860,14 @@
   }
  },
  "i300-166-the-basel-problem-pi-from-squares": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-16T23:10:12.141577+05:30",
+   "caption_verified": true,
+   "media_id": "18197790883387903",
+   "permalink": "https://www.instagram.com/reel/DekFxLTCpGO/",
+   "shortcode": "DekFxLTCpGO",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
