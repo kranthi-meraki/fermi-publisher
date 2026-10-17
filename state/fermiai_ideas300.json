@@ -2250,9 +2250,14 @@
   }
  },
  "i300-196-thermal-expansion-the-bimetal-strip": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-18T03:08:27.069907+05:30",
+   "caption_verified": true,
+   "media_id": "17908119801330473",
+   "permalink": "https://www.instagram.com/reel/DenF12oDyGG/",
+   "shortcode": "DenF12oDyGG",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
