@@ -7891,9 +7891,14 @@
   }
  },
  "id300_214_why_current_is_slow_but_the_bulb_lights_at_once": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-17T12:21:27.580963+05:30",
+   "caption_verified": true,
+   "media_id": "18123977959879888",
+   "permalink": "https://www.instagram.com/reel/DelgVzZjSj-/",
+   "shortcode": "DelgVzZjSj-",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
