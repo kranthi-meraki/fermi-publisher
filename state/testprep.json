@@ -8011,9 +8011,14 @@
   }
  },
  "id300_222_the_hall_effect": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-17T21:24:02.211595+05:30",
+   "caption_verified": true,
+   "media_id": "17938402650123675",
+   "permalink": "https://www.instagram.com/reel/DemaBl3gL4D/",
+   "shortcode": "DemaBl3gL4D",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
