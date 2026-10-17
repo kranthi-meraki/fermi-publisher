@@ -2070,9 +2070,14 @@
   }
  },
  "i300-184-collisions-in-1d-elastic-vs-inelastic": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-17T14:45:29.599568+05:30",
+   "caption_verified": true,
+   "media_id": "18110982197193759",
+   "permalink": "https://www.instagram.com/reel/Delwz4-jR5S/",
+   "shortcode": "Delwz4-jR5S",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
