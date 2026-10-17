@@ -2175,9 +2175,14 @@
   }
  },
  "i300-191-bernoulli-why-planes-fly-honestly": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-17T20:40:51.131663+05:30",
+   "caption_verified": true,
+   "media_id": "17920660371452468",
+   "permalink": "https://www.instagram.com/reel/DemZewclH5Y/",
+   "shortcode": "DemZewclH5Y",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
