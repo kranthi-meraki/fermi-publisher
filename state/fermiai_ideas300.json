@@ -2025,9 +2025,14 @@
   }
  },
  "i300-181-centripetal-vs-centrifugal": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-17T09:53:05.431967+05:30",
+   "caption_verified": true,
+   "media_id": "18150689482532550",
+   "permalink": "https://www.instagram.com/reel/DelPVY3ANEj/",
+   "shortcode": "DelPVY3ANEj",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
