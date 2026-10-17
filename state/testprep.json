@@ -8056,11 +8056,16 @@
   }
  },
  "id300_225_biot_savart_for_a_loop": {
-  "attempts": 1,
+  "attempts": 2,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-17T23:59:33.956683+05:30",
+   "caption_verified": true,
+   "media_id": "18099706403436899",
+   "permalink": "https://www.instagram.com/reel/DemwNmKAi4L/",
+   "shortcode": "DemwNmKAi4L",
+   "status": "DONE"
   },
-  "last_error": "ComposioError: container ERROR - recreate with a fresh container",
+  "last_error": null,
   "next_attempt_at": "2026-10-17T23:58:47.222878+05:30",
   "youtube": {
    "status": "PENDING"
