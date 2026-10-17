@@ -2027,7 +2027,7 @@
  "i300-181-centripetal-vs-centrifugal": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-17T09:53:05.431967+05:30",
+   "at": "2026-10-17T12:14:42.040277+05:30",
    "caption_verified": true,
    "media_id": "18150689482532550",
    "permalink": "https://www.instagram.com/reel/DelPVY3ANEj/",
@@ -2040,14 +2040,9 @@
   }
  },
  "i300-182-the-spring-mass-system-from-energy": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-17T10:43:45.228197+05:30",
-   "caption_verified": true,
-   "media_id": "18020333798729058",
-   "permalink": "https://www.instagram.com/reel/DelVJj0EZMi/",
-   "shortcode": "DelVJj0EZMi",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -2055,14 +2050,9 @@
   }
  },
  "i300-183-the-simple-pendulum-is-only-almost-simpl": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-17T11:34:27.922768+05:30",
-   "caption_verified": true,
-   "media_id": "17961682614239625",
-   "permalink": "https://www.instagram.com/reel/Dela8oNEhlq/",
-   "shortcode": "Dela8oNEhlq",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
