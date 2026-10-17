@@ -2100,9 +2100,14 @@
   }
  },
  "i300-186-work-energy-with-friction": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-17T16:27:11.616845+05:30",
+   "caption_verified": true,
+   "media_id": "18090770759240642",
+   "permalink": "https://www.instagram.com/reel/Del8ce1GJx0/",
+   "shortcode": "Del8ce1GJx0",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
