@@ -2190,9 +2190,14 @@
   }
  },
  "i300-192-terminal-velocity": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-17T21:32:31.515608+05:30",
+   "caption_verified": true,
+   "media_id": "18133861183776792",
+   "permalink": "https://www.instagram.com/reel/DemfZvOlc1g/",
+   "shortcode": "DemfZvOlc1g",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
