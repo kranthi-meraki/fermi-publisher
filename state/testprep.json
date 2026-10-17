@@ -7906,9 +7906,14 @@
   }
  },
  "id300_215_kirchhoff_in_a_loop": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-17T13:15:09.205365+05:30",
+   "caption_verified": true,
+   "media_id": "17880623145547496",
+   "permalink": "https://www.instagram.com/reel/DelmeLtEU3f/",
+   "shortcode": "DelmeLtEU3f",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
