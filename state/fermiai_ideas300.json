@@ -2192,7 +2192,7 @@
  "i300-192-terminal-velocity": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-17T21:32:31.515608+05:30",
+   "at": "2026-10-17T23:46:22.091504+05:30",
    "caption_verified": true,
    "media_id": "18133861183776792",
    "permalink": "https://www.instagram.com/reel/DemfZvOlc1g/",
@@ -2205,14 +2205,9 @@
   }
  },
  "i300-193-viscosity-stokes-law-marble": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-17T22:23:33.551548+05:30",
-   "caption_verified": true,
-   "media_id": "18356248753219645",
-   "permalink": "https://www.instagram.com/reel/DemlMWFAfar/",
-   "shortcode": "DemlMWFAfar",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -2220,14 +2215,9 @@
   }
  },
  "i300-194-surface-tension-and-capillary-rise": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-17T23:14:04.976093+05:30",
-   "caption_verified": true,
-   "media_id": "18641569417010490",
-   "permalink": "https://www.instagram.com/reel/DemrB9PEf_J/",
-   "shortcode": "DemrB9PEf_J",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
