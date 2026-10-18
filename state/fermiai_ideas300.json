@@ -2400,9 +2400,14 @@
   }
  },
  "i300-215-kirchhoff-in-a-loop": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-18T12:58:28.061136+05:30",
+   "caption_verified": true,
+   "media_id": "18378904861231031",
+   "permalink": "https://www.instagram.com/reel/DeoJXJSDDaP/",
+   "shortcode": "DeoJXJSDDaP",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
