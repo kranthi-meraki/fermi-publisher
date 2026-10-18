@@ -2550,9 +2550,14 @@
   }
  },
  "i300-225-biot-savart-for-a-loop": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-18T22:57:13.264163+05:30",
+   "caption_verified": true,
+   "media_id": "18098465960389281",
+   "permalink": "https://www.instagram.com/reel/DepN5CVjGxu/",
+   "shortcode": "DepN5CVjGxu",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
