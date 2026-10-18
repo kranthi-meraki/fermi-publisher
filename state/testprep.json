@@ -8342,9 +8342,14 @@
   }
  },
  "id300_253_sierpinski_triangle_by_chaos": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-18T18:44:57.049896+05:30",
+   "caption_verified": true,
+   "media_id": "18143114590717951",
+   "permalink": "https://www.instagram.com/reel/DeoxAIVikJ8/",
+   "shortcode": "DeoxAIVikJ8",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
