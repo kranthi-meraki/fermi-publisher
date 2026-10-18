@@ -2430,9 +2430,14 @@
   }
  },
  "i300-217-rc-charging-curve": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-18T14:39:51.548282+05:30",
+   "caption_verified": true,
+   "media_id": "17916088860467867",
+   "permalink": "https://www.instagram.com/reel/DeoU9Kcis6T/",
+   "shortcode": "DeoU9Kcis6T",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
