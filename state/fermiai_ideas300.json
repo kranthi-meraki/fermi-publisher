@@ -2565,9 +2565,14 @@
   }
  },
  "i300-226-ampe-re-s-law-and-the-solenoid": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-18T23:48:46.761079+05:30",
+   "caption_verified": true,
+   "media_id": "17896302789609678",
+   "permalink": "https://www.instagram.com/reel/DepTx7_gmWG/",
+   "shortcode": "DepTx7_gmWG",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
