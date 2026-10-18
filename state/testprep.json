@@ -8327,9 +8327,14 @@
   }
  },
  "id300_252_a_koch_snowflake_grows": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-18T17:51:09.949570+05:30",
+   "caption_verified": true,
+   "media_id": "18398588791203467",
+   "permalink": "https://www.instagram.com/reel/Deoq0bDisE1/",
+   "shortcode": "Deoq0bDisE1",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
