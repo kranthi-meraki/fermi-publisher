@@ -2505,9 +2505,14 @@
   }
  },
  "i300-222-the-hall-effect": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-18T20:24:50.839100+05:30",
+   "caption_verified": true,
+   "media_id": "18435618028195957",
+   "permalink": "https://www.instagram.com/reel/Deo8cFXjNl8/",
+   "shortcode": "Deo8cFXjNl8",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
