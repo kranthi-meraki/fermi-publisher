@@ -2625,9 +2625,14 @@
   }
  },
  "i300-230-skin-effect-in-conductors": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-19T03:12:35.397230+05:30",
+   "caption_verified": true,
+   "media_id": "18041254217841979",
+   "permalink": "https://www.instagram.com/reel/DeprGHYiAkz/",
+   "shortcode": "DeprGHYiAkz",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
