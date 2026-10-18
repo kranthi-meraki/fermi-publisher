@@ -8402,9 +8402,14 @@
   }
  },
  "id300_257_pendulum_wave": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-18T22:58:00.369758+05:30",
+   "caption_verified": true,
+   "media_id": "18220286167350159",
+   "permalink": "https://www.instagram.com/reel/DepN9-8kacZ/",
+   "shortcode": "DepN9-8kacZ",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
