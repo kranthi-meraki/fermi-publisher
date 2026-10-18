@@ -2460,9 +2460,14 @@
   }
  },
  "i300-219-ac-and-rms-why-230-v-peaks-at-325-v": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-18T17:52:42.314059+05:30",
+   "caption_verified": true,
+   "media_id": "18145540423587044",
+   "permalink": "https://www.instagram.com/reel/DeogkaNCBc-/",
+   "shortcode": "DeogkaNCBc-",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
