@@ -2580,9 +2580,14 @@
   }
  },
  "i300-227-eddy-currents-the-magnet-falling-in-a-tu": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-19T00:39:27.291173+05:30",
+   "caption_verified": true,
+   "media_id": "18386179483227890",
+   "permalink": "https://www.instagram.com/reel/DepZlC8IBI4/",
+   "shortcode": "DepZlC8IBI4",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
