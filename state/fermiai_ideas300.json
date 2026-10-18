@@ -2595,9 +2595,14 @@
   }
  },
  "i300-228-displacement-current-completes-maxwell": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-19T01:30:10.618038+05:30",
+   "caption_verified": true,
+   "media_id": "17996444730012881",
+   "permalink": "https://www.instagram.com/reel/DepfYMNm0ML/",
+   "shortcode": "DepfYMNm0ML",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
