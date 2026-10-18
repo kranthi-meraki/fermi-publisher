@@ -2325,9 +2325,14 @@
   }
  },
  "i300-201-ideal-gas-kinetic-theory-pressure": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-18T08:04:01.069093+05:30",
+   "caption_verified": true,
+   "media_id": "18010844222995482",
+   "permalink": "https://www.instagram.com/reel/Dennqf9lQaj/",
+   "shortcode": "Dennqf9lQaj",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
