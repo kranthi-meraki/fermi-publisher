@@ -2415,9 +2415,14 @@
   }
  },
  "i300-216-the-wheatstone-bridge": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-18T13:49:05.919152+05:30",
+   "caption_verified": true,
+   "media_id": "18097587041441366",
+   "permalink": "https://www.instagram.com/reel/DeoPJ8vDufj/",
+   "shortcode": "DeoPJ8vDufj",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
