@@ -2295,9 +2295,14 @@
   }
  },
  "i300-199-stefan-boltzmann-t4": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-18T06:22:35.311496+05:30",
+   "caption_verified": true,
+   "media_id": "18181465567383718",
+   "permalink": "https://www.instagram.com/reel/DencDMSExl2/",
+   "shortcode": "DencDMSExl2",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
