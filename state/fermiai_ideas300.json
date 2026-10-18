@@ -2385,9 +2385,14 @@
   }
  },
  "i300-214-why-current-is-slow-but-the-bulb-lights": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-18T12:07:50.384006+05:30",
+   "caption_verified": true,
+   "media_id": "18114144365168152",
+   "permalink": "https://www.instagram.com/reel/DeoDkRVjGOk/",
+   "shortcode": "DeoDkRVjGOk",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
