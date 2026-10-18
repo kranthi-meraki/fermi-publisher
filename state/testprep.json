@@ -8477,9 +8477,14 @@
   }
  },
  "id300_262_reaction_diffusion_zebra_patterns_turing": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-19T03:06:16.453776+05:30",
+   "caption_verified": true,
+   "media_id": "17973972969157069",
+   "permalink": "https://www.instagram.com/reel/DepqYptj62b/",
+   "shortcode": "DepqYptj62b",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
