@@ -2447,7 +2447,7 @@
  "i300-218-lc-oscillations-the-electrical-pendulum": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-18T15:30:35.163904+05:30",
+   "at": "2026-10-18T17:02:38.338639+05:30",
    "caption_verified": true,
    "media_id": "18085633796703997",
    "permalink": "https://www.instagram.com/reel/Deoawr3Da1U/",
@@ -2460,14 +2460,9 @@
   }
  },
  "i300-219-ac-and-rms-why-230-v-peaks-at-325-v": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-18T16:21:21.411503+05:30",
-   "caption_verified": true,
-   "media_id": "18145540423587044",
-   "permalink": "https://www.instagram.com/reel/DeogkaNCBc-/",
-   "shortcode": "DeogkaNCBc-",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
