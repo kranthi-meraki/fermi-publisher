@@ -8627,9 +8627,14 @@
   }
  },
  "id300_281_electrostatics_six_panel_loop": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-19T13:45:07.928246+05:30",
+   "caption_verified": true,
+   "media_id": "17973923432949002",
+   "permalink": "https://www.instagram.com/reel/DeqzgRYkQw4/",
+   "shortcode": "DeqzgRYkQw4",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
