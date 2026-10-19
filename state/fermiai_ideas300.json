@@ -2715,9 +2715,14 @@
   }
  },
  "i300-236-lens-maker-s-formula": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-19T11:09:54.563459+05:30",
+   "caption_verified": true,
+   "media_id": "18109964708619398",
+   "permalink": "https://www.instagram.com/reel/DeqRagXj-XY/",
+   "shortcode": "DeqRagXj-XY",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
