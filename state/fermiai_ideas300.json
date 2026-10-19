@@ -2820,9 +2820,14 @@
   }
  },
  "i300-252-a-koch-snowflake-grows": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-19T19:29:01.317639+05:30",
+   "caption_verified": true,
+   "media_id": "18105808751251050",
+   "permalink": "https://www.instagram.com/reel/Dera2LyEvLx/",
+   "shortcode": "Dera2LyEvLx",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
