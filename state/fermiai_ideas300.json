@@ -2940,9 +2940,14 @@
   }
  },
  "i300-260-moire-of-rotating-circles": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-20T04:26:41.210127+05:30",
+   "caption_verified": true,
+   "media_id": "18127983424897199",
+   "permalink": "https://www.instagram.com/reel/DesOCArCGN5/",
+   "shortcode": "DesOCArCGN5",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
