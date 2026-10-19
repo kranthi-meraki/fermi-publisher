@@ -8642,9 +8642,14 @@
   }
  },
  "id300_282_current_electricity_six_panel_loop": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-19T14:20:48.422334+05:30",
+   "caption_verified": true,
+   "media_id": "18156402136514100",
+   "permalink": "https://www.instagram.com/reel/Deq3kzZiQCF/",
+   "shortcode": "Deq3kzZiQCF",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
