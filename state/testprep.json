@@ -8672,9 +8672,14 @@
   }
  },
  "id300_284_waves_six_panel_loop": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-19T16:42:10.942513+05:30",
+   "caption_verified": true,
+   "media_id": "18179511601432587",
+   "permalink": "https://www.instagram.com/reel/DerHwUqDB5K/",
+   "shortcode": "DerHwUqDB5K",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
