@@ -2927,7 +2927,7 @@
  "i300-259-a-waterfall-of-primes-ulam-spiral": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-20T02:04:34.173345+05:30",
+   "at": "2026-10-20T03:36:36.646883+05:30",
    "caption_verified": true,
    "media_id": "17959993218255500",
    "permalink": "https://www.instagram.com/reel/DesIHeMETc_/",
@@ -2940,14 +2940,9 @@
   }
  },
  "i300-260-moire-of-rotating-circles": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-20T02:56:18.912733+05:30",
-   "caption_verified": true,
-   "media_id": "18127983424897199",
-   "permalink": "https://www.instagram.com/reel/DesOCArCGN5/",
-   "shortcode": "DesOCArCGN5",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
