@@ -2702,11 +2702,11 @@
  "i300-235-fibre-optics-and-total-internal-reflecti": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-19T07:56:26.726562+05:30",
+   "at": "2026-10-19T10:19:50.467667+05:30",
    "caption_verified": true,
-   "media_id": "18064842656671723",
-   "permalink": "https://www.instagram.com/reel/DeqLmdejJUQ/",
-   "shortcode": "DeqLmdejJUQ",
+   "media_id": "18028960085693119",
+   "permalink": "https://www.instagram.com/reel/DeqcA2fESS1/",
+   "shortcode": "DeqcA2fESS1",
    "status": "DONE"
   },
   "last_error": null,
@@ -2715,14 +2715,9 @@
   }
  },
  "i300-236-lens-maker-s-formula": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-19T08:47:22.772067+05:30",
-   "caption_verified": true,
-   "media_id": "18109964708619398",
-   "permalink": "https://www.instagram.com/reel/DeqRagXj-XY/",
-   "shortcode": "DeqRagXj-XY",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -2730,14 +2725,9 @@
   }
  },
  "i300-246-a-butterfly-curve-you-can-hear": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-19T09:38:06.165546+05:30",
-   "caption_verified": true,
-   "media_id": "17982983730120769",
-   "permalink": "https://www.instagram.com/reel/DeqXN-Ejv3T/",
-   "shortcode": "DeqXN-Ejv3T",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
