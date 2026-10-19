@@ -8657,9 +8657,14 @@
   }
  },
  "id300_283_magnetism_six_panel_loop": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-19T15:30:30.656202+05:30",
+   "caption_verified": true,
+   "media_id": "18644961661031405",
+   "permalink": "https://www.instagram.com/reel/Deq_jJLDM63/",
+   "shortcode": "Deq_jJLDM63",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
