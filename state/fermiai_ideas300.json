@@ -2835,9 +2835,14 @@
   }
  },
  "i300-253-sierpinski-triangle-by-chaos": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-19T20:19:40.347076+05:30",
+   "caption_verified": true,
+   "media_id": "17913481710535538",
+   "permalink": "https://www.instagram.com/reel/DergpU1Gshq/",
+   "shortcode": "DergpU1Gshq",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
