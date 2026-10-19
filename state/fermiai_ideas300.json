@@ -2895,9 +2895,14 @@
   }
  },
  "i300-257-pendulum-wave": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-20T00:23:19.801987+05:30",
+   "caption_verified": true,
+   "media_id": "17909594256560902",
+   "permalink": "https://www.instagram.com/reel/Der8iffD3Vj/",
+   "shortcode": "Der8iffD3Vj",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
