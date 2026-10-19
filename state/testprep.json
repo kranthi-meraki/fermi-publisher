@@ -8614,11 +8614,11 @@
  "id300_271_the_mandelbrot_set_as_a_planet": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-19T12:22:11.958023+05:30",
+   "at": "2026-10-19T13:42:42.534461+05:30",
    "caption_verified": true,
-   "media_id": "18114237656110754",
-   "permalink": "https://www.instagram.com/reel/Deqp-cykX1o/",
-   "shortcode": "Deqp-cykX1o",
+   "media_id": "18128785468823625",
+   "permalink": "https://www.instagram.com/reel/DeqzPEpDwzp/",
+   "shortcode": "DeqzPEpDwzp",
    "status": "DONE"
   },
   "last_error": null,
@@ -8627,14 +8627,9 @@
   }
  },
  "id300_281_electrostatics_six_panel_loop": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-19T13:14:59.619551+05:30",
-   "caption_verified": true,
-   "media_id": "18337062907278241",
-   "permalink": "https://www.instagram.com/reel/DeqwD7NFbCj/",
-   "shortcode": "DeqwD7NFbCj",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
