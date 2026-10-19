@@ -2850,9 +2850,14 @@
   }
  },
  "i300-254-julia-sets-morph": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-19T21:10:24.671577+05:30",
+   "caption_verified": true,
+   "media_id": "17881972845631778",
+   "permalink": "https://www.instagram.com/reel/Dermcu6CBFN/",
+   "shortcode": "Dermcu6CBFN",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
