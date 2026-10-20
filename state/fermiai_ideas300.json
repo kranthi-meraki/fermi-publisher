@@ -3075,9 +3075,14 @@
   }
  },
  "i300-269-interference-of-two-ripple-sources": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-20T15:15:48.739888+05:30",
+   "caption_verified": true,
+   "media_id": "18074660996757281",
+   "permalink": "https://www.instagram.com/reel/DetirjBEfwq/",
+   "shortcode": "DetirjBEfwq",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
