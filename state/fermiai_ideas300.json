@@ -3060,9 +3060,14 @@
   }
  },
  "i300-268-tides-on-a-sheet-of-water": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-20T14:25:07.280615+05:30",
+   "caption_verified": true,
+   "media_id": "18096546200344643",
+   "permalink": "https://www.instagram.com/reel/Detc3kHDcgk/",
+   "shortcode": "Detc3kHDcgk",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
