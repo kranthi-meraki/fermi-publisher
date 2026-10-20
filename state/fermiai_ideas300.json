@@ -2970,9 +2970,14 @@
   }
  },
  "i300-262-reaction-diffusion-zebra-patterns-turing": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-20T06:08:43.044166+05:30",
+   "caption_verified": true,
+   "media_id": "18116129771120239",
+   "permalink": "https://www.instagram.com/reel/DeskDciAUig/",
+   "shortcode": "DeskDciAUig",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
