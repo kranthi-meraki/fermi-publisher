@@ -3105,9 +3105,14 @@
   }
  },
  "i300-271-the-mandelbrot-set-as-a-planet": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-20T16:56:56.715474+05:30",
+   "caption_verified": true,
+   "media_id": "18151746598550777",
+   "permalink": "https://www.instagram.com/reel/DetuPjkjYd_/",
+   "shortcode": "DetuPjkjYd_",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
