@@ -2972,7 +2972,7 @@
  "i300-262-reaction-diffusion-zebra-patterns-turing": {
   "attempts": 1,
   "instagram": {
-   "at": "2026-10-20T06:08:43.044166+05:30",
+   "at": "2026-10-20T09:22:14.627417+05:30",
    "caption_verified": true,
    "media_id": "18116129771120239",
    "permalink": "https://www.instagram.com/reel/DeskDciAUig/",
@@ -2985,14 +2985,9 @@
   }
  },
  "i300-263-boids-flocking": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-20T06:59:23.521428+05:30",
-   "caption_verified": true,
-   "media_id": "17995431648179129",
-   "permalink": "https://www.instagram.com/reel/Desp22bDfXz/",
-   "shortcode": "Desp22bDfXz",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -3000,14 +2995,9 @@
   }
  },
  "i300-264-conway-s-game-of-life-glider": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-20T07:50:06.252601+05:30",
-   "caption_verified": true,
-   "media_id": "18127880371862454",
-   "permalink": "https://www.instagram.com/reel/Desvp8ZDiXQ/",
-   "shortcode": "Desvp8ZDiXQ",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
@@ -3015,14 +3005,9 @@
   }
  },
  "i300-265-random-walk-becomes-a-diffusion-cloud": {
-  "attempts": 1,
+  "attempts": 0,
   "instagram": {
-   "at": "2026-10-20T08:40:55.764334+05:30",
-   "caption_verified": true,
-   "media_id": "18077706905425678",
-   "permalink": "https://www.instagram.com/reel/Des1dnsCqsL/",
-   "shortcode": "Des1dnsCqsL",
-   "status": "DONE"
+   "status": "PENDING"
   },
   "last_error": null,
   "youtube": {
