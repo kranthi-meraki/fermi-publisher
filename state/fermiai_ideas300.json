@@ -3165,9 +3165,14 @@
   }
  },
  "i300-284-waves-six-panel-loop": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-20T20:19:48.503746+05:30",
+   "caption_verified": true,
+   "media_id": "18131427748876775",
+   "permalink": "https://www.instagram.com/reel/DeuFdqrlLEk/",
+   "shortcode": "DeuFdqrlLEk",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
