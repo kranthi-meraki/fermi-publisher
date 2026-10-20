@@ -3180,9 +3180,14 @@
   }
  },
  "i300-285-modern-physics-six-panel-loop": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-20T21:45:25.539608+05:30",
+   "caption_verified": true,
+   "media_id": "17934496752147085",
+   "permalink": "https://www.instagram.com/reel/DeuPQByEVBe/",
+   "shortcode": "DeuPQByEVBe",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
