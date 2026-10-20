@@ -3120,9 +3120,14 @@
   }
  },
  "i300-281-electrostatics-six-panel-loop": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-20T17:47:33.760732+05:30",
+   "caption_verified": true,
+   "media_id": "18467639677139473",
+   "permalink": "https://www.instagram.com/reel/Det0CUSjPaN/",
+   "shortcode": "Det0CUSjPaN",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
