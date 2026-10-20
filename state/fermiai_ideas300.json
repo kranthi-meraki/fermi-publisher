@@ -3090,9 +3090,14 @@
   }
  },
  "i300-270-a-wave-packet-spreading": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-20T16:06:17.917791+05:30",
+   "caption_verified": true,
+   "media_id": "18140536102618578",
+   "permalink": "https://www.instagram.com/reel/Detod8Tk372/",
+   "shortcode": "Detod8Tk372",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
