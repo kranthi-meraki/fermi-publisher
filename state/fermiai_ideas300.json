@@ -3000,9 +3000,14 @@
   }
  },
  "i300-264-conway-s-game-of-life-glider": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-20T07:50:06.252601+05:30",
+   "caption_verified": true,
+   "media_id": "18127880371862454",
+   "permalink": "https://www.instagram.com/reel/Desvp8ZDiXQ/",
+   "shortcode": "Desvp8ZDiXQ",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
