@@ -3150,9 +3150,14 @@
   }
  },
  "i300-283-magnetism-six-panel-loop": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-20T19:29:03.734146+05:30",
+   "caption_verified": true,
+   "media_id": "18135674971734723",
+   "permalink": "https://www.instagram.com/reel/Det_nAoiRIg/",
+   "shortcode": "Det_nAoiRIg",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
