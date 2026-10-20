@@ -3030,9 +3030,14 @@
   }
  },
  "i300-266-brownian-motion-of-dust-in-light": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-20T12:42:53.660357+05:30",
+   "caption_verified": true,
+   "media_id": "18112830763867272",
+   "permalink": "https://www.instagram.com/reel/DetRMKUDdBP/",
+   "shortcode": "DetRMKUDdBP",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
