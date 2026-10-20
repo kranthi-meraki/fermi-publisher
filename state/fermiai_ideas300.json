@@ -3135,9 +3135,14 @@
   }
  },
  "i300-282-current-electricity-six-panel-loop": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-20T18:38:03.277265+05:30",
+   "caption_verified": true,
+   "media_id": "18440035918196505",
+   "permalink": "https://www.instagram.com/reel/Det51P5j7-6/",
+   "shortcode": "Det51P5j7-6",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
