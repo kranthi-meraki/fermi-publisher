@@ -3045,9 +3045,14 @@
   }
  },
  "i300-267-the-rubber-sheet-with-many-planets": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-20T13:34:28.835070+05:30",
+   "caption_verified": true,
+   "media_id": "17977118231934752",
+   "permalink": "https://www.instagram.com/reel/DetXEB9iXd5/",
+   "shortcode": "DetXEB9iXd5",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
