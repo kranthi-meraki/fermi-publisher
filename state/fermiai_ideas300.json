@@ -3210,9 +3210,14 @@
   }
  },
  "i300-287-gravitation-six-panel-loop": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-20T23:27:17.049183+05:30",
+   "caption_verified": true,
+   "media_id": "17961507477236667",
+   "permalink": "https://www.instagram.com/reel/Deua64KkXjE/",
+   "shortcode": "Deua64KkXjE",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
