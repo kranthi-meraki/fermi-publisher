@@ -3450,9 +3450,14 @@
   }
  },
  "i300-e03-eratosthenes-measures-the-earth-from-a-s": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-22T00:07:59.237050+05:30",
+   "caption_verified": true,
+   "media_id": "18146796025576538",
+   "permalink": "https://www.instagram.com/reel/DexEW5ODZB4/",
+   "shortcode": "DexEW5ODZB4",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
