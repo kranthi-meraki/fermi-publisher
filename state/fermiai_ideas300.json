@@ -3285,9 +3285,14 @@
   }
  },
  "i300-292-dimensional-analysis-guesses-the-pendulu": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-21T06:03:36.074168+05:30",
+   "caption_verified": true,
+   "media_id": "17954579034035860",
+   "permalink": "https://www.instagram.com/reel/DevIRUHkqrT/",
+   "shortcode": "DevIRUHkqrT",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
