@@ -3390,9 +3390,14 @@
   }
  },
  "i300-299-ph-is-a-logarithm": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-21T20:46:17.802973+05:30",
+   "caption_verified": true,
+   "media_id": "17995334628106708",
+   "permalink": "https://www.instagram.com/reel/DewXE_OAe9R/",
+   "shortcode": "DewXE_OAe9R",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
