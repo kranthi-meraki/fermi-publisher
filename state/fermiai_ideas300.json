@@ -3495,9 +3495,14 @@
   }
  },
  "i300-e06-gyroscope-precession-of-a-spinning-top": {
-  "attempts": 0,
+  "attempts": 1,
   "instagram": {
-   "status": "PENDING"
+   "at": "2026-10-22T02:41:14.449708+05:30",
+   "caption_verified": true,
+   "media_id": "18105722407990716",
+   "permalink": "https://www.instagram.com/reel/DexV5nfE5FH/",
+   "shortcode": "DexV5nfE5FH",
+   "status": "DONE"
   },
   "last_error": null,
   "youtube": {
